@@ -1,0 +1,2 @@
+compute-cmvn-stats --spk2utt=ark:data/dev_teamlab/spk2utt scp:data/dev_teamlab/feats.scp ark,scp:/mount/studenten/arbeitsdaten-studenten1/team-lab-phonetics/2021/student_directories/Vanessa_Dengel/kaldi/egs/teamlab/s5/mfcc/cmvn_dev_teamlab.ark,/mount/studenten/arbeitsdaten-studenten1/team-lab-phonetics/2021/student_directories/Vanessa_Dengel/kaldi/egs/teamlab/s5/mfcc/cmvn_dev_teamlab.scp 
+LOG (compute-cmvn-stats[5.5.925~1-ded7b]:main():compute-cmvn-stats.cc:171) Done accumulating CMVN stats for 119 utterances; 0 had errors.

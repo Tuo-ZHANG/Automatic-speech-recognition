@@ -1,0 +1,119 @@
+<doc id="file21259722" filename="kaldi_for_dummies.html" parent_folder="web1_Kaldi" url="https://kaldi-asr.org/doc/kaldi_for_dummies.html">
+<p> Introduction </p>
+<p> This is a step by step tutorial for absolute beginners on how to create a simple ASR (Automatic Speech Recognition) system in Kaldi toolkit using your own set of data. I really would have liked to read something like this when I was starting to deal with Kaldi. This is all based on my experience as an amateur in case of speech recognition subject and script programming as well. If you have ever delved through Kaldi tutorial on the official project site and felt a little bit lost, well, my piece of art might be the choice for you. You will learn how to install Kaldi, how to make it work and how to run an ASR system using your own audio data. As an effect you will get your first speech decoding results. It was created by Wit Zielinski. </p>
+<p> First of all - get to know what Kaldi actually is and why you should use it instead of something else. In my opinion Kaldi requires solid knowledge about speech recognition and ASR systems in general. It is also good to know the basics of script programming languages (bash, perl, python). C++ migh be useful in the future (probably you will want to make some modifications in the source code). </p>
+<p> Environment </p>
+<p> Rule number 1 - use Linux. Although it is possible to use Kaldi on Windows, most people I find trustworthy convinced me that Linux will do the job with the less amount of problems. I have chosen Ubuntu 14.10. This was (in 2014/15) a rich and stable Linux representation which I honestly recommend. When you finally have your Linux running properly, please open a terminal and install some necessary stuff (if you do not already have it): </p>
+<p> (has to be installed) </p>
+<p> – automation and optimization of calculations in the field of linear algebra, </p>
+<p> – automatic software compilation on different operating systems, </p>
+<p> – creating portable Makefile files, </p>
+<p> – distributed revision control system, </p>
+<p> – creating static and dynamic libraries, </p>
+<p> – revision control system (Subversion), necessary for Kaldi download and installation, </p>
+<p> – data transfer using HTTP, HTTPS and FTP protocols, </p>
+<p> – data compression, </p>
+<p> (probably has to be installed) </p>
+<p> – programming language, used for searching and processing patterns in files and data streams, </p>
+<p> – Unix shell and script programming language, </p>
+<p> – command-line utility for searching plain-text datasets for lines matching a regular expression, </p>
+<p> – automatically builds executable programs and libraries from source code, </p>
+<p> – dynamic programming language, perfect for text files processing. </p>
+<p> Done. Operating system and all the necessary Linux tools are ready to go. </p>
+<p> Download Kaldi </p>
+<p> I installed Kaldi in this directory (called 'Kaldi root path'): </p>
+<p> Kaldi directories structure </p>
+<p> Try to acknowledge where particular Kaldi components are placed. Also it would be nice if you read any files you find. </p>
+<p> - main Kaldi directory which contains: </p>
+<p> – example scripts allowing you to quickly build ASR systems for over 30 popular speech corpora (documentation is attached for each project), </p>
+<p> – additional tools and supplies, not needed for proper Kaldi functionality, </p>
+<p> – Kaldi source code, </p>
+<p> – useful components and external tools, </p>
+<p> – tools for running Kaldi using Windows. </p>
+<p> The most important directory for you is obviously . Here you will create your own ASR system. </p>
+<p> Your exemplary project </p>
+<p> For the purpose of this tutorial, imagine that you have the same simple set of data as me (described below, in Audio data section). Then try to 'transpose' every action I do straight into your own project. If you completely do not have any audio data or you want to follow my tutorial in an identical way, feel free to record your own tracks - it will be even bigger experience to play with ASR. Here we go. </p>
+<p> Your precondition </p>
+<p> You have some amount of audio data that contain only spoken digits by at least several different speakers. Each audio file is an entire spoken sentence (e.g. 'one, nine, five'). </p>
+<p> Your purpose </p>
+<p> You want to divide your data into train and test sets, set up an ASR system, train it, test it and get some decoding results. </p>
+<p> Your first task </p>
+<p> Something to begin with - create a folder in directory. This is a place where you will put all the stuff related to your project. </p>
+<p> Data preparation </p>
+<p> Audio data </p>
+<p> I assume that you want to set up an ASR system, basing on your own audio data. For example - let it be a set of 100 files. File format is WAV. Each file contains 3 spoken digits recorded in English language, one by one. Each of these audio files is named in a recognizable way (e.g. , which in my pattern means that the spoken sentence is 'one, five, six') and placed in the recognizable folder representing particular speaker during a particular recording session (there may be a situation that you have recordings of the same person but in two different quality/noise environments - put these in separate folders). So to sum up, my exemplary dataset looks like this: </p>
+<p> 10 different speakers (ASR systems must be trained and tested on different speakers, the more speakers you have the better), </p>
+<p> each speaker says 10 sentences, </p>
+<p> 100 sentences/utterances (in 100 *.wav files placed in 10 folders related to particular speakers - 10 *.wav files in each folder), </p>
+<p> 300 words (digits from zero to nine), </p>
+<p> each sentence/utterance consist of 3 words. </p>
+<p> Whatever your first dataset is, adjust my example to your particular case. Be careful with big datasets and complex grammars - start with something simple. Sentences that contain only digits are perfect in this case. </p>
+<p> Task </p>
+<p> Go to directory and create folder. In create two folders: and . Select one speaker of your choice to represent testing dataset. Use this speaker's 'speakerID' as a name for an another new folder in directory. Then put there all the audio files related to that person. Put the rest (9 speakers) into folder - this will be your training dataset. Also create subfolders for each speaker. </p>
+<p> Acoustic data </p>
+<p> Now you have to create some text files that will allow Kaldi to communicate with your audio data. Consider these files as 'must be done'. Each file that you will create in this section (and in Language data section as well) can be considered as a text file with some number of strings (each string in a new line). These strings need to be sorted. If you will encounter any sorting issues you can use Kaldi scripts for checking () and fixing () data order. And for your information - directory will be attached to your project in Tools attachment section. </p>
+<p> Task </p>
+<p> In directory, create a folder . Then create and subfolders inside. Create in each subfolder following files (so you have files named in the same way in and subfolders but they relate to two different datasets that you created before): </p>
+<p> a.) This file informs about speakers gender. As we assumed, 'speakerID' is a unique name of each speaker (in this case it is also a 'recordingID' - every speaker has only one audio data folder from one recording session). In my example there are 5 female and 5 male speakers (f = female, m = male). </p>
+<p> Pattern: <speakerID> <gender> </p>
+<p> b.) This file connects every utterance (sentence said by one person during particular recording session) with an audio file related to this utterance. If you stick to my naming approach, 'utteranceID' is nothing more than 'speakerID' (speaker's folder name) glued with *.wav file name without '.wav' ending (look for examples below). </p>
+<p> Pattern: <uterranceID> <full_path_to_audio_file> </p>
+<p> c.) This file contains every utterance matched with its text transcription. </p>
+<p> Pattern: <uterranceID> <text_transcription> </p>
+<p> d.) This file tells the ASR system which utterance belongs to particular speaker. </p>
+<p> Pattern: <uterranceID> <speakerID> </p>
+<p> e.) This file has a slightly different directory. In create another folder . In create a file which should contain every single utterance transcription that can occur in your ASR system (in our case it will be 100 lines from 100 audio files). </p>
+<p> Pattern: <text_transcription> </p>
+<p> Language data </p>
+<p> This section relates to language modeling files that also need to be considered as 'must be done'. Look for the syntax details here: Data preparation (each file is precisely described). Also feel free to read some examples in other scripts. Now is the perfect time. </p>
+<p> Task </p>
+<p> In directory, create a folder . In create following files: </p>
+<p> a.) This file contains every word from your dictionary with its 'phone transcriptions' (taken from ). </p>
+<p> Pattern: <word> <phone 1> <phone 2> ... </p>
+<p> b.) This file lists nonsilence phones that are present in your project. </p>
+<p> c.) This file lists silence phones. </p>
+<p> Pattern: <phone> </p>
+<p> d.) This file lists optional silence phones. </p>
+<p> Project finalization </p>
+<p> Last chapter before runnig scripts creation. Your project structure will become complete. </p>
+<p> Tools attachment </p>
+<p> You need to add necessary Kaldi tools that are widely used in exemplary scripts. </p>
+<p> Task </p>
+<p> From copy two folders (with the whole content) - and - and put them in your directory. You can also create links to these directories. You may find such links in, for example, . </p>
+<p> Scoring script </p>
+<p> This script will help you to get decoding results. </p>
+<p> Task </p>
+<p> From copy the script into similar location in your project (). </p>
+<p> SRILM installation </p>
+<p> You also need to install language modelling toolkit that is used in my example - SRI Language Modeling Toolkit (SRILM). </p>
+<p> Task </p>
+<p> For detailed installation instructions go to (read all comments inside). </p>
+<p> Configuration files </p>
+<p> It is not necessary to create configuration files but it can be a good habit for future. </p>
+<p> Task </p>
+<p> In create a folder . Inside create two files (for some configuration modifications in decoding and mfcc feature extraction processes - taken from ): </p>
+<p> a.) </p>
+<p> b.) </p>
+<p> Running scripts creation </p>
+<p> Your first ASR system written in Kaldi environment is almost ready. Your last job is to prepare running scripts to create ASR system of your choice. I put some comments in prepared scripts for ease of understanding. </p>
+<p> These scripts are based on solution used in directory. I decided to use two different training methods: </p>
+<p> MONO - monophone training, </p>
+<p> TRI1 - simple triphone training (first triphone pass). </p>
+<p> These two methods are enough to show noticable differences in decoding results using only digits lexicon and small training dataset. </p>
+<p> Task </p>
+<p> In directory create 3 scripts: </p>
+<p> a.) </p>
+<p> # Setting local system jobs (local CPU - no external clusters) </p>
+<p> nj=1 # number of parallel jobs - 1 is perfect for such a small dataset </p>
+<p> lm_order=1 # language model order (n-gram quantity) - 1 is enough for digits grammar </p>
+<p> # Safety mechanism (possible running this script with modified arguments) </p>
+<p> # Uncomment and modify arguments in scripts below if you have any problems with data sorting </p>
+<p> # utils/validate_data_dir.sh data/train # script for checking prepared data - here: for data/train directory </p>
+<p> # utils/fix_data_dir.sh data/train # tool for data proper sorting if needed - here: for data/train directory </p>
+<p> Getting results </p>
+<p> Now all you have to do is to run script. If I have made any mistakes in this tutorial, logs from the terminal should guide you how to deal with it. </p>
+<p> Besides the fact that you will notice some decoding results in the terminal window, go to newly made . You may notice there folders with and results as well - directories structure are the same. Go to directory. Here you may find result files (named in a way). Logs for decoding process may be found in folder (same directory). </p>
+<p> Summary </p>
+<p> This is just an example. The point of this short tutorial is to show you how to create 'anything' in Kaldi and to get a better understanding of how to think while using this toolkit. Personally I started with looking for tutorials made by the Kaldi authors/developers. After successful Kaldi installation I launched some example scripts (Yesno, Voxforge, LibriSpeech - they are relatively easy and have free acoustic/language data to download - I used these three as a base for my own scripts). </p>
+<p> Make sure you follow http://kaldi-asr.org/- official project website. There are two very useful sections for beginners inside: a.) Kaldi tutorial - almost 'step by step' tutorial on how to set up an ASR system; up to some point this can be done without RM dataset. It is good to read it, b.) Data preparation - very detailed explanation of how to use your own data in Kaldi. </p>
+</doc>

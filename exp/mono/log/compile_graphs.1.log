@@ -1,0 +1,29 @@
+# compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/mono/tree exp/mono/0.mdl data/lang/L.fst "ark:sym2int.pl --map-oov 3 -f 2- data/lang/words.txt < data/train_teamlab/split1/1/text|" "ark:|gzip -c >exp/mono/fsts.1.gz" 
+# Started at Tue Jun 29 16:34:01 CEST 2021
+#
+compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/mono/tree exp/mono/0.mdl data/lang/L.fst 'ark:sym2int.pl --map-oov 3 -f 2- data/lang/words.txt < data/train_teamlab/split1/1/text|' 'ark:|gzip -c >exp/mono/fsts.1.gz' 
+sym2int.pl: replacing KALDI with 3
+sym2int.pl: replacing EHM with 3
+sym2int.pl: replacing EHM with 3
+sym2int.pl: replacing DATASET with 3
+sym2int.pl: replacing GREP with 3
+sym2int.pl: replacing GREP with 3
+sym2int.pl: replacing DATASET with 3
+sym2int.pl: replacing YWEWELER with 3
+sym2int.pl: replacing WAV with 3
+sym2int.pl: replacing SCP with 3
+sym2int.pl: replacing YWELWER with 3
+sym2int.pl: replacing YWEWELER with 3
+sym2int.pl: replacing ASR with 3
+sym2int.pl: replacing DELIMITER with 3
+sym2int.pl: replacing TXT with 3
+sym2int.pl: replacing YWEWELER with 3
+sym2int.pl: replacing EHM with 3
+sym2int.pl: replacing UPDATES with 3
+sym2int.pl: replacing UPDATE with 3
+sym2int.pl: replacing CTRL with 3
+sym2int.pl: not warning for OOVs any more times
+** Replaced 108 instances of OOVs with 3
+LOG (compile-train-graphs[5.5.925~1-ded7b]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 198 graphs, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue Jun 29 16:34:02 CEST 2021, elapsed time 1 seconds

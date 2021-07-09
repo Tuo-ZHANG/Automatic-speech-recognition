@@ -1,0 +1,2214 @@
+reading 51531 1-grams
+reading 744162 2-grams
+reading 287476 3-grams
+HI EVERYONE MY NAME IS PAVEL
+	p( HI | <s> ) 	= [2gram] 0.000125208 [ -3.90237 ]
+	p( EVERYONE | HI ...) 	= [2gram] 0.0162869 [ -1.78816 ]
+	p( MY | EVERYONE ...) 	= [1gram] 0.000537473 [ -3.26964 ]
+	p( NAME | MY ...) 	= [2gram] 0.00445916 [ -2.35075 ]
+	p( IS | NAME ...) 	= [3gram] 0.73324 [ -0.134754 ]
+	p( <unk> | IS ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 6 words, 1 OOVs
+0 zeroprobs, logprob= -13.021 ppl= 147.967 ppl1= 401.975
+
+ON THE WEB SERVER YOU SHOULD CHANGE YOUR DIRECTORY TO TEAMLAB PROJECT DIRECTORY
+	p( ON | <s> ) 	= [2gram] 0.00222145 [ -2.65336 ]
+	p( THE | ON ...) 	= [3gram] 0.606959 [ -0.216841 ]
+	p( WEB | THE ...) 	= [3gram] 0.0106254 [ -1.97365 ]
+	p( SERVER | WEB ...) 	= [2gram] 0.00522842 [ -2.28163 ]
+	p( YOU | SERVER ...) 	= [1gram] 0.00241087 [ -2.61783 ]
+	p( SHOULD | YOU ...) 	= [2gram] 0.00681041 [ -2.16683 ]
+	p( CHANGE | SHOULD ...) 	= [2gram] 0.000724942 [ -3.1397 ]
+	p( YOUR | CHANGE ...) 	= [2gram] 0.0150048 [ -1.82377 ]
+	p( DIRECTORY | YOUR ...) 	= [1gram] 8.94528e-07 [ -6.04841 ]
+	p( TO | DIRECTORY ...) 	= [1gram] 0.00718018 [ -2.14386 ]
+	p( <unk> | TO ...) 	= [OOV] 0 [ -inf ]
+	p( PROJECT | <unk> ...) 	= [1gram] 0.00038509 [ -3.41444 ]
+	p( DIRECTORY | PROJECT ...) 	= [1gram] 1.01342e-06 [ -5.99421 ]
+	p( </s> | DIRECTORY ...) 	= [2gram] 0.0702737 [ -1.15321 ]
+1 sentences, 13 words, 1 OOVs
+0 zeroprobs, logprob= -35.6277 ppl= 550.294 ppl1= 931.061
+
+ON THE WEBSITE PLEASE CLICK DOCUMENTATION LINK
+	p( ON | <s> ) 	= [2gram] 0.00222145 [ -2.65336 ]
+	p( THE | ON ...) 	= [3gram] 0.606959 [ -0.216841 ]
+	p( WEBSITE | THE ...) 	= [3gram] 0.00211777 [ -2.67412 ]
+	p( PLEASE | WEBSITE ...) 	= [1gram] 5.45037e-05 [ -4.26357 ]
+	p( CLICK | PLEASE ...) 	= [1gram] 1.9865e-05 [ -4.70191 ]
+	p( DOCUMENTATION | CLICK ...) 	= [1gram] 7.25831e-06 [ -5.13916 ]
+	p( LINK | DOCUMENTATION ...) 	= [1gram] 3.54935e-05 [ -4.44985 ]
+	p( </s> | LINK ...) 	= [2gram] 0.0545821 [ -1.26295 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -25.3618 ppl= 1479.87 ppl1= 4198.66
+
+DON'T TYPE EXACTLY THE SAME WHAT I TYPED IT'S MY DIRECTORY YOU SHOULD USE YOUR OWN
+	p( DON'T | <s> ) 	= [2gram] 0.000863845 [ -3.06356 ]
+	p( TYPE | DON'T ...) 	= [2gram] 9.86656e-05 [ -4.00583 ]
+	p( EXACTLY | TYPE ...) 	= [1gram] 0.00011184 [ -3.9514 ]
+	p( THE | EXACTLY ...) 	= [2gram] 0.194687 [ -0.710664 ]
+	p( SAME | THE ...) 	= [3gram] 0.658571 [ -0.181397 ]
+	p( WHAT | SAME ...) 	= [2gram] 0.000595835 [ -3.22487 ]
+	p( I | WHAT ...) 	= [2gram] 0.0375314 [ -1.42561 ]
+	p( TYPED | I ...) 	= [2gram] 2.26372e-05 [ -4.64518 ]
+	p( IT'S | TYPED ...) 	= [1gram] 0.00116298 [ -2.93443 ]
+	p( MY | IT'S ...) 	= [2gram] 0.00391745 [ -2.407 ]
+	p( DIRECTORY | MY ...) 	= [1gram] 8.47078e-07 [ -6.07208 ]
+	p( YOU | DIRECTORY ...) 	= [1gram] 0.00385778 [ -2.41366 ]
+	p( SHOULD | YOU ...) 	= [2gram] 0.00681041 [ -2.16683 ]
+	p( USE | SHOULD ...) 	= [3gram] 0.00519345 [ -2.28454 ]
+	p( YOUR | USE ...) 	= [2gram] 0.0122298 [ -1.91258 ]
+	p( OWN | YOUR ...) 	= [2gram] 0.0183106 [ -1.7373 ]
+	p( </s> | OWN ...) 	= [3gram] 0.0526508 [ -1.27859 ]
+1 sentences, 16 words, 0 OOVs
+0 zeroprobs, logprob= -44.4155 ppl= 409.9 ppl1= 596.994
+
+ALRIGHT
+	p( ALRIGHT | <s> ) 	= [2gram] 0.000118 [ -3.92812 ]
+	p( </s> | ALRIGHT ...) 	= [2gram] 0.12715 [ -0.895685 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -4.8238 ppl= 258.168 ppl1= 66650.6
+
+NOW WE NEED TO DOWNLOAD KALDI
+	p( NOW | <s> ) 	= [2gram] 0.0276278 [ -1.55865 ]
+	p( WE | NOW ...) 	= [3gram] 0.0411978 [ -1.38513 ]
+	p( NEED | WE ...) 	= [3gram] 0.0203386 [ -1.69168 ]
+	p( TO | NEED ...) 	= [3gram] 0.631511 [ -0.199619 ]
+	p( DOWNLOAD | TO ...) 	= [2gram] 5.37075e-05 [ -4.26996 ]
+	p( <unk> | DOWNLOAD ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 6 words, 1 OOVs
+0 zeroprobs, logprob= -10.6804 ppl= 60.2643 ppl1= 136.796
+
+KALDI IS OPEN SOURCE AND IT IS HOSTED ON GITHUB
+	p( <unk> | <s> ) 	= [OOV] 0 [ -inf ]
+	p( IS | <unk> ...) 	= [1gram] 0.00753677 [ -2.12281 ]
+	p( OPEN | IS ...) 	= [2gram] 0.0010047 [ -2.99796 ]
+	p( SOURCE | OPEN ...) 	= [3gram] 0.141469 [ -0.849339 ]
+	p( AND | SOURCE ...) 	= [3gram] 0.0696533 [ -1.15706 ]
+	p( IT | AND ...) 	= [2gram] 0.0186286 [ -1.72982 ]
+	p( IS | IT ...) 	= [3gram] 0.073504 [ -1.13369 ]
+	p( HOSTED | IS ...) 	= [1gram] 3.89911e-07 [ -6.40903 ]
+	p( ON | HOSTED ...) 	= [1gram] 0.00303042 [ -2.5185 ]
+	p( GITHUB | ON ...) 	= [2gram] 2.31839e-05 [ -4.63481 ]
+	p( </s> | GITHUB ...) 	= [1gram] 0.0198897 [ -1.70137 ]
+1 sentences, 10 words, 1 OOVs
+0 zeroprobs, logprob= -25.2544 ppl= 335.305 ppl1= 639.8
+
+WE JUST NEED TO RUN GIT CLONE TO GET A COPY OF THE WHOLE KALDI SOURCE CODE
+	p( WE | <s> ) 	= [2gram] 0.0347908 [ -1.45854 ]
+	p( JUST | WE ...) 	= [3gram] 0.0112721 [ -1.948 ]
+	p( NEED | JUST ...) 	= [3gram] 0.03434 [ -1.4642 ]
+	p( TO | NEED ...) 	= [3gram] 0.505528 [ -0.296255 ]
+	p( RUN | TO ...) 	= [2gram] 0.000577908 [ -3.23814 ]
+	p( GIT | RUN ...) 	= [1gram] 1.39704e-06 [ -5.85479 ]
+	p( CLONE | GIT ...) 	= [1gram] 8.61452e-06 [ -5.06477 ]
+	p( TO | CLONE ...) 	= [1gram] 0.00636969 [ -2.19588 ]
+	p( GET | TO ...) 	= [2gram] 0.0130076 [ -1.8858 ]
+	p( A | GET ...) 	= [3gram] 0.0719494 [ -1.14297 ]
+	p( COPY | A ...) 	= [2gram] 0.000329765 [ -3.4818 ]
+	p( OF | COPY ...) 	= [3gram] 0.723993 [ -0.140266 ]
+	p( THE | OF ...) 	= [3gram] 0.363815 [ -0.43912 ]
+	p( WHOLE | THE ...) 	= [3gram] 0.00322917 [ -2.49091 ]
+	p( <unk> | WHOLE ...) 	= [OOV] 0 [ -inf ]
+	p( SOURCE | <unk> ...) 	= [1gram] 0.000120363 [ -3.91951 ]
+	p( CODE | SOURCE ...) 	= [2gram] 0.02069 [ -1.68424 ]
+	p( </s> | CODE ...) 	= [2gram] 0.102752 [ -0.988212 ]
+1 sentences, 17 words, 1 OOVs
+0 zeroprobs, logprob= -37.6934 ppl= 164.914 ppl1= 226.901
+
+KALDI IS A TOOLKIT FOR SPEECH RECOGNITION RESEARCH AND IT IS INTENDED FOR SPEECH RECOGNITION RESEARCHERS AND PROFESSIONALS
+	p( <unk> | <s> ) 	= [OOV] 0 [ -inf ]
+	p( IS | <unk> ...) 	= [1gram] 0.00753677 [ -2.12281 ]
+	p( A | IS ...) 	= [2gram] 0.0491711 [ -1.30829 ]
+	p( TOOLKIT | A ...) 	= [1gram] 3.08253e-07 [ -6.51109 ]
+	p( FOR | TOOLKIT ...) 	= [2gram] 0.0886533 [ -1.0523 ]
+	p( SPEECH | FOR ...) 	= [2gram] 7.87675e-05 [ -4.10365 ]
+	p( RECOGNITION | SPEECH ...) 	= [2gram] 0.0376114 [ -1.42468 ]
+	p( RESEARCH | RECOGNITION ...) 	= [1gram] 0.000132661 [ -3.87726 ]
+	p( AND | RESEARCH ...) 	= [2gram] 0.0677199 [ -1.16928 ]
+	p( IT | AND ...) 	= [2gram] 0.0135436 [ -1.86827 ]
+	p( IS | IT ...) 	= [3gram] 0.073504 [ -1.13369 ]
+	p( INTENDED | IS ...) 	= [2gram] 1.22868e-05 [ -4.91056 ]
+	p( FOR | INTENDED ...) 	= [2gram] 0.0583353 [ -1.23407 ]
+	p( SPEECH | FOR ...) 	= [2gram] 7.87675e-05 [ -4.10365 ]
+	p( RECOGNITION | SPEECH ...) 	= [2gram] 0.0376114 [ -1.42468 ]
+	p( RESEARCHERS | RECOGNITION ...) 	= [1gram] 3.92172e-05 [ -4.40652 ]
+	p( AND | RESEARCHERS ...) 	= [2gram] 0.0218827 [ -1.6599 ]
+	p( PROFESSIONALS | AND ...) 	= [2gram] 2.16233e-05 [ -4.66508 ]
+	p( </s> | PROFESSIONALS ...) 	= [2gram] 0.198715 [ -0.70177 ]
+1 sentences, 18 words, 1 OOVs
+0 zeroprobs, logprob= -47.6776 ppl= 445.403 ppl1= 637.621
+
+OKAY GIT CLONE FINISHED
+	p( OKAY | <s> ) 	= [2gram] 0.00234059 [ -2.63068 ]
+	p( GIT | OKAY ...) 	= [1gram] 1.03111e-06 [ -5.9867 ]
+	p( CLONE | GIT ...) 	= [1gram] 8.61452e-06 [ -5.06477 ]
+	p( FINISHED | CLONE ...) 	= [1gram] 4.77727e-05 [ -4.32082 ]
+	p( </s> | FINISHED ...) 	= [2gram] 0.149216 [ -0.826185 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -18.8291 ppl= 5832.16 ppl1= 50966.7
+
+NOW WE HAVE KALDI DIRECTORY AND WE GO THERE
+	p( NOW | <s> ) 	= [2gram] 0.0276278 [ -1.55865 ]
+	p( WE | NOW ...) 	= [3gram] 0.0411978 [ -1.38513 ]
+	p( HAVE | WE ...) 	= [3gram] 0.230461 [ -0.637402 ]
+	p( <unk> | HAVE ...) 	= [OOV] 0 [ -inf ]
+	p( DIRECTORY | <unk> ...) 	= [1gram] 3.45273e-06 [ -5.46184 ]
+	p( AND | DIRECTORY ...) 	= [2gram] 0.0650996 [ -1.18642 ]
+	p( WE | AND ...) 	= [2gram] 0.0230112 [ -1.63806 ]
+	p( GO | WE ...) 	= [3gram] 0.00549251 [ -2.26023 ]
+	p( THERE | GO ...) 	= [3gram] 0.010229 [ -1.99017 ]
+	p( </s> | THERE ...) 	= [3gram] 0.350373 [ -0.45547 ]
+1 sentences, 9 words, 1 OOVs
+0 zeroprobs, logprob= -16.5734 ppl= 69.4201 ppl1= 117.943
+
+YOU CAN SEE THE FILES OF THE TOP LEVEL OF KALDI
+	p( YOU | <s> ) 	= [2gram] 0.023958 [ -1.62055 ]
+	p( CAN | YOU ...) 	= [3gram] 0.201749 [ -0.695189 ]
+	p( SEE | CAN ...) 	= [3gram] 0.254884 [ -0.593657 ]
+	p( THE | SEE ...) 	= [3gram] 0.152702 [ -0.816156 ]
+	p( FILES | THE ...) 	= [2gram] 2.6172e-05 [ -4.58216 ]
+	p( OF | FILES ...) 	= [2gram] 0.0471052 [ -1.32693 ]
+	p( THE | OF ...) 	= [2gram] 0.0694826 [ -1.15812 ]
+	p( TOP | THE ...) 	= [3gram] 0.00152696 [ -2.81617 ]
+	p( LEVEL | TOP ...) 	= [3gram] 0.00257111 [ -2.58988 ]
+	p( OF | LEVEL ...) 	= [2gram] 0.130127 [ -0.885634 ]
+	p( <unk> | OF ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 11 words, 1 OOVs
+0 zeroprobs, logprob= -18.6598 ppl= 49.6985 ppl1= 73.4476
+
+NOW WE CAN GO TO THE INSTALLATION STEP
+	p( NOW | <s> ) 	= [2gram] 0.0276278 [ -1.55865 ]
+	p( WE | NOW ...) 	= [3gram] 0.0411978 [ -1.38513 ]
+	p( CAN | WE ...) 	= [3gram] 0.140313 [ -0.852903 ]
+	p( GO | CAN ...) 	= [3gram] 0.0183391 [ -1.73662 ]
+	p( TO | GO ...) 	= [3gram] 0.188198 [ -0.725385 ]
+	p( THE | TO ...) 	= [3gram] 0.286295 [ -0.543186 ]
+	p( INSTALLATION | THE ...) 	= [2gram] 1.25242e-05 [ -4.90225 ]
+	p( STEP | INSTALLATION ...) 	= [1gram] 0.000100216 [ -3.99906 ]
+	p( </s> | STEP ...) 	= [2gram] 0.0664929 [ -1.17722 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -16.8804 ppl= 75.0934 ppl1= 128.84
+
+RECENTLY IT IS GETTING SLIGHTLY LESS RELEVANT FOR THE RESEARCH HOWEVER IT IS STILL VERY POPULAR IN THE INDUSTRY
+	p( RECENTLY | <s> ) 	= [2gram] 0.000140915 [ -3.85104 ]
+	p( IT | RECENTLY ...) 	= [2gram] 0.00661438 [ -2.17951 ]
+	p( IS | IT ...) 	= [2gram] 0.0247124 [ -1.60708 ]
+	p( GETTING | IS ...) 	= [2gram] 0.000664718 [ -3.17736 ]
+	p( SLIGHTLY | GETTING ...) 	= [1gram] 3.44966e-05 [ -4.46222 ]
+	p( LESS | SLIGHTLY ...) 	= [2gram] 0.0331427 [ -1.47961 ]
+	p( RELEVANT | LESS ...) 	= [1gram] 2.949e-05 [ -4.53033 ]
+	p( FOR | RELEVANT ...) 	= [2gram] 0.087919 [ -1.05592 ]
+	p( THE | FOR ...) 	= [3gram] 0.162986 [ -0.78785 ]
+	p( RESEARCH | THE ...) 	= [2gram] 0.000274774 [ -3.56102 ]
+	p( HOWEVER | RESEARCH ...) 	= [1gram] 3.18555e-05 [ -4.49682 ]
+	p( IT | HOWEVER ...) 	= [2gram] 0.0178325 [ -1.74879 ]
+	p( IS | IT ...) 	= [2gram] 0.0276195 [ -1.55878 ]
+	p( STILL | IS ...) 	= [3gram] 0.00210922 [ -2.67588 ]
+	p( VERY | STILL ...) 	= [3gram] 0.0239365 [ -1.62094 ]
+	p( POPULAR | VERY ...) 	= [2gram] 0.00299416 [ -2.52372 ]
+	p( IN | POPULAR ...) 	= [3gram] 0.0633031 [ -1.19858 ]
+	p( THE | IN ...) 	= [3gram] 0.51174 [ -0.290951 ]
+	p( INDUSTRY | THE ...) 	= [3gram] 0.00065297 [ -3.18511 ]
+	p( </s> | INDUSTRY ...) 	= [3gram] 0.162521 [ -0.789092 ]
+1 sentences, 19 words, 0 OOVs
+0 zeroprobs, logprob= -46.7806 ppl= 218.288 ppl1= 289.826
+
+THE TOP ARE LIKE EH
+	p( THE | <s> ) 	= [2gram] 0.0413519 [ -1.3835 ]
+	p( TOP | THE ...) 	= [3gram] 0.0017809 [ -2.74936 ]
+	p( ARE | TOP ...) 	= [2gram] 0.000989201 [ -3.00472 ]
+	p( LIKE | ARE ...) 	= [2gram] 0.00612477 [ -2.21291 ]
+	p( EH | LIKE ...) 	= [1gram] 3.01842e-06 [ -5.52022 ]
+	p( </s> | EH ...) 	= [2gram] 0.430623 [ -0.365903 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -15.2366 ppl= 346.287 ppl1= 1115.12
+
+THE TOP LEVEL INSTRUCTIONS ARE LOCATED IN THE INSTALL FILE
+	p( THE | <s> ) 	= [2gram] 0.0413519 [ -1.3835 ]
+	p( TOP | THE ...) 	= [3gram] 0.0017809 [ -2.74936 ]
+	p( LEVEL | TOP ...) 	= [3gram] 0.00257111 [ -2.58988 ]
+	p( INSTRUCTIONS | LEVEL ...) 	= [1gram] 1.42305e-05 [ -4.84678 ]
+	p( ARE | INSTRUCTIONS ...) 	= [2gram] 0.00661801 [ -2.17927 ]
+	p( LOCATED | ARE ...) 	= [2gram] 0.000574027 [ -3.24107 ]
+	p( IN | LOCATED ...) 	= [2gram] 0.240295 [ -0.619255 ]
+	p( THE | IN ...) 	= [3gram] 0.397597 [ -0.400557 ]
+	p( INSTALL | THE ...) 	= [1gram] 8.83363e-07 [ -6.05386 ]
+	p( FILE | INSTALL ...) 	= [1gram] 2.7825e-05 [ -4.55556 ]
+	p( </s> | FILE ...) 	= [2gram] 0.0920072 [ -1.03618 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -29.6553 ppl= 496.518 ppl1= 923.694
+
+LET'S CHECK IT
+	p( LET'S | <s> ) 	= [2gram] 0.00260052 [ -2.58494 ]
+	p( CHECK | LET'S ...) 	= [2gram] 0.000309191 [ -3.50977 ]
+	p( IT | CHECK ...) 	= [2gram] 0.0819914 [ -1.08623 ]
+	p( </s> | IT ...) 	= [3gram] 0.148983 [ -0.826863 ]
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -8.00781 ppl= 100.45 ppl1= 466.949
+
+IT TELLS US TO GO TO TOOLS FOLLOW INSTALL INSTRUCTIONS THERE THEN GO TO SRC AND FOLLOW INSTALL INSTRUCTIONS THERE
+	p( IT | <s> ) 	= [2gram] 0.0252762 [ -1.59729 ]
+	p( TELLS | IT ...) 	= [3gram] 0.0022419 [ -2.64938 ]
+	p( US | TELLS ...) 	= [3gram] 0.505355 [ -0.296403 ]
+	p( TO | US ...) 	= [3gram] 0.0332245 [ -1.47854 ]
+	p( GO | TO ...) 	= [3gram] 0.0275204 [ -1.56035 ]
+	p( TO | GO ...) 	= [3gram] 0.189994 [ -0.721261 ]
+	p( TOOLS | TO ...) 	= [1gram] 1.01678e-05 [ -4.99277 ]
+	p( FOLLOW | TOOLS ...) 	= [1gram] 3.2431e-05 [ -4.48904 ]
+	p( INSTALL | FOLLOW ...) 	= [1gram] 7.57159e-06 [ -5.12081 ]
+	p( INSTRUCTIONS | INSTALL ...) 	= [1gram] 2.94828e-05 [ -4.53043 ]
+	p( THERE | INSTRUCTIONS ...) 	= [1gram] 0.00123275 [ -2.90913 ]
+	p( THEN | THERE ...) 	= [2gram] 0.00144041 [ -2.84151 ]
+	p( GO | THEN ...) 	= [2gram] 0.00317857 [ -2.49777 ]
+	p( TO | GO ...) 	= [3gram] 0.140556 [ -0.852149 ]
+	p( <unk> | TO ...) 	= [OOV] 0 [ -inf ]
+	p( AND | <unk> ...) 	= [1gram] 0.0196712 [ -1.70617 ]
+	p( FOLLOW | AND ...) 	= [2gram] 0.000176267 [ -3.75383 ]
+	p( INSTALL | FOLLOW ...) 	= [1gram] 5.60919e-06 [ -5.2511 ]
+	p( INSTRUCTIONS | INSTALL ...) 	= [1gram] 2.94828e-05 [ -4.53043 ]
+	p( THERE | INSTRUCTIONS ...) 	= [1gram] 0.00123275 [ -2.90913 ]
+	p( </s> | THERE ...) 	= [2gram] 0.101322 [ -0.994295 ]
+1 sentences, 20 words, 1 OOVs
+0 zeroprobs, logprob= -55.6818 ppl= 608.26 ppl1= 852.355
+
+LET'S GO TO TOOLS
+	p( LET'S | <s> ) 	= [2gram] 0.00260052 [ -2.58494 ]
+	p( GO | LET'S ...) 	= [3gram] 0.0928665 [ -1.03214 ]
+	p( TO | GO ...) 	= [3gram] 0.173515 [ -0.760662 ]
+	p( TOOLS | TO ...) 	= [1gram] 1.01678e-05 [ -4.99277 ]
+	p( </s> | TOOLS ...) 	= [2gram] 0.119949 [ -0.921004 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -10.2915 ppl= 114.368 ppl1= 374.008
+
+IT IS A DIRECTORY CONTAINS SCRIPTS TO INSTALL ADDITIONAL THIRD PARTY TOOLS NEEDED FOR KALDI OR FOR KALDI RECIPIES
+	p( IT | <s> ) 	= [2gram] 0.0252762 [ -1.59729 ]
+	p( IS | IT ...) 	= [3gram] 0.105379 [ -0.977246 ]
+	p( A | IS ...) 	= [3gram] 0.0963995 [ -1.01593 ]
+	p( DIRECTORY | A ...) 	= [2gram] 1.62031e-05 [ -4.7904 ]
+	p( CONTAINS | DIRECTORY ...) 	= [1gram] 3.97777e-05 [ -4.40036 ]
+	p( SCRIPTS | CONTAINS ...) 	= [1gram] 8.83858e-06 [ -5.05362 ]
+	p( TO | SCRIPTS ...) 	= [2gram] 0.0518752 [ -1.28504 ]
+	p( INSTALL | TO ...) 	= [2gram] 0.000182927 [ -3.73772 ]
+	p( ADDITIONAL | INSTALL ...) 	= [1gram] 1.85729e-05 [ -4.73112 ]
+	p( THIRD | ADDITIONAL ...) 	= [1gram] 6.36755e-05 [ -4.19603 ]
+	p( PARTY | THIRD ...) 	= [2gram] 0.0148829 [ -1.82731 ]
+	p( TOOLS | PARTY ...) 	= [1gram] 0.000103069 [ -3.98687 ]
+	p( NEEDED | TOOLS ...) 	= [1gram] 3.94162e-05 [ -4.40433 ]
+	p( FOR | NEEDED ...) 	= [2gram] 0.0195182 [ -1.70956 ]
+	p( <unk> | FOR ...) 	= [OOV] 0 [ -inf ]
+	p( OR | <unk> ...) 	= [1gram] 0.0057186 [ -2.24271 ]
+	p( FOR | OR ...) 	= [2gram] 0.00797205 [ -2.09843 ]
+	p( <unk> | FOR ...) 	= [OOV] 0 [ -inf ]
+	p( <unk> | <unk> ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 19 words, 3 OOVs
+0 zeroprobs, logprob= -49.6293 ppl= 830.557 ppl1= 1264.24
+
+WE WILL TALK ABOUT THEM LATER
+	p( WE | <s> ) 	= [2gram] 0.0347908 [ -1.45854 ]
+	p( WILL | WE ...) 	= [3gram] 0.0112274 [ -1.94972 ]
+	p( TALK | WILL ...) 	= [3gram] 0.00272191 [ -2.56513 ]
+	p( ABOUT | TALK ...) 	= [3gram] 0.548987 [ -0.260438 ]
+	p( THEM | ABOUT ...) 	= [3gram] 0.0109406 [ -1.96096 ]
+	p( LATER | THEM ...) 	= [2gram] 0.000176191 [ -3.75402 ]
+	p( </s> | LATER ...) 	= [2gram] 0.101605 [ -0.993083 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -12.9419 ppl= 70.6058 ppl1= 143.542
+
+SO FIRST THING THAT WE NEED TO DO IS TO RUN THIS SCRIPT TO CHECK THE DEPENDENCIES
+	p( SO | <s> ) 	= [2gram] 0.084552 [ -1.07288 ]
+	p( FIRST | SO ...) 	= [3gram] 0.00181229 [ -2.74177 ]
+	p( THING | FIRST ...) 	= [2gram] 0.00135806 [ -2.86708 ]
+	p( THAT | THING ...) 	= [3gram] 0.222265 [ -0.653129 ]
+	p( WE | THAT ...) 	= [3gram] 0.110023 [ -0.958517 ]
+	p( NEED | WE ...) 	= [3gram] 0.0357943 [ -1.44619 ]
+	p( TO | NEED ...) 	= [3gram] 0.631511 [ -0.199619 ]
+	p( DO | TO ...) 	= [3gram] 0.0959527 [ -1.01794 ]
+	p( IS | DO ...) 	= [3gram] 0.0859767 [ -1.06562 ]
+	p( TO | IS ...) 	= [3gram] 0.162692 [ -0.788633 ]
+	p( RUN | TO ...) 	= [2gram] 0.000801284 [ -3.09621 ]
+	p( THIS | RUN ...) 	= [3gram] 0.0134187 [ -1.87229 ]
+	p( SCRIPT | THIS ...) 	= [2gram] 5.95284e-05 [ -4.22528 ]
+	p( TO | SCRIPT ...) 	= [3gram] 0.435838 [ -0.360675 ]
+	p( CHECK | TO ...) 	= [2gram] 0.000689917 [ -3.1612 ]
+	p( THE | CHECK ...) 	= [3gram] 0.113198 [ -0.946161 ]
+	p( DEPENDENCIES | THE ...) 	= [2gram] 3.03131e-06 [ -5.51837 ]
+	p( </s> | DEPENDENCIES ...) 	= [1gram] 0.0198897 [ -1.70137 ]
+1 sentences, 17 words, 0 OOVs
+0 zeroprobs, logprob= -33.6929 ppl= 74.444 ppl1= 95.9262
+
+IT GIVES A COUPLE OF WARNINGS WE CAN IGNORE THEM
+	p( IT | <s> ) 	= [2gram] 0.0252762 [ -1.59729 ]
+	p( GIVES | IT ...) 	= [3gram] 0.00495146 [ -2.30527 ]
+	p( A | GIVES ...) 	= [3gram] 0.0504957 [ -1.29675 ]
+	p( COUPLE | A ...) 	= [2gram] 0.00461107 [ -2.3362 ]
+	p( OF | COUPLE ...) 	= [3gram] 0.772894 [ -0.11188 ]
+	p( WARNINGS | OF ...) 	= [2gram] 2.47651e-06 [ -5.60616 ]
+	p( WE | WARNINGS ...) 	= [1gram] 0.00236678 [ -2.62584 ]
+	p( CAN | WE ...) 	= [2gram] 0.0419205 [ -1.37757 ]
+	p( IGNORE | CAN ...) 	= [2gram] 4.25858e-05 [ -4.37074 ]
+	p( THEM | IGNORE ...) 	= [2gram] 0.0619112 [ -1.20823 ]
+	p( </s> | THEM ...) 	= [3gram] 0.193387 [ -0.713572 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -23.5495 ppl= 138.313 ppl1= 226.438
+
+IF YOU WOULD JOIN A COMPANY AND WOULD WORK ON SPEECH RECOGNITION THERE MOST LIKELY YOU WOULD NEED TO USE KALDI
+	p( IF | <s> ) 	= [2gram] 0.0129509 [ -1.8877 ]
+	p( YOU | IF ...) 	= [3gram] 0.440741 [ -0.355817 ]
+	p( WOULD | YOU ...) 	= [3gram] 0.00587131 [ -2.23127 ]
+	p( JOIN | WOULD ...) 	= [2gram] 0.000367795 [ -3.43439 ]
+	p( A | JOIN ...) 	= [2gram] 0.0281684 [ -1.55024 ]
+	p( COMPANY | A ...) 	= [2gram] 0.00156386 [ -2.8058 ]
+	p( AND | COMPANY ...) 	= [3gram] 0.0574958 [ -1.24036 ]
+	p( WOULD | AND ...) 	= [2gram] 0.000514538 [ -3.28858 ]
+	p( WORK | WOULD ...) 	= [2gram] 0.00326491 [ -2.48613 ]
+	p( ON | WORK ...) 	= [3gram] 0.0408814 [ -1.38847 ]
+	p( SPEECH | ON ...) 	= [1gram] 1.01021e-05 [ -4.99559 ]
+	p( RECOGNITION | SPEECH ...) 	= [2gram] 0.0376114 [ -1.42468 ]
+	p( THERE | RECOGNITION ...) 	= [1gram] 0.00103692 [ -2.98425 ]
+	p( MOST | THERE ...) 	= [2gram] 0.000288666 [ -3.5396 ]
+	p( LIKELY | MOST ...) 	= [2gram] 0.00905178 [ -2.04327 ]
+	p( YOU | LIKELY ...) 	= [2gram] 0.0175457 [ -1.75583 ]
+	p( WOULD | YOU ...) 	= [2gram] 0.00520856 [ -2.28328 ]
+	p( NEED | WOULD ...) 	= [3gram] 0.0133332 [ -1.87507 ]
+	p( TO | NEED ...) 	= [3gram] 0.443125 [ -0.353474 ]
+	p( USE | TO ...) 	= [3gram] 0.0114377 [ -1.94166 ]
+	p( <unk> | USE ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 21 words, 1 OOVs
+0 zeroprobs, logprob= -45.4408 ppl= 145.83 ppl1= 187.085
+
+NOW WE CAN RUN MAKE IT WILL INSTALL NECESSARY TOOLS IT WILL INVOLVE COMPILATION
+	p( NOW | <s> ) 	= [2gram] 0.0276278 [ -1.55865 ]
+	p( WE | NOW ...) 	= [3gram] 0.0411978 [ -1.38513 ]
+	p( CAN | WE ...) 	= [3gram] 0.140313 [ -0.852903 ]
+	p( RUN | CAN ...) 	= [3gram] 0.00187263 [ -2.72755 ]
+	p( MAKE | RUN ...) 	= [1gram] 0.000101143 [ -3.99506 ]
+	p( IT | MAKE ...) 	= [2gram] 0.0439544 [ -1.357 ]
+	p( WILL | IT ...) 	= [2gram] 0.00524807 [ -2.28 ]
+	p( INSTALL | WILL ...) 	= [2gram] 3.04099e-05 [ -4.51698 ]
+	p( NECESSARY | INSTALL ...) 	= [1gram] 5.02048e-05 [ -4.29925 ]
+	p( TOOLS | NECESSARY ...) 	= [1gram] 7.88328e-05 [ -4.10329 ]
+	p( IT | TOOLS ...) 	= [2gram] 0.00236796 [ -2.62563 ]
+	p( WILL | IT ...) 	= [2gram] 0.0122169 [ -1.91304 ]
+	p( INVOLVE | WILL ...) 	= [2gram] 3.12719e-05 [ -4.50485 ]
+	p( COMPILATION | INVOLVE ...) 	= [1gram] 2.09374e-06 [ -5.67908 ]
+	p( </s> | COMPILATION ...) 	= [1gram] 0.012406 [ -1.90637 ]
+1 sentences, 14 words, 0 OOVs
+0 zeroprobs, logprob= -43.7048 ppl= 819.695 ppl1= 1323.64
+
+AT IMS WE HAVE EH COMPILER CACHE BY DEFAULT IT'S CALLED CCACHE
+	p( AT | <s> ) 	= [2gram] 0.00238032 [ -2.62336 ]
+	p( IMS | AT ...) 	= [1gram] 9.31189e-08 [ -7.03096 ]
+	p( WE | IMS ...) 	= [1gram] 0.0032124 [ -2.49317 ]
+	p( HAVE | WE ...) 	= [2gram] 0.0508881 [ -1.29338 ]
+	p( EH | HAVE ...) 	= [1gram] 9.37688e-07 [ -6.02794 ]
+	p( COMPILER | EH ...) 	= [1gram] 1.61344e-06 [ -5.79225 ]
+	p( CACHE | COMPILER ...) 	= [1gram] 1.90059e-06 [ -5.72111 ]
+	p( BY | CACHE ...) 	= [1gram] 0.00189795 [ -2.72171 ]
+	p( DEFAULT | BY ...) 	= [2gram] 0.000397439 [ -3.40073 ]
+	p( IT'S | DEFAULT ...) 	= [1gram] 0.00214249 [ -2.66908 ]
+	p( CALLED | IT'S ...) 	= [2gram] 0.0090159 [ -2.04499 ]
+	p( <unk> | CALLED ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 12 words, 1 OOVs
+0 zeroprobs, logprob= -43.394 ppl= 4132.07 ppl1= 8808.68
+
+AND IT WOULD BE BETTER TO DISABLE IT BECAUSE IN KALDI WE WILL COMPILE A LOT OF FILES AND WE WILL QUICKLY RUN OUT OF DISK SPACE FOR CACHE
+	p( AND | <s> ) 	= [2gram] 0.175897 [ -0.75474 ]
+	p( IT | AND ...) 	= [3gram] 0.0317503 [ -1.49825 ]
+	p( WOULD | IT ...) 	= [3gram] 0.026847 [ -1.5711 ]
+	p( BE | WOULD ...) 	= [3gram] 0.444628 [ -0.352003 ]
+	p( BETTER | BE ...) 	= [3gram] 0.00614074 [ -2.21178 ]
+	p( TO | BETTER ...) 	= [3gram] 0.0210425 [ -1.6769 ]
+	p( DISABLE | TO ...) 	= [2gram] 1.59931e-05 [ -4.79607 ]
+	p( IT | DISABLE ...) 	= [2gram] 0.130092 [ -0.885749 ]
+	p( BECAUSE | IT ...) 	= [2gram] 0.00639834 [ -2.19393 ]
+	p( IN | BECAUSE ...) 	= [3gram] 0.0125241 [ -1.90226 ]
+	p( <unk> | IN ...) 	= [OOV] 0 [ -inf ]
+	p( WE | <unk> ...) 	= [1gram] 0.00429419 [ -2.36712 ]
+	p( WILL | WE ...) 	= [2gram] 0.0107649 [ -1.96799 ]
+	p( COMPILE | WILL ...) 	= [1gram] 3.7525e-07 [ -6.42568 ]
+	p( A | COMPILE ...) 	= [1gram] 0.00472431 [ -2.32566 ]
+	p( LOT | A ...) 	= [2gram] 0.014712 [ -1.83233 ]
+	p( OF | LOT ...) 	= [3gram] 0.746506 [ -0.126967 ]
+	p( FILES | OF ...) 	= [1gram] 1.68316e-06 [ -5.77387 ]
+	p( AND | FILES ...) 	= [2gram] 0.085992 [ -1.06554 ]
+	p( WE | AND ...) 	= [2gram] 0.0230112 [ -1.63806 ]
+	p( WILL | WE ...) 	= [3gram] 0.0152687 [ -1.8162 ]
+	p( QUICKLY | WILL ...) 	= [2gram] 0.000140135 [ -3.85345 ]
+	p( RUN | QUICKLY ...) 	= [1gram] 0.000120799 [ -3.91794 ]
+	p( OUT | RUN ...) 	= [2gram] 0.0314565 [ -1.50229 ]
+	p( OF | OUT ...) 	= [3gram] 0.758419 [ -0.120091 ]
+	p( DISK | OF ...) 	= [1gram] 1.44173e-06 [ -5.84112 ]
+	p( SPACE | DISK ...) 	= [1gram] 0.000227581 [ -3.64286 ]
+	p( FOR | SPACE ...) 	= [2gram] 0.0271463 [ -1.56629 ]
+	p( CACHE | FOR ...) 	= [1gram] 4.58058e-07 [ -6.33908 ]
+	p( </s> | CACHE ...) 	= [1gram] 0.0146541 [ -1.83404 ]
+1 sentences, 29 words, 1 OOVs
+0 zeroprobs, logprob= -71.7994 ppl= 299.116 ppl1= 366.66
+
+WE WILL DISABLE THE COMPILE CACHE BY EXPORTING VARIABLE
+	p( WE | <s> ) 	= [2gram] 0.0347908 [ -1.45854 ]
+	p( WILL | WE ...) 	= [3gram] 0.0112274 [ -1.94972 ]
+	p( DISABLE | WILL ...) 	= [1gram] 2.12054e-07 [ -6.67355 ]
+	p( THE | DISABLE ...) 	= [2gram] 0.133908 [ -0.873193 ]
+	p( COMPILE | THE ...) 	= [1gram] 6.88508e-07 [ -6.16209 ]
+	p( CACHE | COMPILE ...) 	= [1gram] 2.03448e-06 [ -5.69155 ]
+	p( BY | CACHE ...) 	= [1gram] 0.00189795 [ -2.72171 ]
+	p( EXPORTING | BY ...) 	= [1gram] 3.44221e-06 [ -5.46316 ]
+	p( VARIABLE | EXPORTING ...) 	= [1gram] 2.44738e-05 [ -4.6113 ]
+	p( </s> | VARIABLE ...) 	= [2gram] 0.265912 [ -0.575262 ]
+1 sentences, 9 words, 0 OOVs
+0 zeroprobs, logprob= -36.1801 ppl= 4149.62 ppl1= 10471.5
+
+I WILL GET YOU FAMILIAR WITH KALDI TOOLKIT IN THIS MODULE
+	p( I | <s> ) 	= [2gram] 0.0531643 [ -1.27438 ]
+	p( WILL | I ...) 	= [3gram] 0.0084311 [ -2.07412 ]
+	p( GET | WILL ...) 	= [3gram] 0.0183994 [ -1.7352 ]
+	p( YOU | GET ...) 	= [3gram] 0.0906106 [ -1.04282 ]
+	p( FAMILIAR | YOU ...) 	= [1gram] 7.44781e-06 [ -5.12797 ]
+	p( WITH | FAMILIAR ...) 	= [2gram] 0.222843 [ -0.652001 ]
+	p( <unk> | WITH ...) 	= [OOV] 0 [ -inf ]
+	p( TOOLKIT | <unk> ...) 	= [1gram] 3.45273e-06 [ -5.46184 ]
+	p( IN | TOOLKIT ...) 	= [1gram] 0.0088469 [ -2.05321 ]
+	p( THIS | IN ...) 	= [2gram] 0.0285116 [ -1.54498 ]
+	p( MODULE | THIS ...) 	= [2gram] 5.97649e-06 [ -5.22355 ]
+	p( </s> | MODULE ...) 	= [2gram] 0.274627 [ -0.561257 ]
+1 sentences, 11 words, 1 OOVs
+0 zeroprobs, logprob= -26.7513 ppl= 270.357 ppl1= 473.295
+
+CCACHE DISABLE EQUALS ONE
+	p( <unk> | <s> ) 	= [OOV] 0 [ -inf ]
+	p( DISABLE | <unk> ...) 	= [1gram] 1.95115e-06 [ -5.70971 ]
+	p( EQUALS | DISABLE ...) 	= [1gram] 3.17356e-05 [ -4.49845 ]
+	p( ONE | EQUALS ...) 	= [1gram] 0.00146117 [ -2.8353 ]
+	p( </s> | ONE ...) 	= [2gram] 0.0407931 [ -1.38941 ]
+1 sentences, 4 words, 1 OOVs
+0 zeroprobs, logprob= -14.4329 ppl= 4057.13 ppl1= 64708.1
+
+NOW WE CAN RUN MAKE TO COMPILE THE TOOLS
+	p( NOW | <s> ) 	= [2gram] 0.0276278 [ -1.55865 ]
+	p( WE | NOW ...) 	= [3gram] 0.0411978 [ -1.38513 ]
+	p( CAN | WE ...) 	= [3gram] 0.140313 [ -0.852903 ]
+	p( RUN | CAN ...) 	= [3gram] 0.00187263 [ -2.72755 ]
+	p( MAKE | RUN ...) 	= [1gram] 0.000101143 [ -3.99506 ]
+	p( TO | MAKE ...) 	= [2gram] 0.00545833 [ -2.26294 ]
+	p( COMPILE | TO ...) 	= [1gram] 4.04303e-07 [ -6.39329 ]
+	p( THE | COMPILE ...) 	= [1gram] 0.00794821 [ -2.09973 ]
+	p( TOOLS | THE ...) 	= [2gram] 0.000518389 [ -3.28534 ]
+	p( </s> | TOOLS ...) 	= [3gram] 0.0732121 [ -1.13542 ]
+1 sentences, 9 words, 0 OOVs
+0 zeroprobs, logprob= -25.696 ppl= 371.195 ppl1= 716.33
+
+AND WE WILL USE J OPTION WHICH TELLS MAKE TO RUN SEVERAL COMPILATION JOBS IN PARALLEL
+	p( AND | <s> ) 	= [2gram] 0.175897 [ -0.75474 ]
+	p( WE | AND ...) 	= [3gram] 0.0438333 [ -1.3582 ]
+	p( WILL | WE ...) 	= [3gram] 0.0152687 [ -1.8162 ]
+	p( USE | WILL ...) 	= [3gram] 0.00806509 [ -2.09339 ]
+	p( J | USE ...) 	= [1gram] 4.23444e-06 [ -5.3732 ]
+	p( OPTION | J ...) 	= [1gram] 3.91834e-05 [ -4.4069 ]
+	p( WHICH | OPTION ...) 	= [2gram] 0.0054368 [ -2.26466 ]
+	p( TELLS | WHICH ...) 	= [2gram] 0.000996109 [ -3.00169 ]
+	p( MAKE | TELLS ...) 	= [1gram] 3.74204e-05 [ -4.42689 ]
+	p( TO | MAKE ...) 	= [2gram] 0.00545833 [ -2.26294 ]
+	p( RUN | TO ...) 	= [2gram] 0.00185437 [ -2.7318 ]
+	p( SEVERAL | RUN ...) 	= [2gram] 0.00025117 [ -3.60003 ]
+	p( COMPILATION | SEVERAL ...) 	= [1gram] 1.50039e-06 [ -5.82379 ]
+	p( JOBS | COMPILATION ...) 	= [1gram] 7.99887e-05 [ -4.09697 ]
+	p( IN | JOBS ...) 	= [2gram] 0.0635935 [ -1.19659 ]
+	p( PARALLEL | IN ...) 	= [2gram] 0.000284193 [ -3.54639 ]
+	p( </s> | PARALLEL ...) 	= [3gram] 0.125492 [ -0.901382 ]
+1 sentences, 16 words, 0 OOVs
+0 zeroprobs, logprob= -49.6558 ppl= 833.542 ppl1= 1269.07
+
+IN THE NEXT VIDEOS I WILL WALK YOU THROUGH KALDI FOR DUMMIES TUTORIAL
+	p( IN | <s> ) 	= [2gram] 0.0172143 [ -1.76411 ]
+	p( THE | IN ...) 	= [3gram] 0.21619 [ -0.665165 ]
+	p( NEXT | THE ...) 	= [3gram] 0.0123547 [ -1.90817 ]
+	p( VIDEOS | NEXT ...) 	= [1gram] 1.21007e-05 [ -4.91719 ]
+	p( I | VIDEOS ...) 	= [1gram] 0.00199015 [ -2.70111 ]
+	p( WILL | I ...) 	= [2gram] 0.0077281 [ -2.11193 ]
+	p( WALK | WILL ...) 	= [2gram] 0.000442093 [ -3.35449 ]
+	p( YOU | WALK ...) 	= [2gram] 0.0170824 [ -1.76745 ]
+	p( THROUGH | YOU ...) 	= [3gram] 0.420495 [ -0.37624 ]
+	p( <unk> | THROUGH ...) 	= [OOV] 0 [ -inf ]
+	p( FOR | <unk> ...) 	= [1gram] 0.00625612 [ -2.2037 ]
+	p( DUMMIES | FOR ...) 	= [2gram] 6.09021e-05 [ -4.21537 ]
+	p( TUTORIAL | DUMMIES ...) 	= [1gram] 1.76231e-06 [ -5.75392 ]
+	p( </s> | TUTORIAL ...) 	= [1gram] 0.0198897 [ -1.70137 ]
+1 sentences, 13 words, 1 OOVs
+0 zeroprobs, logprob= -33.4402 ppl= 373.528 ppl1= 611.904
+
+IT IS NEEDED FOR FASTER INSTALLATION AND FASTER PROCESSING
+	p( IT | <s> ) 	= [2gram] 0.0252762 [ -1.59729 ]
+	p( IS | IT ...) 	= [3gram] 0.105379 [ -0.977246 ]
+	p( NEEDED | IS ...) 	= [3gram] 0.000479446 [ -3.31926 ]
+	p( FOR | NEEDED ...) 	= [3gram] 0.11686 [ -0.932333 ]
+	p( FASTER | FOR ...) 	= [1gram] 2.94168e-05 [ -4.5314 ]
+	p( INSTALLATION | FASTER ...) 	= [1gram] 1.13602e-05 [ -4.94461 ]
+	p( AND | INSTALLATION ...) 	= [1gram] 0.011066 [ -1.95601 ]
+	p( FASTER | AND ...) 	= [2gram] 0.000119882 [ -3.92125 ]
+	p( PROCESSING | FASTER ...) 	= [1gram] 1.20452e-05 [ -4.91918 ]
+	p( </s> | PROCESSING ...) 	= [2gram] 0.0591239 [ -1.22824 ]
+1 sentences, 9 words, 0 OOVs
+0 zeroprobs, logprob= -28.3268 ppl= 680.271 ppl1= 1404.19
+
+SINCE WE HAVE SINCE WE HAVE FORTY CPU CORES ON THIS SERVER WE CAN RUN MAKE WITH FORTY JOBS
+	p( SINCE | <s> ) 	= [2gram] 0.00053315 [ -3.27315 ]
+	p( WE | SINCE ...) 	= [3gram] 0.0979964 [ -1.00879 ]
+	p( HAVE | WE ...) 	= [3gram] 0.0603411 [ -1.21939 ]
+	p( SINCE | HAVE ...) 	= [3gram] 0.000287996 [ -3.54061 ]
+	p( WE | SINCE ...) 	= [2gram] 0.0476737 [ -1.32172 ]
+	p( HAVE | WE ...) 	= [3gram] 0.0603411 [ -1.21939 ]
+	p( FORTY | HAVE ...) 	= [1gram] 3.49758e-07 [ -6.45623 ]
+	p( CPU | FORTY ...) 	= [1gram] 4.10979e-06 [ -5.38618 ]
+	p( CORES | CPU ...) 	= [1gram] 8.23658e-06 [ -5.08425 ]
+	p( ON | CORES ...) 	= [1gram] 0.00370201 [ -2.43156 ]
+	p( THIS | ON ...) 	= [2gram] 0.0386147 [ -1.41325 ]
+	p( SERVER | THIS ...) 	= [1gram] 2.20952e-06 [ -5.6557 ]
+	p( WE | SERVER ...) 	= [2gram] 0.0104152 [ -1.98233 ]
+	p( CAN | WE ...) 	= [2gram] 0.0419205 [ -1.37757 ]
+	p( RUN | CAN ...) 	= [3gram] 0.00187263 [ -2.72755 ]
+	p( MAKE | RUN ...) 	= [1gram] 0.000101143 [ -3.99506 ]
+	p( WITH | MAKE ...) 	= [2gram] 0.00297087 [ -2.52712 ]
+	p( FORTY | WITH ...) 	= [1gram] 1.11601e-06 [ -5.95233 ]
+	p( JOBS | FORTY ...) 	= [1gram] 0.000114738 [ -3.94029 ]
+	p( </s> | JOBS ...) 	= [2gram] 0.152619 [ -0.81639 ]
+1 sentences, 19 words, 0 OOVs
+0 zeroprobs, logprob= -61.3289 ppl= 1165.32 ppl1= 1689.8
+
+OKAY AS WE SEE EVERYTHING WENT WELL
+	p( OKAY | <s> ) 	= [2gram] 0.00234059 [ -2.63068 ]
+	p( AS | OKAY ...) 	= [1gram] 0.000466499 [ -3.33115 ]
+	p( WE | AS ...) 	= [2gram] 0.0382196 [ -1.41771 ]
+	p( SEE | WE ...) 	= [3gram] 0.0307704 [ -1.51187 ]
+	p( EVERYTHING | SEE ...) 	= [2gram] 0.00044876 [ -3.34799 ]
+	p( WENT | EVERYTHING ...) 	= [2gram] 0.00156686 [ -2.80497 ]
+	p( WELL | WENT ...) 	= [2gram] 0.00226437 [ -2.64505 ]
+	p( </s> | WELL ...) 	= [2gram] 0.0375587 [ -1.42529 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -19.1147 ppl= 245.097 ppl1= 537.863
+
+TOOLS INSTALLATION COMPLETED
+	p( TOOLS | <s> ) 	= [2gram] 8.40969e-06 [ -5.07522 ]
+	p( INSTALLATION | TOOLS ...) 	= [1gram] 1.14751e-05 [ -4.94024 ]
+	p( COMPLETED | INSTALLATION ...) 	= [1gram] 1.85732e-05 [ -4.73111 ]
+	p( </s> | COMPLETED ...) 	= [2gram] 0.187664 [ -0.726618 ]
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -15.4732 ppl= 7384.12 ppl1= 143791
+
+NOW LET'S GO TO SRC
+	p( NOW | <s> ) 	= [2gram] 0.0276278 [ -1.55865 ]
+	p( LET'S | NOW ...) 	= [3gram] 0.0125964 [ -1.89976 ]
+	p( GO | LET'S ...) 	= [3gram] 0.0853808 [ -1.06864 ]
+	p( TO | GO ...) 	= [3gram] 0.173515 [ -0.760662 ]
+	p( <unk> | TO ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 5 words, 1 OOVs
+0 zeroprobs, logprob= -6.86303 ppl= 23.5834 ppl1= 51.9705
+
+SRC STANDS FOR SOURCE CODE
+	p( <unk> | <s> ) 	= [OOV] 0 [ -inf ]
+	p( STANDS | <unk> ...) 	= [1gram] 7.06423e-05 [ -4.15094 ]
+	p( FOR | STANDS ...) 	= [2gram] 0.231897 [ -0.634705 ]
+	p( SOURCE | FOR ...) 	= [2gram] 3.47759e-05 [ -4.45872 ]
+	p( CODE | SOURCE ...) 	= [2gram] 0.02069 [ -1.68424 ]
+	p( </s> | CODE ...) 	= [2gram] 0.102752 [ -0.988212 ]
+1 sentences, 5 words, 1 OOVs
+0 zeroprobs, logprob= -11.9168 ppl= 241.748 ppl1= 953.242
+
+THIS IS THE ACTUAL CODE OF KALDI
+	p( THIS | <s> ) 	= [2gram] 0.030502 [ -1.51567 ]
+	p( IS | THIS ...) 	= [3gram] 0.648631 [ -0.188003 ]
+	p( THE | IS ...) 	= [3gram] 0.158527 [ -0.799896 ]
+	p( ACTUAL | THE ...) 	= [3gram] 0.00327069 [ -2.48536 ]
+	p( CODE | ACTUAL ...) 	= [2gram] 0.00104045 [ -2.98278 ]
+	p( OF | CODE ...) 	= [2gram] 0.0533592 [ -1.27279 ]
+	p( <unk> | OF ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 7 words, 1 OOVs
+0 zeroprobs, logprob= -10.8198 ppl= 35.1309 ppl1= 63.5775
+
+LET'S SEE THE INSTALLATION INSTRUCTIONS
+	p( LET'S | <s> ) 	= [2gram] 0.00260052 [ -2.58494 ]
+	p( SEE | LET'S ...) 	= [3gram] 0.116875 [ -0.932279 ]
+	p( THE | SEE ...) 	= [3gram] 0.015718 [ -1.8036 ]
+	p( INSTALLATION | THE ...) 	= [2gram] 2.00414e-05 [ -4.69807 ]
+	p( INSTRUCTIONS | INSTALLATION ...) 	= [1gram] 2.68887e-05 [ -4.57043 ]
+	p( </s> | INSTRUCTIONS ...) 	= [2gram] 0.157052 [ -0.803957 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -15.3933 ppl= 367.745 ppl1= 1198.55
+
+THE INSTALLATION INSTRUCTIONS ARE CONFIGURE SCRIPT
+	p( THE | <s> ) 	= [2gram] 0.0413519 [ -1.3835 ]
+	p( INSTALLATION | THE ...) 	= [2gram] 1.12911e-05 [ -4.94726 ]
+	p( INSTRUCTIONS | INSTALLATION ...) 	= [1gram] 2.68887e-05 [ -4.57043 ]
+	p( ARE | INSTRUCTIONS ...) 	= [2gram] 0.00661801 [ -2.17927 ]
+	p( CONFIGURE | ARE ...) 	= [1gram] 9.73815e-07 [ -6.01152 ]
+	p( SCRIPT | CONFIGURE ...) 	= [1gram] 1.87067e-05 [ -4.728 ]
+	p( </s> | SCRIPT ...) 	= [2gram] 0.112072 [ -0.950501 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -24.7705 ppl= 3456.55 ppl1= 13440.5
+
+AFTER BRIEF INTRODUCTION THE TUTORIAL LISTS ENVIRONMENT REQUIREMENTS FOR INSTALLATION AND USAGE OF KALDI
+	p( AFTER | <s> ) 	= [2gram] 0.00145875 [ -2.83602 ]
+	p( BRIEF | AFTER ...) 	= [1gram] 3.80828e-06 [ -5.41927 ]
+	p( INTRODUCTION | BRIEF ...) 	= [1gram] 1.50426e-05 [ -4.82268 ]
+	p( THE | INTRODUCTION ...) 	= [1gram] 0.00601514 [ -2.22075 ]
+	p( TUTORIAL | THE ...) 	= [1gram] 6.88508e-07 [ -6.16209 ]
+	p( LISTS | TUTORIAL ...) 	= [1gram] 3.07303e-05 [ -4.51243 ]
+	p( ENVIRONMENT | LISTS ...) 	= [1gram] 0.000131677 [ -3.88049 ]
+	p( REQUIREMENTS | ENVIRONMENT ...) 	= [1gram] 7.23047e-06 [ -5.14083 ]
+	p( FOR | REQUIREMENTS ...) 	= [2gram] 0.0508964 [ -1.29331 ]
+	p( INSTALLATION | FOR ...) 	= [1gram] 7.33711e-06 [ -5.13447 ]
+	p( AND | INSTALLATION ...) 	= [1gram] 0.011066 [ -1.95601 ]
+	p( USAGE | AND ...) 	= [2gram] 8.16966e-06 [ -5.0878 ]
+	p( OF | USAGE ...) 	= [2gram] 0.0154473 [ -1.81115 ]
+	p( <unk> | OF ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 14 words, 1 OOVs
+0 zeroprobs, logprob= -51.8526 ppl= 5055.44 ppl1= 9742.35
+
+OKAY LIBRARIES ARE NOT FOUND BUT AT IMS WE HAVE ALTERNATIVE LIBRARY CALLED ATLAS WE CAN USE IT
+	p( OKAY | <s> ) 	= [2gram] 0.00234059 [ -2.63068 ]
+	p( LIBRARIES | OKAY ...) 	= [1gram] 3.34686e-06 [ -5.47536 ]
+	p( ARE | LIBRARIES ...) 	= [2gram] 0.0531399 [ -1.27458 ]
+	p( NOT | ARE ...) 	= [2gram] 0.0230991 [ -1.6364 ]
+	p( FOUND | NOT ...) 	= [2gram] 0.000127906 [ -3.89311 ]
+	p( BUT | FOUND ...) 	= [2gram] 0.00214467 [ -2.66864 ]
+	p( AT | BUT ...) 	= [2gram] 0.00721596 [ -2.14171 ]
+	p( IMS | AT ...) 	= [1gram] 8.85072e-08 [ -7.05302 ]
+	p( WE | IMS ...) 	= [1gram] 0.0032124 [ -2.49317 ]
+	p( HAVE | WE ...) 	= [2gram] 0.0508881 [ -1.29338 ]
+	p( ALTERNATIVE | HAVE ...) 	= [1gram] 4.75922e-06 [ -5.32246 ]
+	p( LIBRARY | ALTERNATIVE ...) 	= [1gram] 3.00557e-05 [ -4.52207 ]
+	p( CALLED | LIBRARY ...) 	= [2gram] 0.00333968 [ -2.47629 ]
+	p( ATLAS | CALLED ...) 	= [1gram] 7.99819e-06 [ -5.09701 ]
+	p( WE | ATLAS ...) 	= [1gram] 0.00276928 [ -2.55763 ]
+	p( CAN | WE ...) 	= [2gram] 0.0419205 [ -1.37757 ]
+	p( USE | CAN ...) 	= [3gram] 0.0374499 [ -1.42655 ]
+	p( IT | USE ...) 	= [3gram] 0.110696 [ -0.955869 ]
+	p( </s> | IT ...) 	= [3gram] 0.200691 [ -0.697472 ]
+1 sentences, 18 words, 0 OOVs
+0 zeroprobs, logprob= -54.993 ppl= 784.094 ppl1= 1135.44
+
+NOW WE SEE A PROBLEM WITH CUDA LIBRARIES
+	p( NOW | <s> ) 	= [2gram] 0.0276278 [ -1.55865 ]
+	p( WE | NOW ...) 	= [3gram] 0.0411978 [ -1.38513 ]
+	p( SEE | WE ...) 	= [3gram] 0.00665688 [ -2.17673 ]
+	p( A | SEE ...) 	= [3gram] 0.0617038 [ -1.20969 ]
+	p( PROBLEM | A ...) 	= [3gram] 0.00525482 [ -2.27944 ]
+	p( WITH | PROBLEM ...) 	= [3gram] 0.138058 [ -0.859939 ]
+	p( <unk> | WITH ...) 	= [OOV] 0 [ -inf ]
+	p( LIBRARIES | <unk> ...) 	= [1gram] 3.30162e-05 [ -4.48127 ]
+	p( </s> | LIBRARIES ...) 	= [2gram] 0.191787 [ -0.717181 ]
+1 sentences, 8 words, 1 OOVs
+0 zeroprobs, logprob= -14.668 ppl= 68.156 ppl1= 124.576
+
+WE ACTUALLY SHOULD DISABLE CUDA BECAUSE IT'S ONLY NEEDED TO TRAIN NEURAL NETWORKS SO FAR IT'S NOT NEEDED
+	p( WE | <s> ) 	= [2gram] 0.0347908 [ -1.45854 ]
+	p( ACTUALLY | WE ...) 	= [3gram] 0.00813535 [ -2.08962 ]
+	p( SHOULD | ACTUALLY ...) 	= [1gram] 9.45824e-05 [ -4.02419 ]
+	p( DISABLE | SHOULD ...) 	= [1gram] 6.03514e-07 [ -6.21931 ]
+	p( <unk> | DISABLE ...) 	= [OOV] 0 [ -inf ]
+	p( BECAUSE | <unk> ...) 	= [1gram] 0.00365992 [ -2.43653 ]
+	p( IT'S | BECAUSE ...) 	= [2gram] 0.0450958 [ -1.34586 ]
+	p( ONLY | IT'S ...) 	= [3gram] 0.00943978 [ -2.02504 ]
+	p( NEEDED | ONLY ...) 	= [1gram] 2.88839e-05 [ -4.53934 ]
+	p( TO | NEEDED ...) 	= [2gram] 0.201157 [ -0.696464 ]
+	p( TRAIN | TO ...) 	= [2gram] 0.000342168 [ -3.46576 ]
+	p( NEURAL | TRAIN ...) 	= [1gram] 2.04937e-05 [ -4.68838 ]
+	p( NETWORKS | NEURAL ...) 	= [2gram] 0.0254639 [ -1.59407 ]
+	p( SO | NETWORKS ...) 	= [1gram] 0.00125689 [ -2.9007 ]
+	p( FAR | SO ...) 	= [2gram] 0.0137618 [ -1.86132 ]
+	p( IT'S | FAR ...) 	= [3gram] 0.00557727 [ -2.25358 ]
+	p( NOT | IT'S ...) 	= [2gram] 0.0463322 [ -1.33412 ]
+	p( NEEDED | NOT ...) 	= [3gram] 0.000579238 [ -3.23714 ]
+	p( </s> | NEEDED ...) 	= [2gram] 0.0552876 [ -1.25737 ]
+1 sentences, 18 words, 1 OOVs
+0 zeroprobs, logprob= -47.4274 ppl= 431.373 ppl1= 616.374
+
+TO SEE HOW TO DO IT WE WILL CALL CONFIGURE SCRIPT WITH HELP OPTION
+	p( TO | <s> ) 	= [2gram] 0.00242826 [ -2.61471 ]
+	p( SEE | TO ...) 	= [3gram] 0.0177925 [ -1.74976 ]
+	p( HOW | SEE ...) 	= [3gram] 0.050153 [ -1.2997 ]
+	p( TO | HOW ...) 	= [3gram] 0.0247433 [ -1.60654 ]
+	p( DO | TO ...) 	= [3gram] 0.110104 [ -0.958197 ]
+	p( IT | DO ...) 	= [3gram] 0.0970664 [ -1.01293 ]
+	p( WE | IT ...) 	= [3gram] 0.0126249 [ -1.89877 ]
+	p( WILL | WE ...) 	= [3gram] 0.0118839 [ -1.92504 ]
+	p( CALL | WILL ...) 	= [3gram] 0.00420227 [ -2.37652 ]
+	p( CONFIGURE | CALL ...) 	= [1gram] 1.27928e-06 [ -5.89304 ]
+	p( SCRIPT | CONFIGURE ...) 	= [1gram] 1.87067e-05 [ -4.728 ]
+	p( WITH | SCRIPT ...) 	= [1gram] 0.00296033 [ -2.52866 ]
+	p( HELP | WITH ...) 	= [2gram] 0.000344655 [ -3.46262 ]
+	p( OPTION | HELP ...) 	= [1gram] 1.45509e-05 [ -4.83711 ]
+	p( </s> | OPTION ...) 	= [2gram] 0.183017 [ -0.73751 ]
+1 sentences, 14 words, 0 OOVs
+0 zeroprobs, logprob= -37.6291 ppl= 322.557 ppl1= 487.296
+
+BUILD WITH CUDA DEFAULT YES
+	p( BUILD | <s> ) 	= [2gram] 3.01876e-05 [ -4.52017 ]
+	p( WITH | BUILD ...) 	= [2gram] 0.00960395 [ -2.01755 ]
+	p( <unk> | WITH ...) 	= [OOV] 0 [ -inf ]
+	p( DEFAULT | <unk> ...) 	= [1gram] 1.42031e-05 [ -4.84762 ]
+	p( YES | DEFAULT ...) 	= [1gram] 0.000254368 [ -3.59454 ]
+	p( </s> | YES ...) 	= [2gram] 0.171582 [ -0.765527 ]
+1 sentences, 5 words, 1 OOVs
+0 zeroprobs, logprob= -15.7454 ppl= 1409.55 ppl1= 8636.76
+
+WE WILL CHANGE THIS OPTION TO NO
+	p( WE | <s> ) 	= [2gram] 0.0347908 [ -1.45854 ]
+	p( WILL | WE ...) 	= [3gram] 0.0112274 [ -1.94972 ]
+	p( CHANGE | WILL ...) 	= [2gram] 0.00309184 [ -2.50978 ]
+	p( THIS | CHANGE ...) 	= [2gram] 0.0097194 [ -2.01236 ]
+	p( OPTION | THIS ...) 	= [2gram] 4.935e-05 [ -4.30671 ]
+	p( TO | OPTION ...) 	= [2gram] 0.0167313 [ -1.77647 ]
+	p( NO | TO ...) 	= [2gram] 0.000363076 [ -3.44 ]
+	p( </s> | NO ...) 	= [2gram] 0.0324943 [ -1.48819 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -18.9418 ppl= 233.197 ppl1= 508.122
+
+KALDI HAS BEEN SUCCESSFULLY CONFIGURED NOW WE CAN COMPILE KALDI USING THESE TWO MAKE COMMANDS
+	p( <unk> | <s> ) 	= [OOV] 0 [ -inf ]
+	p( HAS | <unk> ...) 	= [1gram] 0.0022234 [ -2.65298 ]
+	p( BEEN | HAS ...) 	= [2gram] 0.0983087 [ -1.00741 ]
+	p( SUCCESSFULLY | BEEN ...) 	= [2gram] 6.11625e-05 [ -4.21351 ]
+	p( CONFIGURED | SUCCESSFULLY ...) 	= [1gram] 1.16197e-06 [ -5.93481 ]
+	p( NOW | CONFIGURED ...) 	= [1gram] 0.00120488 [ -2.91906 ]
+	p( WE | NOW ...) 	= [2gram] 0.0151192 [ -1.82047 ]
+	p( CAN | WE ...) 	= [3gram] 0.140313 [ -0.852903 ]
+	p( COMPILE | CAN ...) 	= [2gram] 1.13713e-05 [ -4.94419 ]
+	p( <unk> | COMPILE ...) 	= [OOV] 0 [ -inf ]
+	p( USING | <unk> ...) 	= [1gram] 0.000600096 [ -3.22178 ]
+	p( THESE | USING ...) 	= [2gram] 0.0318269 [ -1.49721 ]
+	p( TWO | THESE ...) 	= [2gram] 0.0151665 [ -1.81912 ]
+	p( MAKE | TWO ...) 	= [2gram] 0.000300421 [ -3.52227 ]
+	p( COMMANDS | MAKE ...) 	= [1gram] 3.44781e-06 [ -5.46246 ]
+	p( </s> | COMMANDS ...) 	= [2gram] 0.158535 [ -0.799875 ]
+1 sentences, 15 words, 2 OOVs
+0 zeroprobs, logprob= -40.668 ppl= 803.266 ppl1= 1343.72
+
+AND WE SPECIFY AGAIN FORTY PARALLEL JOBS FOR THE COMPILATION
+	p( AND | <s> ) 	= [2gram] 0.175897 [ -0.75474 ]
+	p( WE | AND ...) 	= [3gram] 0.0438333 [ -1.3582 ]
+	p( SPECIFY | WE ...) 	= [1gram] 1.06345e-07 [ -6.97328 ]
+	p( AGAIN | SPECIFY ...) 	= [1gram] 0.000518504 [ -3.28525 ]
+	p( FORTY | AGAIN ...) 	= [1gram] 1.23185e-06 [ -5.90944 ]
+	p( PARALLEL | FORTY ...) 	= [1gram] 3.19917e-05 [ -4.49496 ]
+	p( JOBS | PARALLEL ...) 	= [1gram] 8.78176e-05 [ -4.05642 ]
+	p( FOR | JOBS ...) 	= [2gram] 0.0502353 [ -1.29899 ]
+	p( THE | FOR ...) 	= [3gram] 0.131766 [ -0.880197 ]
+	p( COMPILATION | THE ...) 	= [1gram] 3.15879e-07 [ -6.50048 ]
+	p( </s> | COMPILATION ...) 	= [1gram] 0.012406 [ -1.90637 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -37.4183 ppl= 2521.54 ppl1= 5518.64
+
+WE WILL USE IMS SERVER TO INSTALL AND USE KALDI THEREFORE WE SHOULD NOT WORRY ABOUT THE REQUIREMENTS EVERYTHING SHOULD BE READY THERE
+	p( WE | <s> ) 	= [2gram] 0.0347908 [ -1.45854 ]
+	p( WILL | WE ...) 	= [3gram] 0.0112274 [ -1.94972 ]
+	p( USE | WILL ...) 	= [3gram] 0.00806509 [ -2.09339 ]
+	p( IMS | USE ...) 	= [1gram] 5.31426e-07 [ -6.27456 ]
+	p( SERVER | IMS ...) 	= [1gram] 1.56514e-05 [ -4.80545 ]
+	p( TO | SERVER ...) 	= [1gram] 0.0051158 [ -2.29109 ]
+	p( INSTALL | TO ...) 	= [2gram] 0.000313483 [ -3.50379 ]
+	p( AND | INSTALL ...) 	= [2gram] 0.0170863 [ -1.76735 ]
+	p( USE | AND ...) 	= [2gram] 0.0015301 [ -2.81528 ]
+	p( <unk> | USE ...) 	= [OOV] 0 [ -inf ]
+	p( THEREFORE | <unk> ...) 	= [1gram] 8.27365e-05 [ -4.0823 ]
+	p( WE | THEREFORE ...) 	= [2gram] 0.0214137 [ -1.66931 ]
+	p( SHOULD | WE ...) 	= [2gram] 0.00650746 [ -2.18659 ]
+	p( NOT | SHOULD ...) 	= [3gram] 0.0463414 [ -1.33403 ]
+	p( WORRY | NOT ...) 	= [2gram] 3.13555e-05 [ -4.50369 ]
+	p( ABOUT | WORRY ...) 	= [3gram] 0.576571 [ -0.239147 ]
+	p( THE | ABOUT ...) 	= [3gram] 0.181866 [ -0.74025 ]
+	p( REQUIREMENTS | THE ...) 	= [2gram] 2.14583e-05 [ -4.66841 ]
+	p( EVERYTHING | REQUIREMENTS ...) 	= [1gram] 0.000213213 [ -3.67119 ]
+	p( SHOULD | EVERYTHING ...) 	= [2gram] 0.00275594 [ -2.55973 ]
+	p( BE | SHOULD ...) 	= [3gram] 0.493974 [ -0.306296 ]
+	p( READY | BE ...) 	= [2gram] 0.000335182 [ -3.47472 ]
+	p( THERE | READY ...) 	= [2gram] 0.00136185 [ -2.86587 ]
+	p( </s> | THERE ...) 	= [2gram] 0.101322 [ -0.994295 ]
+1 sentences, 23 words, 1 OOVs
+0 zeroprobs, logprob= -60.255 ppl= 416.66 ppl1= 548.103
+
+OKAY IT SAYS DONE
+	p( OKAY | <s> ) 	= [2gram] 0.00234059 [ -2.63068 ]
+	p( IT | OKAY ...) 	= [3gram] 0.00311282 [ -2.50685 ]
+	p( SAYS | IT ...) 	= [2gram] 0.00259923 [ -2.58516 ]
+	p( DONE | SAYS ...) 	= [1gram] 5.59605e-05 [ -4.25212 ]
+	p( </s> | DONE ...) 	= [2gram] 0.0695058 [ -1.15798 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -13.1328 ppl= 423.209 ppl1= 1919.52
+
+IT MEANS EVERYTHING WENT WELL AGAIN
+	p( IT | <s> ) 	= [2gram] 0.0252762 [ -1.59729 ]
+	p( MEANS | IT ...) 	= [3gram] 0.0127358 [ -1.89497 ]
+	p( EVERYTHING | MEANS ...) 	= [2gram] 0.000238313 [ -3.62285 ]
+	p( WENT | EVERYTHING ...) 	= [2gram] 0.00172747 [ -2.76259 ]
+	p( WELL | WENT ...) 	= [2gram] 0.00226437 [ -2.64505 ]
+	p( AGAIN | WELL ...) 	= [2gram] 0.000348567 [ -3.45771 ]
+	p( </s> | AGAIN ...) 	= [2gram] 0.188203 [ -0.725375 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -16.7058 ppl= 243.528 ppl1= 608.565
+
+WE HAVE SUCCESSFULLY DOWNLOADED AND COMPILED KALDI
+	p( WE | <s> ) 	= [2gram] 0.0347908 [ -1.45854 ]
+	p( HAVE | WE ...) 	= [3gram] 0.119649 [ -0.922093 ]
+	p( SUCCESSFULLY | HAVE ...) 	= [3gram] 0.000268177 [ -3.57158 ]
+	p( DOWNLOADED | SUCCESSFULLY ...) 	= [1gram] 7.36357e-06 [ -5.13291 ]
+	p( AND | DOWNLOADED ...) 	= [1gram] 0.0141992 [ -1.84774 ]
+	p( COMPILED | AND ...) 	= [1gram] 1.42175e-06 [ -5.84718 ]
+	p( <unk> | COMPILED ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 7 words, 1 OOVs
+0 zeroprobs, logprob= -20.3554 ppl= 808.923 ppl1= 2469.21
+
+NOW IT'S READY FOR USE
+	p( NOW | <s> ) 	= [2gram] 0.0276278 [ -1.55865 ]
+	p( IT'S | NOW ...) 	= [3gram] 0.0194212 [ -1.71172 ]
+	p( READY | IT'S ...) 	= [2gram] 0.000297964 [ -3.52584 ]
+	p( FOR | READY ...) 	= [2gram] 0.111802 [ -0.951552 ]
+	p( USE | FOR ...) 	= [2gram] 0.000458992 [ -3.3382 ]
+	p( </s> | USE ...) 	= [2gram] 0.0377892 [ -1.42263 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -12.5086 ppl= 121.553 ppl1= 317.482
+
+AND WE CAN GO TO THE NEXT PART OF KALDI TUTORIAL KALDI DIRECTORIES STRUCTURE
+	p( AND | <s> ) 	= [2gram] 0.175897 [ -0.75474 ]
+	p( WE | AND ...) 	= [3gram] 0.0438333 [ -1.3582 ]
+	p( CAN | WE ...) 	= [3gram] 0.0779189 [ -1.10836 ]
+	p( GO | CAN ...) 	= [3gram] 0.0183391 [ -1.73662 ]
+	p( TO | GO ...) 	= [3gram] 0.188198 [ -0.725385 ]
+	p( THE | TO ...) 	= [3gram] 0.286295 [ -0.543186 ]
+	p( NEXT | THE ...) 	= [3gram] 0.0159824 [ -1.79636 ]
+	p( PART | NEXT ...) 	= [3gram] 0.00473625 [ -2.32456 ]
+	p( OF | PART ...) 	= [3gram] 0.682846 [ -0.165678 ]
+	p( <unk> | OF ...) 	= [OOV] 0 [ -inf ]
+	p( TUTORIAL | <unk> ...) 	= [1gram] 3.45273e-06 [ -5.46184 ]
+	p( <unk> | TUTORIAL ...) 	= [OOV] 0 [ -inf ]
+	p( DIRECTORIES | <unk> ...) 	= [1gram] 2.7196e-06 [ -5.5655 ]
+	p( STRUCTURE | DIRECTORIES ...) 	= [1gram] 0.000174483 [ -3.75825 ]
+	p( </s> | STRUCTURE ...) 	= [2gram] 0.175641 [ -0.755374 ]
+1 sentences, 14 words, 2 OOVs
+0 zeroprobs, logprob= -26.054 ppl= 100.962 ppl1= 148.31
+
+SEE YOU IN THE NEXT VIDEO
+	p( SEE | <s> ) 	= [2gram] 0.000585093 [ -3.23277 ]
+	p( YOU | SEE ...) 	= [3gram] 0.0302409 [ -1.51941 ]
+	p( IN | YOU ...) 	= [2gram] 0.00431236 [ -2.36528 ]
+	p( THE | IN ...) 	= [3gram] 0.313443 [ -0.503841 ]
+	p( NEXT | THE ...) 	= [3gram] 0.0123547 [ -1.90817 ]
+	p( VIDEO | NEXT ...) 	= [3gram] 0.0055968 [ -2.25206 ]
+	p( </s> | VIDEO ...) 	= [2gram] 0.0750107 [ -1.12488 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -12.9064 ppl= 69.7867 ppl1= 141.602
+
+TO START PLEASE GO TO THE OFFICIAL WEBSITE OF KALDI KALDI DASH ASR DOT ORG
+	p( TO | <s> ) 	= [2gram] 0.00242826 [ -2.61471 ]
+	p( START | TO ...) 	= [3gram] 0.010407 [ -1.98267 ]
+	p( PLEASE | START ...) 	= [1gram] 3.55817e-05 [ -4.44877 ]
+	p( GO | PLEASE ...) 	= [2gram] 0.0137534 [ -1.86159 ]
+	p( TO | GO ...) 	= [2gram] 0.0583048 [ -1.2343 ]
+	p( THE | TO ...) 	= [3gram] 0.286295 [ -0.543186 ]
+	p( OFFICIAL | THE ...) 	= [2gram] 8.66752e-05 [ -4.06211 ]
+	p( WEBSITE | OFFICIAL ...) 	= [1gram] 4.64798e-05 [ -4.33274 ]
+	p( OF | WEBSITE ...) 	= [2gram] 0.0092433 [ -2.03417 ]
+	p( <unk> | OF ...) 	= [OOV] 0 [ -inf ]
+	p( <unk> | <unk> ...) 	= [OOV] 0 [ -inf ]
+	p( DASH | <unk> ...) 	= [1gram] 4.79653e-06 [ -5.31907 ]
+	p( <unk> | DASH ...) 	= [OOV] 0 [ -inf ]
+	p( DOT | <unk> ...) 	= [1gram] 3.30162e-05 [ -4.48127 ]
+	p( ORG | DOT ...) 	= [1gram] 5.27155e-06 [ -5.27806 ]
+	p( </s> | ORG ...) 	= [1gram] 0.010802 [ -1.9665 ]
+1 sentences, 15 words, 3 OOVs
+0 zeroprobs, logprob= -40.1591 ppl= 1227.91 ppl1= 2221.24
+
+TO CONNECT TO THE SERVER WE WILL USE TERMINAL APPLICATION AND SSH COMMAND
+	p( TO | <s> ) 	= [2gram] 0.00242826 [ -2.61471 ]
+	p( CONNECT | TO ...) 	= [2gram] 0.000582729 [ -3.23453 ]
+	p( TO | CONNECT ...) 	= [3gram] 0.155135 [ -0.809289 ]
+	p( THE | TO ...) 	= [3gram] 0.202667 [ -0.693217 ]
+	p( SERVER | THE ...) 	= [2gram] 1.64746e-05 [ -4.78319 ]
+	p( WE | SERVER ...) 	= [2gram] 0.0075386 [ -2.12271 ]
+	p( WILL | WE ...) 	= [2gram] 0.0107649 [ -1.96799 ]
+	p( USE | WILL ...) 	= [3gram] 0.00806509 [ -2.09339 ]
+	p( TERMINAL | USE ...) 	= [1gram] 6.79646e-06 [ -5.16772 ]
+	p( APPLICATION | TERMINAL ...) 	= [1gram] 4.93684e-05 [ -4.30655 ]
+	p( AND | APPLICATION ...) 	= [2gram] 0.0849441 [ -1.07087 ]
+	p( <unk> | AND ...) 	= [OOV] 0 [ -inf ]
+	p( COMMAND | <unk> ...) 	= [1gram] 4.64541e-05 [ -4.33298 ]
+	p( </s> | COMMAND ...) 	= [2gram] 0.0956051 [ -1.01952 ]
+1 sentences, 13 words, 1 OOVs
+0 zeroprobs, logprob= -34.2166 ppl= 428.598 ppl1= 710.211
+
+PLEASE TYPE SSH YOUR IMS LOGIN
+	p( PLEASE | <s> ) 	= [2gram] 0.000359228 [ -3.44463 ]
+	p( TYPE | PLEASE ...) 	= [2gram] 0.000595085 [ -3.22542 ]
+	p( <unk> | TYPE ...) 	= [OOV] 0 [ -inf ]
+	p( YOUR | <unk> ...) 	= [1gram] 0.00167647 [ -2.7756 ]
+	p( IMS | YOUR ...) 	= [1gram] 7.16431e-07 [ -6.14483 ]
+	p( LOGIN | IMS ...) 	= [1gram] 2.03448e-06 [ -5.69155 ]
+	p( </s> | LOGIN ...) 	= [1gram] 0.0198897 [ -1.70137 ]
+1 sentences, 6 words, 1 OOVs
+0 zeroprobs, logprob= -22.9834 ppl= 6769.65 ppl1= 39507.5
+
+THEN THE NAME OF THE SERVER IT'S PHOENIX IMS UNI STUTTGART
+	p( THEN | <s> ) 	= [2gram] 0.00341952 [ -2.46603 ]
+	p( THE | THEN ...) 	= [3gram] 0.0673025 [ -1.17197 ]
+	p( NAME | THE ...) 	= [2gram] 0.000678554 [ -3.16842 ]
+	p( OF | NAME ...) 	= [3gram] 0.647824 [ -0.188543 ]
+	p( THE | OF ...) 	= [3gram] 0.395477 [ -0.402879 ]
+	p( SERVER | THE ...) 	= [2gram] 1.23022e-05 [ -4.91002 ]
+	p( IT'S | SERVER ...) 	= [1gram] 0.00114652 [ -2.94062 ]
+	p( PHOENIX | IT'S ...) 	= [1gram] 3.13134e-06 [ -5.50427 ]
+	p( IMS | PHOENIX ...) 	= [1gram] 1.32401e-06 [ -5.87811 ]
+	p( UNI | IMS ...) 	= [1gram] 2.03448e-06 [ -5.69155 ]
+	p( <unk> | UNI ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 11 words, 1 OOVs
+0 zeroprobs, logprob= -33.8977 ppl= 1206.73 ppl1= 2453.42
+
+IN THIS VIDEO WE WILL TALK BRIEFLY ABOUT KALDI DIRECTORIES
+	p( IN | <s> ) 	= [2gram] 0.0172143 [ -1.76411 ]
+	p( THIS | IN ...) 	= [3gram] 0.0614762 [ -1.21129 ]
+	p( VIDEO | THIS ...) 	= [3gram] 0.00549264 [ -2.26022 ]
+	p( WE | VIDEO ...) 	= [2gram] 0.00576812 [ -2.23897 ]
+	p( WILL | WE ...) 	= [2gram] 0.00932062 [ -2.03056 ]
+	p( TALK | WILL ...) 	= [3gram] 0.00272191 [ -2.56513 ]
+	p( BRIEFLY | TALK ...) 	= [2gram] 0.000233905 [ -3.63096 ]
+	p( ABOUT | BRIEFLY ...) 	= [2gram] 0.0414487 [ -1.38249 ]
+	p( <unk> | ABOUT ...) 	= [OOV] 0 [ -inf ]
+	p( DIRECTORIES | <unk> ...) 	= [1gram] 2.7196e-06 [ -5.5655 ]
+	p( </s> | DIRECTORIES ...) 	= [1gram] 0.0198897 [ -1.70137 ]
+1 sentences, 10 words, 1 OOVs
+0 zeroprobs, logprob= -24.3506 ppl= 272.307 ppl1= 507.716
+
+AND ANOTHER ONE IS MINI LIBRISPEECH WHICH SERVES AS EH MAIN EXAMPLE OF BUILDING RECIPIES IN KALDI
+	p( AND | <s> ) 	= [2gram] 0.175897 [ -0.75474 ]
+	p( ANOTHER | AND ...) 	= [3gram] 0.00107675 [ -2.96788 ]
+	p( ONE | ANOTHER ...) 	= [3gram] 0.104012 [ -0.982915 ]
+	p( IS | ONE ...) 	= [3gram] 0.0545483 [ -1.26322 ]
+	p( MINI | IS ...) 	= [1gram] 1.87895e-06 [ -5.72609 ]
+	p( <unk> | MINI ...) 	= [OOV] 0 [ -inf ]
+	p( WHICH | <unk> ...) 	= [1gram] 0.00424043 [ -2.37259 ]
+	p( SERVES | WHICH ...) 	= [1gram] 4.67106e-06 [ -5.33058 ]
+	p( AS | SERVES ...) 	= [2gram] 0.155759 [ -0.807546 ]
+	p( EH | AS ...) 	= [1gram] 1.08199e-06 [ -5.96578 ]
+	p( MAIN | EH ...) 	= [1gram] 1.98238e-05 [ -4.70281 ]
+	p( EXAMPLE | MAIN ...) 	= [1gram] 0.000113218 [ -3.94609 ]
+	p( OF | EXAMPLE ...) 	= [2gram] 0.131575 [ -0.880827 ]
+	p( BUILDING | OF ...) 	= [2gram] 0.000255895 [ -3.59194 ]
+	p( <unk> | BUILDING ...) 	= [OOV] 0 [ -inf ]
+	p( IN | <unk> ...) 	= [1gram] 0.0118261 [ -1.92716 ]
+	p( <unk> | IN ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 17 words, 3 OOVs
+0 zeroprobs, logprob= -42.7955 ppl= 712.905 ppl1= 1139.78
+
+THANG WILL TALK ABOUT MINI LIBRISPEECH RECIPY IN THE NEXT MODULE WE CAN TAKE A LOOK IN WALL STREET JOURNAL RECIPY
+	p( <unk> | <s> ) 	= [OOV] 0 [ -inf ]
+	p( WILL | <unk> ...) 	= [1gram] 0.00161466 [ -2.79192 ]
+	p( TALK | WILL ...) 	= [2gram] 0.00179167 [ -2.74674 ]
+	p( ABOUT | TALK ...) 	= [3gram] 0.548987 [ -0.260438 ]
+	p( MINI | ABOUT ...) 	= [1gram] 1.86377e-06 [ -5.72961 ]
+	p( <unk> | MINI ...) 	= [OOV] 0 [ -inf ]
+	p( <unk> | <unk> ...) 	= [OOV] 0 [ -inf ]
+	p( IN | <unk> ...) 	= [1gram] 0.0118261 [ -1.92716 ]
+	p( THE | IN ...) 	= [2gram] 0.121707 [ -0.914685 ]
+	p( NEXT | THE ...) 	= [3gram] 0.0123547 [ -1.90817 ]
+	p( MODULE | NEXT ...) 	= [1gram] 1.76601e-06 [ -5.75301 ]
+	p( WE | MODULE ...) 	= [1gram] 0.00235942 [ -2.62719 ]
+	p( CAN | WE ...) 	= [2gram] 0.0419205 [ -1.37757 ]
+	p( TAKE | CAN ...) 	= [3gram] 0.0251616 [ -1.59926 ]
+	p( A | TAKE ...) 	= [3gram] 0.195443 [ -0.708979 ]
+	p( LOOK | A ...) 	= [3gram] 0.195113 [ -0.709714 ]
+	p( IN | LOOK ...) 	= [2gram] 0.00297674 [ -2.52626 ]
+	p( WALL | IN ...) 	= [1gram] 9.08676e-06 [ -5.04159 ]
+	p( STREET | WALL ...) 	= [2gram] 0.0779414 [ -1.10823 ]
+	p( JOURNAL | STREET ...) 	= [3gram] 0.0909672 [ -1.04112 ]
+	p( <unk> | JOURNAL ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 21 words, 4 OOVs
+0 zeroprobs, logprob= -40.347 ppl= 174.381 ppl1= 236.239
+
+SO AS YOU CAN SEE THERE IS S5 DIRECTORY IN EACH OF THE RECIPY
+	p( SO | <s> ) 	= [2gram] 0.084552 [ -1.07288 ]
+	p( AS | SO ...) 	= [3gram] 0.00970029 [ -2.01322 ]
+	p( YOU | AS ...) 	= [3gram] 0.153578 [ -0.813672 ]
+	p( CAN | YOU ...) 	= [3gram] 0.327391 [ -0.484934 ]
+	p( SEE | CAN ...) 	= [3gram] 0.254884 [ -0.593657 ]
+	p( THERE | SEE ...) 	= [3gram] 0.0151933 [ -1.81835 ]
+	p( IS | THERE ...) 	= [3gram] 0.168738 [ -0.772787 ]
+	p( <unk> | IS ...) 	= [OOV] 0 [ -inf ]
+	p( DIRECTORY | <unk> ...) 	= [1gram] 3.45273e-06 [ -5.46184 ]
+	p( IN | DIRECTORY ...) 	= [1gram] 0.0088469 [ -2.05321 ]
+	p( EACH | IN ...) 	= [2gram] 0.00185476 [ -2.73171 ]
+	p( OF | EACH ...) 	= [3gram] 0.201047 [ -0.696702 ]
+	p( THE | OF ...) 	= [3gram] 0.113882 [ -0.943545 ]
+	p( <unk> | THE ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 14 words, 2 OOVs
+0 zeroprobs, logprob= -21.0318 ppl= 41.4793 ppl1= 56.5785
+
+CURRENTLY IT DOESN'T MEAN ANYTHING MOST LIKELY IF YOU LOOK FOR ANY OTHER RECIPY IT WILL BE ALSO IN S5
+	p( CURRENTLY | <s> ) 	= [2gram] 4.93812e-05 [ -4.30644 ]
+	p( IT | CURRENTLY ...) 	= [1gram] 0.0031932 [ -2.49577 ]
+	p( DOESN'T | IT ...) 	= [2gram] 0.012371 [ -1.9076 ]
+	p( MEAN | DOESN'T ...) 	= [3gram] 0.0405765 [ -1.39172 ]
+	p( ANYTHING | MEAN ...) 	= [3gram] 0.0137682 [ -1.86112 ]
+	p( MOST | ANYTHING ...) 	= [1gram] 0.000141453 [ -3.84939 ]
+	p( LIKELY | MOST ...) 	= [2gram] 0.00905178 [ -2.04327 ]
+	p( IF | LIKELY ...) 	= [2gram] 0.00624624 [ -2.20438 ]
+	p( YOU | IF ...) 	= [2gram] 0.211271 [ -0.675159 ]
+	p( LOOK | YOU ...) 	= [3gram] 0.101649 [ -0.992897 ]
+	p( FOR | LOOK ...) 	= [3gram] 0.0142511 [ -1.84615 ]
+	p( ANY | FOR ...) 	= [2gram] 0.00207459 [ -2.68307 ]
+	p( OTHER | ANY ...) 	= [3gram] 0.0275156 [ -1.56042 ]
+	p( <unk> | OTHER ...) 	= [OOV] 0 [ -inf ]
+	p( IT | <unk> ...) 	= [1gram] 0.00552375 [ -2.25777 ]
+	p( WILL | IT ...) 	= [2gram] 0.0122169 [ -1.91304 ]
+	p( BE | WILL ...) 	= [3gram] 0.298651 [ -0.524836 ]
+	p( ALSO | BE ...) 	= [2gram] 0.000361562 [ -3.44182 ]
+	p( IN | ALSO ...) 	= [2gram] 0.0168311 [ -1.77389 ]
+	p( <unk> | IN ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 20 words, 2 OOVs
+0 zeroprobs, logprob= -39.3041 ppl= 117.121 ppl1= 152.601
+
+SOME RECIPIES FOR EXAMPLE TEDLIUM HAVE SEVERAL DIRECTORIES
+	p( SOME | <s> ) 	= [2gram] 0.00241015 [ -2.61796 ]
+	p( <unk> | SOME ...) 	= [OOV] 0 [ -inf ]
+	p( FOR | <unk> ...) 	= [1gram] 0.00625612 [ -2.2037 ]
+	p( EXAMPLE | FOR ...) 	= [2gram] 0.0238744 [ -1.62207 ]
+	p( <unk> | EXAMPLE ...) 	= [OOV] 0 [ -inf ]
+	p( HAVE | <unk> ...) 	= [1gram] 0.00173963 [ -2.75954 ]
+	p( SEVERAL | HAVE ...) 	= [2gram] 0.000272298 [ -3.56495 ]
+	p( DIRECTORIES | SEVERAL ...) 	= [1gram] 1.18181e-06 [ -5.92745 ]
+	p( </s> | DIRECTORIES ...) 	= [1gram] 0.0198897 [ -1.70137 ]
+1 sentences, 8 words, 2 OOVs
+0 zeroprobs, logprob= -20.397 ppl= 820.092 ppl1= 2509.03
+
+YOU CAN SEE THAT THEY CORRESPOND TO DIFFERENT REVISIONS OF THE RECIPY OR DIFFERENT VERSIONS OF THE RECIPY
+	p( YOU | <s> ) 	= [2gram] 0.023958 [ -1.62055 ]
+	p( CAN | YOU ...) 	= [3gram] 0.201749 [ -0.695189 ]
+	p( SEE | CAN ...) 	= [3gram] 0.254884 [ -0.593657 ]
+	p( THAT | SEE ...) 	= [3gram] 0.140875 [ -0.851166 ]
+	p( THEY | THAT ...) 	= [3gram] 0.0271098 [ -1.56687 ]
+	p( CORRESPOND | THEY ...) 	= [1gram] 6.02076e-07 [ -6.22035 ]
+	p( TO | CORRESPOND ...) 	= [2gram] 0.636263 [ -0.196363 ]
+	p( DIFFERENT | TO ...) 	= [2gram] 0.000429042 [ -3.3675 ]
+	p( REVISIONS | DIFFERENT ...) 	= [1gram] 7.9658e-07 [ -6.09877 ]
+	p( OF | REVISIONS ...) 	= [2gram] 0.258915 [ -0.586843 ]
+	p( THE | OF ...) 	= [2gram] 0.0694826 [ -1.15812 ]
+	p( <unk> | THE ...) 	= [OOV] 0 [ -inf ]
+	p( OR | <unk> ...) 	= [1gram] 0.0057186 [ -2.24271 ]
+	p( DIFFERENT | OR ...) 	= [2gram] 0.000740174 [ -3.13067 ]
+	p( VERSIONS | DIFFERENT ...) 	= [2gram] 0.00125683 [ -2.90072 ]
+	p( OF | VERSIONS ...) 	= [3gram] 0.882535 [ -0.0542679 ]
+	p( THE | OF ...) 	= [3gram] 0.159498 [ -0.797246 ]
+	p( <unk> | THE ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 18 words, 2 OOVs
+0 zeroprobs, logprob= -33.6563 ppl= 95.4516 ppl1= 126.917
+
+I THINK THAT IS ENOUGH INFORMATION ABOUT EXAMPLES
+	p( I | <s> ) 	= [2gram] 0.0531643 [ -1.27438 ]
+	p( THINK | I ...) 	= [3gram] 0.0792748 [ -1.10087 ]
+	p( THAT | THINK ...) 	= [3gram] 0.104758 [ -0.979811 ]
+	p( IS | THAT ...) 	= [3gram] 0.0319705 [ -1.49525 ]
+	p( ENOUGH | IS ...) 	= [2gram] 0.000178628 [ -3.74805 ]
+	p( INFORMATION | ENOUGH ...) 	= [2gram] 0.00138615 [ -2.85819 ]
+	p( ABOUT | INFORMATION ...) 	= [2gram] 0.0345042 [ -1.46213 ]
+	p( EXAMPLES | ABOUT ...) 	= [1gram] 1.59975e-05 [ -4.79595 ]
+	p( </s> | EXAMPLES ...) 	= [2gram] 0.100849 [ -0.996327 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -18.711 ppl= 119.948 ppl1= 218.207
+
+WE CAN GO TO THE SOURCE CODE TAKE A LOOK INTO ITS CONTENTS
+	p( WE | <s> ) 	= [2gram] 0.0347908 [ -1.45854 ]
+	p( CAN | WE ...) 	= [3gram] 0.0787261 [ -1.10388 ]
+	p( GO | CAN ...) 	= [3gram] 0.0183391 [ -1.73662 ]
+	p( TO | GO ...) 	= [3gram] 0.188198 [ -0.725385 ]
+	p( THE | TO ...) 	= [3gram] 0.286295 [ -0.543186 ]
+	p( SOURCE | THE ...) 	= [3gram] 0.000600662 [ -3.22137 ]
+	p( CODE | SOURCE ...) 	= [3gram] 0.0920793 [ -1.03584 ]
+	p( TAKE | CODE ...) 	= [2gram] 0.00102778 [ -2.9881 ]
+	p( A | TAKE ...) 	= [2gram] 0.0638086 [ -1.19512 ]
+	p( LOOK | A ...) 	= [3gram] 0.195113 [ -0.709714 ]
+	p( INTO | LOOK ...) 	= [2gram] 0.001406 [ -2.85202 ]
+	p( ITS | INTO ...) 	= [2gram] 0.00362692 [ -2.44046 ]
+	p( CONTENTS | ITS ...) 	= [1gram] 5.46091e-06 [ -5.26274 ]
+	p( </s> | CONTENTS ...) 	= [2gram] 0.112551 [ -0.948651 ]
+1 sentences, 13 words, 0 OOVs
+0 zeroprobs, logprob= -26.2216 ppl= 74.6402 ppl1= 104.003
+
+SO WE'VE SEEN ALREADY THE CONFIGURE SCRIPT WHICH CONFIGURES THE KALDI TO BE RUN ON CERTAIN SYSTEM OR OUR SYSTEM FOR EXAMPLE
+	p( SO | <s> ) 	= [2gram] 0.084552 [ -1.07288 ]
+	p( WE'VE | SO ...) 	= [3gram] 0.00697188 [ -2.15665 ]
+	p( SEEN | WE'VE ...) 	= [3gram] 0.0250478 [ -1.60123 ]
+	p( ALREADY | SEEN ...) 	= [2gram] 0.000944959 [ -3.02459 ]
+	p( THE | ALREADY ...) 	= [2gram] 0.0134604 [ -1.87094 ]
+	p( CONFIGURE | THE ...) 	= [1gram] 6.88508e-07 [ -6.16209 ]
+	p( SCRIPT | CONFIGURE ...) 	= [1gram] 1.87067e-05 [ -4.728 ]
+	p( WHICH | SCRIPT ...) 	= [1gram] 0.00247486 [ -2.60645 ]
+	p( <unk> | WHICH ...) 	= [OOV] 0 [ -inf ]
+	p( THE | <unk> ...) 	= [1gram] 0.0106248 [ -1.97368 ]
+	p( <unk> | THE ...) 	= [OOV] 0 [ -inf ]
+	p( TO | <unk> ...) 	= [1gram] 0.00959814 [ -2.01781 ]
+	p( BE | TO ...) 	= [2gram] 0.0206776 [ -1.6845 ]
+	p( RUN | BE ...) 	= [3gram] 0.000530158 [ -3.27559 ]
+	p( ON | RUN ...) 	= [2gram] 0.0192858 [ -1.71476 ]
+	p( CERTAIN | ON ...) 	= [2gram] 0.000436715 [ -3.3598 ]
+	p( SYSTEM | CERTAIN ...) 	= [1gram] 0.000340064 [ -3.46844 ]
+	p( OR | SYSTEM ...) 	= [2gram] 0.011295 [ -1.94711 ]
+	p( OUR | OR ...) 	= [3gram] 0.0509239 [ -1.29308 ]
+	p( SYSTEM | OUR ...) 	= [2gram] 0.0017451 [ -2.75818 ]
+	p( FOR | SYSTEM ...) 	= [2gram] 0.0174986 [ -1.757 ]
+	p( EXAMPLE | FOR ...) 	= [2gram] 0.0191623 [ -1.71755 ]
+	p( </s> | EXAMPLE ...) 	= [3gram] 0.0892333 [ -1.04947 ]
+1 sentences, 22 words, 2 OOVs
+0 zeroprobs, logprob= -51.2398 ppl= 275.417 ppl1= 364.746
+
+IT ALSO HAS DOCUMENTATION DIRECTORY AHM AND MANY MORE DIRECTORIES WHICH CAN BE DIVIDED TO TWO GROUPS
+	p( IT | <s> ) 	= [2gram] 0.0252762 [ -1.59729 ]
+	p( ALSO | IT ...) 	= [3gram] 0.0134802 [ -1.8703 ]
+	p( HAS | ALSO ...) 	= [3gram] 0.0676994 [ -1.16941 ]
+	p( DOCUMENTATION | HAS ...) 	= [1gram] 1.87063e-06 [ -5.72801 ]
+	p( DIRECTORY | DOCUMENTATION ...) 	= [1gram] 1.76843e-06 [ -5.75241 ]
+	p( <unk> | DIRECTORY ...) 	= [OOV] 0 [ -inf ]
+	p( AND | <unk> ...) 	= [1gram] 0.0196712 [ -1.70617 ]
+	p( MANY | AND ...) 	= [2gram] 0.00168681 [ -2.77293 ]
+	p( MORE | MANY ...) 	= [3gram] 0.0108099 [ -1.96618 ]
+	p( DIRECTORIES | MORE ...) 	= [1gram] 6.84587e-07 [ -6.16457 ]
+	p( WHICH | DIRECTORIES ...) 	= [1gram] 0.00317218 [ -2.49864 ]
+	p( CAN | WHICH ...) 	= [2gram] 0.00737692 [ -2.13212 ]
+	p( BE | CAN ...) 	= [3gram] 0.267946 [ -0.571953 ]
+	p( DIVIDED | BE ...) 	= [2gram] 0.000149905 [ -3.82418 ]
+	p( TO | DIVIDED ...) 	= [1gram] 0.00303154 [ -2.51834 ]
+	p( TWO | TO ...) 	= [2gram] 0.000857646 [ -3.06669 ]
+	p( GROUPS | TWO ...) 	= [2gram] 0.00378147 [ -2.42234 ]
+	p( </s> | GROUPS ...) 	= [3gram] 0.198135 [ -0.703039 ]
+1 sentences, 17 words, 1 OOVs
+0 zeroprobs, logprob= -46.4646 ppl= 541.018 ppl1= 801.747
+
+ONE OF THEM ARE LIBRARY DIRECTORIES FOR EXAMPLE AHM HMM IS A LIBRARY WITH LIBRARIES FOR HIDDEN MARKOV MODEL AHM FUNCTIONS
+	p( ONE | <s> ) 	= [2gram] 0.00565898 [ -2.24726 ]
+	p( OF | ONE ...) 	= [3gram] 0.384556 [ -0.41504 ]
+	p( THEM | OF ...) 	= [3gram] 0.077535 [ -1.1105 ]
+	p( ARE | THEM ...) 	= [3gram] 0.100123 [ -0.999468 ]
+	p( LIBRARY | ARE ...) 	= [1gram] 1.08529e-05 [ -4.96445 ]
+	p( DIRECTORIES | LIBRARY ...) 	= [1gram] 1.25543e-06 [ -5.90121 ]
+	p( FOR | DIRECTORIES ...) 	= [1gram] 0.00468008 [ -2.32975 ]
+	p( EXAMPLE | FOR ...) 	= [2gram] 0.0238744 [ -1.62207 ]
+	p( <unk> | EXAMPLE ...) 	= [OOV] 0 [ -inf ]
+	p( HMM | <unk> ...) 	= [1gram] 2.62972e-05 [ -4.58009 ]
+	p( IS | HMM ...) 	= [1gram] 0.00421457 [ -2.37525 ]
+	p( A | IS ...) 	= [2gram] 0.0491711 [ -1.30829 ]
+	p( LIBRARY | A ...) 	= [3gram] 0.000271032 [ -3.56698 ]
+	p( WITH | LIBRARY ...) 	= [2gram] 0.00388368 [ -2.41076 ]
+	p( LIBRARIES | WITH ...) 	= [1gram] 7.68188e-06 [ -5.11453 ]
+	p( FOR | LIBRARIES ...) 	= [1gram] 0.00262025 [ -2.58166 ]
+	p( HIDDEN | FOR ...) 	= [1gram] 1.75105e-05 [ -4.7567 ]
+	p( <unk> | HIDDEN ...) 	= [OOV] 0 [ -inf ]
+	p( MODEL | <unk> ...) 	= [1gram] 0.000364933 [ -3.43779 ]
+	p( <unk> | MODEL ...) 	= [OOV] 0 [ -inf ]
+	p( FUNCTIONS | <unk> ...) 	= [1gram] 8.40804e-05 [ -4.0753 ]
+	p( </s> | FUNCTIONS ...) 	= [2gram] 0.219269 [ -0.659022 ]
+1 sentences, 21 words, 3 OOVs
+0 zeroprobs, logprob= -54.4561 ppl= 734.702 ppl1= 1060.08
+
+SRC WITH ACTUAL KALDI SOURCE CODE
+	p( <unk> | <s> ) 	= [OOV] 0 [ -inf ]
+	p( WITH | <unk> ...) 	= [1gram] 0.00507224 [ -2.2948 ]
+	p( ACTUAL | WITH ...) 	= [2gram] 3.44297e-05 [ -4.46307 ]
+	p( <unk> | ACTUAL ...) 	= [OOV] 0 [ -inf ]
+	p( SOURCE | <unk> ...) 	= [1gram] 0.000120363 [ -3.91951 ]
+	p( CODE | SOURCE ...) 	= [2gram] 0.02069 [ -1.68424 ]
+	p( </s> | CODE ...) 	= [2gram] 0.102752 [ -0.988212 ]
+1 sentences, 6 words, 2 OOVs
+0 zeroprobs, logprob= -13.3498 ppl= 467.698 ppl1= 2174.99
+
+AND THE RESULT OF COMPILATION IS THIS LIB KALDI HMM DOT SO FILE WHICH IS BINARY LIBRARY FILE IN LINUX
+	p( AND | <s> ) 	= [2gram] 0.175897 [ -0.75474 ]
+	p( THE | AND ...) 	= [3gram] 0.0746248 [ -1.12712 ]
+	p( RESULT | THE ...) 	= [3gram] 0.00407802 [ -2.38955 ]
+	p( OF | RESULT ...) 	= [3gram] 0.442863 [ -0.35373 ]
+	p( COMPILATION | OF ...) 	= [1gram] 3.70245e-07 [ -6.43151 ]
+	p( IS | COMPILATION ...) 	= [1gram] 0.00351669 [ -2.45387 ]
+	p( THIS | IS ...) 	= [2gram] 0.0114768 [ -1.94018 ]
+	p( LIB | THIS ...) 	= [1gram] 3.42209e-07 [ -6.46571 ]
+	p( <unk> | LIB ...) 	= [OOV] 0 [ -inf ]
+	p( HMM | <unk> ...) 	= [1gram] 2.62972e-05 [ -4.58009 ]
+	p( DOT | HMM ...) 	= [1gram] 1.84627e-05 [ -4.73371 ]
+	p( SO | DOT ...) 	= [1gram] 0.00194831 [ -2.71034 ]
+	p( FILE | SO ...) 	= [1gram] 1.03111e-05 [ -4.9867 ]
+	p( WHICH | FILE ...) 	= [2gram] 0.0214135 [ -1.66931 ]
+	p( IS | WHICH ...) 	= [2gram] 0.252145 [ -0.598349 ]
+	p( BINARY | IS ...) 	= [2gram] 1.37809e-05 [ -4.86072 ]
+	p( LIBRARY | BINARY ...) 	= [1gram] 3.11024e-05 [ -4.50721 ]
+	p( FILE | LIBRARY ...) 	= [1gram] 2.08239e-05 [ -4.68144 ]
+	p( IN | FILE ...) 	= [2gram] 0.0128114 [ -1.89241 ]
+	p( LINUX | IN ...) 	= [1gram] 3.84298e-06 [ -5.41533 ]
+	p( </s> | LINUX ...) 	= [2gram] 0.0277934 [ -1.55606 ]
+1 sentences, 20 words, 1 OOVs
+0 zeroprobs, logprob= -64.1081 ppl= 1604.73 ppl1= 2366.51
+
+SO STANDS FOR SHARED OBJECTS ITS IT JUST PACKS ALL THE FUNCTIONS AND OBJECTS FROM THESE C++ AND HEADERS FILES AS A BINARY FILE
+	p( SO | <s> ) 	= [2gram] 0.084552 [ -1.07288 ]
+	p( STANDS | SO ...) 	= [1gram] 1.5156e-06 [ -5.81942 ]
+	p( FOR | STANDS ...) 	= [2gram] 0.231897 [ -0.634705 ]
+	p( SHARED | FOR ...) 	= [2gram] 3.45543e-05 [ -4.4615 ]
+	p( OBJECTS | SHARED ...) 	= [1gram] 9.84054e-05 [ -4.00698 ]
+	p( ITS | OBJECTS ...) 	= [1gram] 0.000246307 [ -3.60852 ]
+	p( IT | ITS ...) 	= [1gram] 0.002894 [ -2.5385 ]
+	p( JUST | IT ...) 	= [2gram] 0.00713178 [ -2.1468 ]
+	p( PACKS | JUST ...) 	= [1gram] 3.26484e-06 [ -5.48614 ]
+	p( ALL | PACKS ...) 	= [1gram] 0.00210575 [ -2.67659 ]
+	p( THE | ALL ...) 	= [2gram] 0.130696 [ -0.883739 ]
+	p( FUNCTIONS | THE ...) 	= [2gram] 4.47366e-05 [ -4.34934 ]
+	p( AND | FUNCTIONS ...) 	= [3gram] 0.160184 [ -0.795381 ]
+	p( OBJECTS | AND ...) 	= [2gram] 7.36979e-05 [ -4.13254 ]
+	p( FROM | OBJECTS ...) 	= [2gram] 0.0158007 [ -1.80132 ]
+	p( THESE | FROM ...) 	= [2gram] 0.00506863 [ -2.29511 ]
+	p( <unk> | THESE ...) 	= [OOV] 0 [ -inf ]
+	p( AND | <unk> ...) 	= [1gram] 0.0196712 [ -1.70617 ]
+	p( <unk> | AND ...) 	= [OOV] 0 [ -inf ]
+	p( FILES | <unk> ...) 	= [1gram] 1.95782e-05 [ -4.70823 ]
+	p( AS | FILES ...) 	= [1gram] 0.0031012 [ -2.50847 ]
+	p( A | AS ...) 	= [2gram] 0.105182 [ -0.978057 ]
+	p( BINARY | A ...) 	= [2gram] 5.2574e-05 [ -4.27923 ]
+	p( FILE | BINARY ...) 	= [1gram] 2.2486e-05 [ -4.64809 ]
+	p( </s> | FILE ...) 	= [2gram] 0.0920072 [ -1.03618 ]
+1 sentences, 24 words, 2 OOVs
+0 zeroprobs, logprob= -66.5739 ppl= 784.362 ppl1= 1061.9
+
+AND TOOLS WITH ADDITIONAL TOOLS AND COMPONENTS NEEDED TO RUN THE RECIPIES
+	p( AND | <s> ) 	= [2gram] 0.175897 [ -0.75474 ]
+	p( TOOLS | AND ...) 	= [2gram] 5.20867e-06 [ -5.28327 ]
+	p( WITH | TOOLS ...) 	= [2gram] 0.00558101 [ -2.25329 ]
+	p( ADDITIONAL | WITH ...) 	= [1gram] 6.04365e-06 [ -5.2187 ]
+	p( TOOLS | ADDITIONAL ...) 	= [1gram] 0.000156459 [ -3.8056 ]
+	p( AND | TOOLS ...) 	= [2gram] 0.0995465 [ -1.00197 ]
+	p( COMPONENTS | AND ...) 	= [2gram] 1.48704e-05 [ -4.82768 ]
+	p( NEEDED | COMPONENTS ...) 	= [1gram] 5.01838e-05 [ -4.29944 ]
+	p( TO | NEEDED ...) 	= [2gram] 0.201157 [ -0.696464 ]
+	p( RUN | TO ...) 	= [2gram] 0.00100153 [ -2.99934 ]
+	p( THE | RUN ...) 	= [3gram] 0.11574 [ -0.936517 ]
+	p( <unk> | THE ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 12 words, 1 OOVs
+0 zeroprobs, logprob= -33.6523 ppl= 637.324 ppl1= 1146.31
+
+IN ORDER TO USE THESE BINARY LIBRARIES WE NEED PROGRAMS
+	p( IN | <s> ) 	= [2gram] 0.0172143 [ -1.76411 ]
+	p( ORDER | IN ...) 	= [3gram] 0.016361 [ -1.78619 ]
+	p( TO | ORDER ...) 	= [3gram] 0.906307 [ -0.0427248 ]
+	p( USE | TO ...) 	= [3gram] 0.00525101 [ -2.27976 ]
+	p( THESE | USE ...) 	= [3gram] 0.0352386 [ -1.45298 ]
+	p( BINARY | THESE ...) 	= [1gram] 8.96298e-06 [ -5.04755 ]
+	p( LIBRARIES | BINARY ...) 	= [1gram] 1.98128e-05 [ -4.70305 ]
+	p( WE | LIBRARIES ...) 	= [1gram] 0.00179853 [ -2.74508 ]
+	p( NEED | WE ...) 	= [2gram] 0.0182977 [ -1.7376 ]
+	p( PROGRAMS | NEED ...) 	= [1gram] 9.53261e-06 [ -5.02079 ]
+	p( </s> | PROGRAMS ...) 	= [2gram] 0.162499 [ -0.789148 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -27.369 ppl= 307.673 ppl1= 545.631
+
+THE PROGRAMS ARE ALSO CALLED BINARIES IN LINUX AND THEY ARE STORED IN BIN DIRECTORIES IN KALDI
+	p( THE | <s> ) 	= [2gram] 0.0413519 [ -1.3835 ]
+	p( PROGRAMS | THE ...) 	= [2gram] 2.58277e-05 [ -4.58791 ]
+	p( ARE | PROGRAMS ...) 	= [2gram] 0.0192983 [ -1.71448 ]
+	p( ALSO | ARE ...) 	= [2gram] 0.00569877 [ -2.24422 ]
+	p( CALLED | ALSO ...) 	= [2gram] 0.00198576 [ -2.70207 ]
+	p( <unk> | CALLED ...) 	= [OOV] 0 [ -inf ]
+	p( IN | <unk> ...) 	= [1gram] 0.0118261 [ -1.92716 ]
+	p( LINUX | IN ...) 	= [1gram] 3.84298e-06 [ -5.41533 ]
+	p( AND | LINUX ...) 	= [2gram] 0.162805 [ -0.788332 ]
+	p( THEY | AND ...) 	= [2gram] 0.0195011 [ -1.70994 ]
+	p( ARE | THEY ...) 	= [3gram] 0.0654107 [ -1.18435 ]
+	p( STORED | ARE ...) 	= [2gram] 0.000117766 [ -3.92898 ]
+	p( IN | STORED ...) 	= [3gram] 0.348039 [ -0.458372 ]
+	p( BIN | IN ...) 	= [1gram] 3.33286e-06 [ -5.47718 ]
+	p( DIRECTORIES | BIN ...) 	= [1gram] 8.44366e-07 [ -6.07347 ]
+	p( IN | DIRECTORIES ...) 	= [1gram] 0.0088469 [ -2.05321 ]
+	p( <unk> | IN ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 17 words, 2 OOVs
+0 zeroprobs, logprob= -43.2238 ppl= 502.91 ppl1= 761.358
+
+FOR EXAMPLE WE CAN WE WILL USE AH GMM BIN PROGRAMS WHICH ARE PROGRAMS OR BINARIES WORKING WITH GAUSSIAN MIXTURE MODEL
+	p( FOR | <s> ) 	= [2gram] 0.00464032 [ -2.33345 ]
+	p( EXAMPLE | FOR ...) 	= [3gram] 0.274377 [ -0.561652 ]
+	p( WE | EXAMPLE ...) 	= [3gram] 0.0388734 [ -1.41035 ]
+	p( CAN | WE ...) 	= [3gram] 0.123129 [ -0.909638 ]
+	p( WE | CAN ...) 	= [3gram] 0.00365896 [ -2.43664 ]
+	p( WILL | WE ...) 	= [2gram] 0.00376288 [ -2.42448 ]
+	p( USE | WILL ...) 	= [3gram] 0.00806509 [ -2.09339 ]
+	p( AH | USE ...) 	= [1gram] 2.07046e-05 [ -4.68393 ]
+	p( <unk> | AH ...) 	= [OOV] 0 [ -inf ]
+	p( BIN | <unk> ...) 	= [1gram] 3.83913e-05 [ -4.41577 ]
+	p( PROGRAMS | BIN ...) 	= [1gram] 4.90516e-05 [ -4.30935 ]
+	p( WHICH | PROGRAMS ...) 	= [2gram] 0.0195158 [ -1.70961 ]
+	p( ARE | WHICH ...) 	= [2gram] 0.036348 [ -1.43952 ]
+	p( PROGRAMS | ARE ...) 	= [2gram] 8.46705e-05 [ -4.07227 ]
+	p( OR | PROGRAMS ...) 	= [2gram] 0.00330258 [ -2.48115 ]
+	p( <unk> | OR ...) 	= [OOV] 0 [ -inf ]
+	p( WORKING | <unk> ...) 	= [1gram] 0.000444217 [ -3.35241 ]
+	p( WITH | WORKING ...) 	= [2gram] 0.119348 [ -0.923185 ]
+	p( GAUSSIAN | WITH ...) 	= [1gram] 2.69682e-07 [ -6.56915 ]
+	p( MIXTURE | GAUSSIAN ...) 	= [1gram] 1.26356e-05 [ -4.89841 ]
+	p( MODEL | MIXTURE ...) 	= [1gram] 0.000124092 [ -3.90626 ]
+	p( </s> | MODEL ...) 	= [2gram] 0.150072 [ -0.823699 ]
+1 sentences, 21 words, 2 OOVs
+0 zeroprobs, logprob= -55.7543 ppl= 613.359 ppl1= 859.878
+
+SO HERE YOU CAN SEE CC FILES WHICH ARE C++ CODE OR C++ SOURCE CODE FILES
+	p( SO | <s> ) 	= [2gram] 0.084552 [ -1.07288 ]
+	p( HERE | SO ...) 	= [3gram] 0.0142748 [ -1.84543 ]
+	p( YOU | HERE ...) 	= [3gram] 0.105392 [ -0.977193 ]
+	p( CAN | YOU ...) 	= [3gram] 0.331741 [ -0.4792 ]
+	p( SEE | CAN ...) 	= [3gram] 0.254884 [ -0.593657 ]
+	p( CC | SEE ...) 	= [1gram] 1.67225e-07 [ -6.7767 ]
+	p( FILES | CC ...) 	= [1gram] 1.46461e-05 [ -4.83428 ]
+	p( WHICH | FILES ...) 	= [2gram] 0.0143085 [ -1.84441 ]
+	p( ARE | WHICH ...) 	= [2gram] 0.036348 [ -1.43952 ]
+	p( <unk> | ARE ...) 	= [OOV] 0 [ -inf ]
+	p( CODE | <unk> ...) 	= [1gram] 0.00014052 [ -3.85226 ]
+	p( OR | CODE ...) 	= [2gram] 0.00641182 [ -2.19302 ]
+	p( <unk> | OR ...) 	= [OOV] 0 [ -inf ]
+	p( SOURCE | <unk> ...) 	= [1gram] 0.000120363 [ -3.91951 ]
+	p( CODE | SOURCE ...) 	= [2gram] 0.02069 [ -1.68424 ]
+	p( FILES | CODE ...) 	= [1gram] 5.72159e-06 [ -5.24248 ]
+	p( </s> | FILES ...) 	= [2gram] 0.0587209 [ -1.23121 ]
+1 sentences, 16 words, 2 OOVs
+0 zeroprobs, logprob= -37.986 ppl= 340.721 ppl1= 516.754
+
+SOME THERE SHOULD BE SOME H FILES BUT I DON'T SEE THEM
+	p( SOME | <s> ) 	= [2gram] 0.00241015 [ -2.61796 ]
+	p( THERE | SOME ...) 	= [1gram] 0.000272201 [ -3.56511 ]
+	p( SHOULD | THERE ...) 	= [2gram] 0.00361962 [ -2.44134 ]
+	p( BE | SHOULD ...) 	= [3gram] 0.849838 [ -0.070664 ]
+	p( SOME | BE ...) 	= [2gram] 0.00161413 [ -2.79206 ]
+	p( H | SOME ...) 	= [1gram] 6.90198e-06 [ -5.16103 ]
+	p( FILES | H ...) 	= [1gram] 1.37585e-05 [ -4.86143 ]
+	p( BUT | FILES ...) 	= [1gram] 0.00355399 [ -2.44928 ]
+	p( I | BUT ...) 	= [2gram] 0.0569698 [ -1.24435 ]
+	p( DON'T | I ...) 	= [3gram] 0.0604493 [ -1.21861 ]
+	p( SEE | DON'T ...) 	= [3gram] 0.0126234 [ -1.89882 ]
+	p( THEM | SEE ...) 	= [3gram] 0.0454109 [ -1.34284 ]
+	p( </s> | THEM ...) 	= [3gram] 0.294976 [ -0.530213 ]
+1 sentences, 12 words, 0 OOVs
+0 zeroprobs, logprob= -30.1937 ppl= 210.181 ppl1= 328.203
+
+OH OKAY I THINK H FILES ARE ONLY USED IN THE LIBRARIES FOR EXAMPLE IN GMM DIRECTORY
+	p( OH | <s> ) 	= [2gram] 0.00107542 [ -2.96842 ]
+	p( OKAY | OH ...) 	= [2gram] 0.000286559 [ -3.54279 ]
+	p( I | OKAY ...) 	= [2gram] 0.0156231 [ -1.80623 ]
+	p( THINK | I ...) 	= [3gram] 0.0573043 [ -1.24181 ]
+	p( H | THINK ...) 	= [1gram] 1.29486e-06 [ -5.88778 ]
+	p( FILES | H ...) 	= [1gram] 1.37585e-05 [ -4.86143 ]
+	p( ARE | FILES ...) 	= [2gram] 0.0138983 [ -1.85704 ]
+	p( ONLY | ARE ...) 	= [2gram] 0.00239357 [ -2.62095 ]
+	p( USED | ONLY ...) 	= [2gram] 0.000978156 [ -3.00959 ]
+	p( IN | USED ...) 	= [2gram] 0.0449564 [ -1.34721 ]
+	p( THE | IN ...) 	= [3gram] 0.303545 [ -0.517778 ]
+	p( LIBRARIES | THE ...) 	= [2gram] 4.05322e-06 [ -5.3922 ]
+	p( FOR | LIBRARIES ...) 	= [1gram] 0.00262025 [ -2.58166 ]
+	p( EXAMPLE | FOR ...) 	= [2gram] 0.0238744 [ -1.62207 ]
+	p( IN | EXAMPLE ...) 	= [3gram] 0.0718039 [ -1.14385 ]
+	p( <unk> | IN ...) 	= [OOV] 0 [ -inf ]
+	p( DIRECTORY | <unk> ...) 	= [1gram] 3.45273e-06 [ -5.46184 ]
+	p( </s> | DIRECTORY ...) 	= [2gram] 0.0702737 [ -1.15321 ]
+1 sentences, 17 words, 1 OOVs
+0 zeroprobs, logprob= -47.0158 ppl= 582.959 ppl1= 867.942
+
+LIKE THIS ONE
+	p( LIKE | <s> ) 	= [2gram] 0.00117046 [ -2.93164 ]
+	p( THIS | LIKE ...) 	= [3gram] 0.0924913 [ -1.0339 ]
+	p( ONE | THIS ...) 	= [3gram] 0.0487708 [ -1.31184 ]
+	p( </s> | ONE ...) 	= [3gram] 0.148402 [ -0.828561 ]
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -6.10594 ppl= 33.6113 ppl1= 108.471
+
+AND THERE IS USUALLY A MAKEFILE WHICH DESCRIBES THE OBJECTS WHICH CAN BE PRODUCED BASED ON THE FILES IN THIS DIRECTORY AND HOW THEY SHOULD BE PRODUCED
+	p( AND | <s> ) 	= [2gram] 0.175897 [ -0.75474 ]
+	p( THERE | AND ...) 	= [3gram] 0.0109847 [ -1.95921 ]
+	p( IS | THERE ...) 	= [3gram] 0.170824 [ -0.767452 ]
+	p( USUALLY | IS ...) 	= [3gram] 0.000953494 [ -3.02068 ]
+	p( A | USUALLY ...) 	= [3gram] 0.169201 [ -0.771598 ]
+	p( <unk> | A ...) 	= [OOV] 0 [ -inf ]
+	p( WHICH | <unk> ...) 	= [1gram] 0.00424043 [ -2.37259 ]
+	p( DESCRIBES | WHICH ...) 	= [2gram] 0.000283879 [ -3.54687 ]
+	p( THE | DESCRIBES ...) 	= [2gram] 0.145659 [ -0.836662 ]
+	p( OBJECTS | THE ...) 	= [2gram] 0.000222475 [ -3.65272 ]
+	p( WHICH | OBJECTS ...) 	= [2gram] 0.0072614 [ -2.13898 ]
+	p( CAN | WHICH ...) 	= [2gram] 0.00737692 [ -2.13212 ]
+	p( BE | CAN ...) 	= [3gram] 0.267946 [ -0.571953 ]
+	p( PRODUCED | BE ...) 	= [3gram] 0.00101599 [ -2.99311 ]
+	p( BASED | PRODUCED ...) 	= [1gram] 0.000128777 [ -3.89016 ]
+	p( ON | BASED ...) 	= [2gram] 0.466778 [ -0.33089 ]
+	p( THE | ON ...) 	= [3gram] 0.301728 [ -0.520384 ]
+	p( FILES | THE ...) 	= [2gram] 1.16756e-05 [ -4.93272 ]
+	p( IN | FILES ...) 	= [2gram] 0.0194205 [ -1.71174 ]
+	p( THIS | IN ...) 	= [2gram] 0.0166374 [ -1.77892 ]
+	p( DIRECTORY | THIS ...) 	= [1gram] 2.77634e-07 [ -6.55653 ]
+	p( AND | DIRECTORY ...) 	= [2gram] 0.0650996 [ -1.18642 ]
+	p( HOW | AND ...) 	= [2gram] 0.00568311 [ -2.24541 ]
+	p( THEY | HOW ...) 	= [3gram] 0.0944861 [ -1.02463 ]
+	p( SHOULD | THEY ...) 	= [2gram] 0.00250369 [ -2.60142 ]
+	p( BE | SHOULD ...) 	= [3gram] 0.377928 [ -0.422591 ]
+	p( PRODUCED | BE ...) 	= [2gram] 0.000328517 [ -3.48344 ]
+	p( </s> | PRODUCED ...) 	= [3gram] 0.196012 [ -0.707717 ]
+1 sentences, 27 words, 1 OOVs
+0 zeroprobs, logprob= -56.9117 ppl= 128.186 ppl1= 154.494
+
+THE DOT A FILES ARE SOMETHING TEMPORARY YOU DON'T NEED TO KNOW ABOUT THEM
+	p( THE | <s> ) 	= [2gram] 0.0413519 [ -1.3835 ]
+	p( DOT | THE ...) 	= [3gram] 0.000136855 [ -3.86374 ]
+	p( A | DOT ...) 	= [1gram] 0.00297562 [ -2.52642 ]
+	p( FILES | A ...) 	= [1gram] 4.03908e-06 [ -5.39372 ]
+	p( ARE | FILES ...) 	= [2gram] 0.0138983 [ -1.85704 ]
+	p( SOMETHING | ARE ...) 	= [2gram] 0.000913234 [ -3.03942 ]
+	p( TEMPORARY | SOMETHING ...) 	= [1gram] 3.34641e-06 [ -5.47542 ]
+	p( YOU | TEMPORARY ...) 	= [1gram] 0.00321632 [ -2.49264 ]
+	p( DON'T | YOU ...) 	= [2gram] 0.0168883 [ -1.77241 ]
+	p( NEED | DON'T ...) 	= [3gram] 0.0949384 [ -1.02256 ]
+	p( TO | NEED ...) 	= [3gram] 0.416381 [ -0.380509 ]
+	p( KNOW | TO ...) 	= [3gram] 0.0405895 [ -1.39159 ]
+	p( ABOUT | KNOW ...) 	= [3gram] 0.0747367 [ -1.12647 ]
+	p( THEM | ABOUT ...) 	= [3gram] 0.0196617 [ -1.70638 ]
+	p( </s> | THEM ...) 	= [3gram] 0.411501 [ -0.385629 ]
+1 sentences, 14 words, 0 OOVs
+0 zeroprobs, logprob= -33.8174 ppl= 179.679 ppl1= 260.335
+
+DOT O IS ALSO SOMETHING TEMPORARY IT'S OUTPUT OBJECT FROM THE COMPILER
+	p( DOT | <s> ) 	= [1gram] 1.0572e-06 [ -5.97584 ]
+	p( O | DOT ...) 	= [1gram] 1.57181e-05 [ -4.8036 ]
+	p( IS | O ...) 	= [1gram] 0.00535983 [ -2.27085 ]
+	p( ALSO | IS ...) 	= [2gram] 0.00502994 [ -2.29844 ]
+	p( SOMETHING | ALSO ...) 	= [2gram] 0.00103342 [ -2.98572 ]
+	p( TEMPORARY | SOMETHING ...) 	= [1gram] 4.67538e-06 [ -5.33018 ]
+	p( IT'S | TEMPORARY ...) 	= [1gram] 0.00185355 [ -2.732 ]
+	p( OUTPUT | IT'S ...) 	= [1gram] 1.06575e-05 [ -4.97234 ]
+	p( OBJECT | OUTPUT ...) 	= [1gram] 7.6627e-05 [ -4.11562 ]
+	p( FROM | OBJECT ...) 	= [2gram] 0.00539589 [ -2.26794 ]
+	p( THE | FROM ...) 	= [2gram] 0.146977 [ -0.832752 ]
+	p( COMPILER | THE ...) 	= [1gram] 3.79875e-07 [ -6.42036 ]
+	p( </s> | COMPILER ...) 	= [2gram] 0.130791 [ -0.883422 ]
+1 sentences, 12 words, 0 OOVs
+0 zeroprobs, logprob= -45.8891 ppl= 3387.88 ppl1= 6669.43
+
+MOSTLY WHAT WE WILL BE WORKING WITH IS BINARY FILES
+	p( MOSTLY | <s> ) 	= [2gram] 6.28937e-05 [ -4.20139 ]
+	p( WHAT | MOSTLY ...) 	= [2gram] 0.0116476 [ -1.93377 ]
+	p( WE | WHAT ...) 	= [2gram] 0.0526419 [ -1.27867 ]
+	p( WILL | WE ...) 	= [3gram] 0.00331081 [ -2.48007 ]
+	p( BE | WILL ...) 	= [3gram] 0.165596 [ -0.78095 ]
+	p( WORKING | BE ...) 	= [2gram] 0.000646982 [ -3.18911 ]
+	p( WITH | WORKING ...) 	= [3gram] 0.159023 [ -0.79854 ]
+	p( IS | WITH ...) 	= [2gram] 0.00232724 [ -2.63316 ]
+	p( BINARY | IS ...) 	= [2gram] 2.27753e-05 [ -4.64254 ]
+	p( FILES | BINARY ...) 	= [1gram] 1.17488e-05 [ -4.93001 ]
+	p( </s> | FILES ...) 	= [2gram] 0.0587209 [ -1.23121 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -28.0994 ppl= 358.501 ppl1= 645.565
+
+SOMETHING LIKE GMM DECODE SIMPLE
+	p( SOMETHING | <s> ) 	= [2gram] 0.000441657 [ -3.35491 ]
+	p( LIKE | SOMETHING ...) 	= [3gram] 0.139473 [ -0.85551 ]
+	p( <unk> | LIKE ...) 	= [OOV] 0 [ -inf ]
+	p( DECODE | <unk> ...) 	= [1gram] 7.4841e-06 [ -5.12586 ]
+	p( SIMPLE | DECODE ...) 	= [1gram] 0.000137416 [ -3.86196 ]
+	p( </s> | SIMPLE ...) 	= [2gram] 0.053854 [ -1.26878 ]
+1 sentences, 5 words, 1 OOVs
+0 zeroprobs, logprob= -14.467 ppl= 782.359 ppl1= 4137.68
+
+WE KNOW THAT IT WORKS WITH GAUSSIAN MIXTURE MODEL BECAUSE IT STARTS WITH GMM WE KNOW IT IS SUPPOSED TO DO
+	p( WE | <s> ) 	= [2gram] 0.0347908 [ -1.45854 ]
+	p( KNOW | WE ...) 	= [3gram] 0.0279076 [ -1.55428 ]
+	p( THAT | KNOW ...) 	= [3gram] 0.25757 [ -0.589105 ]
+	p( IT | THAT ...) 	= [3gram] 0.0260251 [ -1.58461 ]
+	p( WORKS | IT ...) 	= [3gram] 0.00522126 [ -2.28222 ]
+	p( WITH | WORKS ...) 	= [3gram] 0.0212618 [ -1.6724 ]
+	p( GAUSSIAN | WITH ...) 	= [1gram] 3.48767e-07 [ -6.45746 ]
+	p( MIXTURE | GAUSSIAN ...) 	= [1gram] 1.26356e-05 [ -4.89841 ]
+	p( MODEL | MIXTURE ...) 	= [1gram] 0.000124092 [ -3.90626 ]
+	p( BECAUSE | MODEL ...) 	= [2gram] 0.00786393 [ -2.10436 ]
+	p( IT | BECAUSE ...) 	= [2gram] 0.0511623 [ -1.29105 ]
+	p( STARTS | IT ...) 	= [2gram] 0.000679229 [ -3.16798 ]
+	p( WITH | STARTS ...) 	= [3gram] 0.25746 [ -0.589291 ]
+	p( <unk> | WITH ...) 	= [OOV] 0 [ -inf ]
+	p( WE | <unk> ...) 	= [1gram] 0.00429419 [ -2.36712 ]
+	p( KNOW | WE ...) 	= [2gram] 0.0124115 [ -1.90618 ]
+	p( IT | KNOW ...) 	= [3gram] 0.0661369 [ -1.17956 ]
+	p( IS | IT ...) 	= [3gram] 0.0349777 [ -1.45621 ]
+	p( SUPPOSED | IS ...) 	= [2gram] 0.000330019 [ -3.48146 ]
+	p( TO | SUPPOSED ...) 	= [3gram] 0.977567 [ -0.00985362 ]
+	p( DO | TO ...) 	= [3gram] 0.0984322 [ -1.00686 ]
+	p( </s> | DO ...) 	= [3gram] 0.0931882 [ -1.03064 ]
+1 sentences, 21 words, 1 OOVs
+0 zeroprobs, logprob= -43.9938 ppl= 124.436 ppl1= 158.377
+
+IT IS SUPPOSED TO DO THE DECODING PROCESS
+	p( IT | <s> ) 	= [2gram] 0.0252762 [ -1.59729 ]
+	p( IS | IT ...) 	= [3gram] 0.105379 [ -0.977246 ]
+	p( SUPPOSED | IS ...) 	= [2gram] 0.000330019 [ -3.48146 ]
+	p( TO | SUPPOSED ...) 	= [3gram] 0.977567 [ -0.00985362 ]
+	p( DO | TO ...) 	= [3gram] 0.0984322 [ -1.00686 ]
+	p( THE | DO ...) 	= [3gram] 0.0388163 [ -1.41099 ]
+	p( DECODING | THE ...) 	= [1gram] 4.79883e-07 [ -6.31886 ]
+	p( PROCESS | DECODING ...) 	= [1gram] 0.00021907 [ -3.65942 ]
+	p( </s> | PROCESS ...) 	= [2gram] 0.15388 [ -0.812819 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -19.2748 ppl= 138.562 ppl1= 256.655
+
+AND THE REST IS JUST A ADDITIONAL INFORMATION ABOUT HOW EXACTLY OR IT IS DOING IT OR WHAT IS OTHER EHM RELEVANT INFORMATION YOU CAN NEED YOU MIGHT NEED WHEN RUNNING THIS BINARY OR SEARCHING FOR BINARY
+	p( AND | <s> ) 	= [2gram] 0.175897 [ -0.75474 ]
+	p( THE | AND ...) 	= [3gram] 0.0746248 [ -1.12712 ]
+	p( REST | THE ...) 	= [3gram] 0.00598095 [ -2.22323 ]
+	p( IS | REST ...) 	= [3gram] 0.0270098 [ -1.56848 ]
+	p( JUST | IS ...) 	= [2gram] 0.00833034 [ -2.07934 ]
+	p( A | JUST ...) 	= [3gram] 0.202837 [ -0.692853 ]
+	p( ADDITIONAL | A ...) 	= [1gram] 3.43656e-06 [ -5.46388 ]
+	p( INFORMATION | ADDITIONAL ...) 	= [2gram] 0.0358893 [ -1.44503 ]
+	p( ABOUT | INFORMATION ...) 	= [3gram] 0.233555 [ -0.63161 ]
+	p( HOW | ABOUT ...) 	= [3gram] 0.0480532 [ -1.31828 ]
+	p( EXACTLY | HOW ...) 	= [2gram] 0.000266032 [ -3.57507 ]
+	p( OR | EXACTLY ...) 	= [1gram] 0.00115353 [ -2.93797 ]
+	p( IT | OR ...) 	= [2gram] 0.00687537 [ -2.1627 ]
+	p( IS | IT ...) 	= [2gram] 0.0143872 [ -1.84202 ]
+	p( DOING | IS ...) 	= [3gram] 0.0011646 [ -2.93383 ]
+	p( IT | DOING ...) 	= [3gram] 0.0529007 [ -1.27654 ]
+	p( OR | IT ...) 	= [2gram] 0.00136526 [ -2.86478 ]
+	p( WHAT | OR ...) 	= [2gram] 0.00417146 [ -2.37971 ]
+	p( IS | WHAT ...) 	= [3gram] 0.0267627 [ -1.57247 ]
+	p( OTHER | IS ...) 	= [2gram] 8.59363e-05 [ -4.06582 ]
+	p( <unk> | OTHER ...) 	= [OOV] 0 [ -inf ]
+	p( RELEVANT | <unk> ...) 	= [1gram] 6.92985e-05 [ -4.15928 ]
+	p( INFORMATION | RELEVANT ...) 	= [2gram] 0.0294023 [ -1.53162 ]
+	p( YOU | INFORMATION ...) 	= [2gram] 0.00673322 [ -2.17178 ]
+	p( CAN | YOU ...) 	= [3gram] 0.104772 [ -0.979754 ]
+	p( NEED | CAN ...) 	= [1gram] 1.33315e-05 [ -4.87512 ]
+	p( YOU | NEED ...) 	= [2gram] 0.0127143 [ -1.89571 ]
+	p( MIGHT | YOU ...) 	= [2gram] 0.00435913 [ -2.3606 ]
+	p( NEED | MIGHT ...) 	= [3gram] 0.00666983 [ -2.17588 ]
+	p( WHEN | NEED ...) 	= [2gram] 0.00108441 [ -2.9648 ]
+	p( RUNNING | WHEN ...) 	= [1gram] 3.24995e-05 [ -4.48812 ]
+	p( THIS | RUNNING ...) 	= [2gram] 0.0192284 [ -1.71606 ]
+	p( BINARY | THIS ...) 	= [2gram] 2.22349e-05 [ -4.65297 ]
+	p( OR | BINARY ...) 	= [1gram] 0.0034317 [ -2.46449 ]
+	p( SEARCHING | OR ...) 	= [1gram] 1.95303e-05 [ -4.70929 ]
+	p( FOR | SEARCHING ...) 	= [2gram] 0.519987 [ -0.284007 ]
+	p( BINARY | FOR ...) 	= [1gram] 4.71779e-06 [ -5.32626 ]
+	p( </s> | BINARY ...) 	= [2gram] 0.10596 [ -0.974859 ]
+1 sentences, 37 words, 1 OOVs
+0 zeroprobs, logprob= -90.6461 ppl= 281.769 ppl1= 329.569
+
+THERE ARE FEW MORE OF THEM BUT MOST LIKELY YOU WILL NOT NEED THEM IN THIS COURSE
+	p( THERE | <s> ) 	= [2gram] 0.00926934 [ -2.03295 ]
+	p( ARE | THERE ...) 	= [3gram] 0.383095 [ -0.416693 ]
+	p( FEW | ARE ...) 	= [3gram] 0.00114816 [ -2.94 ]
+	p( MORE | FEW ...) 	= [2gram] 0.00109311 [ -2.96133 ]
+	p( OF | MORE ...) 	= [2gram] 0.0165845 [ -1.7803 ]
+	p( THEM | OF ...) 	= [3gram] 0.0437532 [ -1.35899 ]
+	p( BUT | THEM ...) 	= [3gram] 0.0133281 [ -1.87523 ]
+	p( MOST | BUT ...) 	= [2gram] 0.002108 [ -2.67613 ]
+	p( LIKELY | MOST ...) 	= [2gram] 0.00246859 [ -2.60755 ]
+	p( YOU | LIKELY ...) 	= [2gram] 0.0175457 [ -1.75583 ]
+	p( WILL | YOU ...) 	= [2gram] 0.00594437 [ -2.22589 ]
+	p( NOT | WILL ...) 	= [3gram] 0.0258961 [ -1.58677 ]
+	p( NEED | NOT ...) 	= [2gram] 0.000415546 [ -3.38138 ]
+	p( THEM | NEED ...) 	= [2gram] 0.00458797 [ -2.33838 ]
+	p( IN | THEM ...) 	= [2gram] 0.0242272 [ -1.6157 ]
+	p( THIS | IN ...) 	= [3gram] 0.0251867 [ -1.59883 ]
+	p( COURSE | THIS ...) 	= [3gram] 0.000468355 [ -3.32943 ]
+	p( </s> | COURSE ...) 	= [2gram] 0.0535195 [ -1.27149 ]
+1 sentences, 17 words, 0 OOVs
+0 zeroprobs, logprob= -37.7529 ppl= 125.136 ppl1= 166.248
+
+WHY IS IT ACTUALLY WHY IT IS ACTUALLY IMPORTANT TO KNOW WHERE IS WHAT IS BECAUSE WHEN YOU DEVELOP A NEW SCRIPT FOR KALDI MOST LIKELY YOU NEED TO USE EXISTING BINARIES TO INTERACT WITH KALDI FILES
+	p( WHY | <s> ) 	= [2gram] 0.00343426 [ -2.46417 ]
+	p( IS | WHY ...) 	= [3gram] 0.132815 [ -0.876754 ]
+	p( IT | IS ...) 	= [3gram] 0.334441 [ -0.475681 ]
+	p( ACTUALLY | IT ...) 	= [3gram] 0.00339153 [ -2.4696 ]
+	p( WHY | ACTUALLY ...) 	= [2gram] 0.000173376 [ -3.76101 ]
+	p( IT | WHY ...) 	= [2gram] 0.0213493 [ -1.67062 ]
+	p( IS | IT ...) 	= [3gram] 0.266383 [ -0.574493 ]
+	p( ACTUALLY | IS ...) 	= [3gram] 0.00933164 [ -2.03004 ]
+	p( IMPORTANT | ACTUALLY ...) 	= [3gram] 0.00167247 [ -2.77664 ]
+	p( TO | IMPORTANT ...) 	= [2gram] 0.0462186 [ -1.33518 ]
+	p( KNOW | TO ...) 	= [3gram] 0.00850836 [ -2.07015 ]
+	p( WHERE | KNOW ...) 	= [3gram] 0.0392284 [ -1.4064 ]
+	p( IS | WHERE ...) 	= [2gram] 0.00384961 [ -2.41458 ]
+	p( WHAT | IS ...) 	= [2gram] 0.00342301 [ -2.46559 ]
+	p( IS | WHAT ...) 	= [3gram] 0.0416669 [ -1.38021 ]
+	p( BECAUSE | IS ...) 	= [2gram] 0.00164055 [ -2.78501 ]
+	p( WHEN | BECAUSE ...) 	= [3gram] 0.028313 [ -1.54801 ]
+	p( YOU | WHEN ...) 	= [3gram] 0.280928 [ -0.551406 ]
+	p( DEVELOP | YOU ...) 	= [2gram] 7.99307e-05 [ -4.09729 ]
+	p( A | DEVELOP ...) 	= [3gram] 0.274959 [ -0.560732 ]
+	p( NEW | A ...) 	= [3gram] 0.125482 [ -0.901418 ]
+	p( SCRIPT | NEW ...) 	= [1gram] 7.19383e-06 [ -5.14304 ]
+	p( FOR | SCRIPT ...) 	= [2gram] 0.0191285 [ -1.71832 ]
+	p( <unk> | FOR ...) 	= [OOV] 0 [ -inf ]
+	p( MOST | <unk> ...) 	= [1gram] 0.00065788 [ -3.18185 ]
+	p( LIKELY | MOST ...) 	= [2gram] 0.00905178 [ -2.04327 ]
+	p( YOU | LIKELY ...) 	= [2gram] 0.0175457 [ -1.75583 ]
+	p( NEED | YOU ...) 	= [2gram] 0.00531416 [ -2.27456 ]
+	p( TO | NEED ...) 	= [3gram] 0.536998 [ -0.270027 ]
+	p( USE | TO ...) 	= [3gram] 0.0114377 [ -1.94166 ]
+	p( EXISTING | USE ...) 	= [2gram] 0.000219868 [ -3.65784 ]
+	p( <unk> | EXISTING ...) 	= [OOV] 0 [ -inf ]
+	p( TO | <unk> ...) 	= [1gram] 0.00959814 [ -2.01781 ]
+	p( INTERACT | TO ...) 	= [2gram] 0.000868377 [ -3.06129 ]
+	p( WITH | INTERACT ...) 	= [3gram] 0.838209 [ -0.0766475 ]
+	p( <unk> | WITH ...) 	= [OOV] 0 [ -inf ]
+	p( FILES | <unk> ...) 	= [1gram] 1.95782e-05 [ -4.70823 ]
+	p( </s> | FILES ...) 	= [2gram] 0.0587209 [ -1.23121 ]
+1 sentences, 37 words, 3 OOVs
+0 zeroprobs, logprob= -71.6966 ppl= 111.808 ppl1= 128.447
+
+AND IN ORDER TO CHECK IF WHAT ARE POSSIBILITIES YOU WOULD NEED TO GO TO THIS BIN DIRECTORIES AND SEE IF THERE IS ANYTHING WHAT YOU CAN USE
+	p( AND | <s> ) 	= [2gram] 0.175897 [ -0.75474 ]
+	p( IN | AND ...) 	= [3gram] 0.0228057 [ -1.64196 ]
+	p( ORDER | IN ...) 	= [3gram] 0.0197133 [ -1.70524 ]
+	p( TO | ORDER ...) 	= [3gram] 0.906307 [ -0.0427248 ]
+	p( CHECK | TO ...) 	= [2gram] 0.000341936 [ -3.46605 ]
+	p( IF | CHECK ...) 	= [3gram] 0.0437722 [ -1.3588 ]
+	p( WHAT | IF ...) 	= [2gram] 0.00195072 [ -2.70981 ]
+	p( ARE | WHAT ...) 	= [2gram] 0.012994 [ -1.88626 ]
+	p( POSSIBILITIES | ARE ...) 	= [2gram] 1.33769e-05 [ -4.87364 ]
+	p( YOU | POSSIBILITIES ...) 	= [2gram] 0.00447508 [ -2.3492 ]
+	p( WOULD | YOU ...) 	= [2gram] 0.0107689 [ -1.96783 ]
+	p( NEED | WOULD ...) 	= [3gram] 0.0133332 [ -1.87507 ]
+	p( TO | NEED ...) 	= [3gram] 0.443125 [ -0.353474 ]
+	p( GO | TO ...) 	= [3gram] 0.024137 [ -1.61732 ]
+	p( TO | GO ...) 	= [3gram] 0.189994 [ -0.721261 ]
+	p( THIS | TO ...) 	= [3gram] 0.0155998 [ -1.80688 ]
+	p( BIN | THIS ...) 	= [1gram] 4.96519e-06 [ -5.30406 ]
+	p( DIRECTORIES | BIN ...) 	= [1gram] 8.44366e-07 [ -6.07347 ]
+	p( AND | DIRECTORIES ...) 	= [2gram] 0.140675 [ -0.851782 ]
+	p( SEE | AND ...) 	= [2gram] 0.00282942 [ -2.5483 ]
+	p( IF | SEE ...) 	= [3gram] 0.135266 [ -0.86881 ]
+	p( THERE | IF ...) 	= [3gram] 0.0234789 [ -1.62932 ]
+	p( IS | THERE ...) 	= [3gram] 0.376542 [ -0.424187 ]
+	p( ANYTHING | IS ...) 	= [3gram] 0.000892384 [ -3.04945 ]
+	p( WHAT | ANYTHING ...) 	= [2gram] 0.00108096 [ -2.96619 ]
+	p( YOU | WHAT ...) 	= [2gram] 0.0381569 [ -1.41843 ]
+	p( CAN | YOU ...) 	= [3gram] 0.0980054 [ -1.00875 ]
+	p( USE | CAN ...) 	= [3gram] 0.0155236 [ -1.80901 ]
+	p( </s> | USE ...) 	= [3gram] 0.032311 [ -1.49065 ]
+1 sentences, 28 words, 0 OOVs
+0 zeroprobs, logprob= -58.5727 ppl= 104.652 ppl1= 123.561
+
+AND IF YOU THINK THAT SOME PROGRAM PROBABLY DOES WHAT YOU NEED YOU CAN RUN THIS PROGRAM WITHOUT ANY EHM ARGUMENTS AND SEE THE HELP
+	p( AND | <s> ) 	= [2gram] 0.175897 [ -0.75474 ]
+	p( IF | AND ...) 	= [3gram] 0.0246355 [ -1.60844 ]
+	p( YOU | IF ...) 	= [3gram] 0.411134 [ -0.386017 ]
+	p( THINK | YOU ...) 	= [3gram] 0.0462119 [ -1.33525 ]
+	p( THAT | THINK ...) 	= [3gram] 0.0792334 [ -1.10109 ]
+	p( SOME | THAT ...) 	= [2gram] 0.000824507 [ -3.08381 ]
+	p( PROGRAM | SOME ...) 	= [1gram] 3.76719e-05 [ -4.42398 ]
+	p( PROBABLY | PROGRAM ...) 	= [1gram] 0.000116343 [ -3.93426 ]
+	p( DOES | PROBABLY ...) 	= [2gram] 0.00213462 [ -2.67068 ]
+	p( WHAT | DOES ...) 	= [2gram] 0.00714707 [ -2.14587 ]
+	p( YOU | WHAT ...) 	= [2gram] 0.0381569 [ -1.41843 ]
+	p( NEED | YOU ...) 	= [3gram] 0.0270039 [ -1.56857 ]
+	p( YOU | NEED ...) 	= [2gram] 0.00291723 [ -2.53503 ]
+	p( CAN | YOU ...) 	= [2gram] 0.0277188 [ -1.55723 ]
+	p( RUN | CAN ...) 	= [3gram] 0.00288735 [ -2.5395 ]
+	p( THIS | RUN ...) 	= [3gram] 0.055911 [ -1.2525 ]
+	p( PROGRAM | THIS ...) 	= [2gram] 0.00148955 [ -2.82694 ]
+	p( WITHOUT | PROGRAM ...) 	= [1gram] 0.000206859 [ -3.68433 ]
+	p( ANY | WITHOUT ...) 	= [2gram] 0.0624361 [ -1.20456 ]
+	p( <unk> | ANY ...) 	= [OOV] 0 [ -inf ]
+	p( ARGUMENTS | <unk> ...) 	= [1gram] 6.92985e-05 [ -4.15928 ]
+	p( AND | ARGUMENTS ...) 	= [2gram] 0.0425439 [ -1.37116 ]
+	p( SEE | AND ...) 	= [2gram] 0.00282942 [ -2.5483 ]
+	p( THE | SEE ...) 	= [3gram] 0.0960015 [ -1.01772 ]
+	p( HELP | THE ...) 	= [2gram] 0.000126973 [ -3.89629 ]
+	p( </s> | HELP ...) 	= [2gram] 0.0126969 [ -1.8963 ]
+1 sentences, 25 words, 1 OOVs
+0 zeroprobs, logprob= -54.9203 ppl= 157.33 ppl1= 194.243
+
+IT WILL TELL YOU WHAT IT ACTUALLY DOES DECODE FEATURES USING GMM BASED MODEL EHM AND IT WILL TELL YOU HOW TO RUN IT
+	p( IT | <s> ) 	= [2gram] 0.0252762 [ -1.59729 ]
+	p( WILL | IT ...) 	= [3gram] 0.0232097 [ -1.63433 ]
+	p( TELL | WILL ...) 	= [2gram] 0.00372689 [ -2.42865 ]
+	p( YOU | TELL ...) 	= [3gram] 0.735195 [ -0.133597 ]
+	p( WHAT | YOU ...) 	= [3gram] 0.0689827 [ -1.16126 ]
+	p( IT | WHAT ...) 	= [3gram] 0.106795 [ -0.971449 ]
+	p( ACTUALLY | IT ...) 	= [3gram] 0.00712869 [ -2.14699 ]
+	p( DOES | ACTUALLY ...) 	= [3gram] 0.0233789 [ -1.63118 ]
+	p( DECODE | DOES ...) 	= [1gram] 1.91779e-06 [ -5.7172 ]
+	p( FEATURES | DECODE ...) 	= [1gram] 4.98896e-05 [ -4.30199 ]
+	p( USING | FEATURES ...) 	= [1gram] 0.000215073 [ -3.66741 ]
+	p( <unk> | USING ...) 	= [OOV] 0 [ -inf ]
+	p( BASED | <unk> ...) 	= [1gram] 0.000437498 [ -3.35902 ]
+	p( MODEL | BASED ...) 	= [2gram] 0.000700532 [ -3.15457 ]
+	p( <unk> | MODEL ...) 	= [OOV] 0 [ -inf ]
+	p( AND | <unk> ...) 	= [1gram] 0.0196712 [ -1.70617 ]
+	p( IT | AND ...) 	= [2gram] 0.0186286 [ -1.72982 ]
+	p( WILL | IT ...) 	= [3gram] 0.0305056 [ -1.51562 ]
+	p( TELL | WILL ...) 	= [2gram] 0.00372689 [ -2.42865 ]
+	p( YOU | TELL ...) 	= [3gram] 0.735195 [ -0.133597 ]
+	p( HOW | YOU ...) 	= [3gram] 0.0483687 [ -1.31544 ]
+	p( TO | HOW ...) 	= [3gram] 0.194745 [ -0.710534 ]
+	p( RUN | TO ...) 	= [3gram] 0.00591355 [ -2.22815 ]
+	p( IT | RUN ...) 	= [3gram] 0.0428628 [ -1.36792 ]
+	p( </s> | IT ...) 	= [2gram] 0.0368709 [ -1.43332 ]
+1 sentences, 24 words, 2 OOVs
+0 zeroprobs, logprob= -46.4742 ppl= 104.861 ppl1= 129.557
+
+SO YOU SEE THAT IN THIS CASE YOU CAN SPECIFY SEVERAL OPTIONS FROM HERE AND FROM HERE
+	p( SO | <s> ) 	= [2gram] 0.084552 [ -1.07288 ]
+	p( YOU | SO ...) 	= [3gram] 0.0335647 [ -1.47412 ]
+	p( SEE | YOU ...) 	= [3gram] 0.0628579 [ -1.20164 ]
+	p( THAT | SEE ...) 	= [3gram] 0.0602954 [ -1.21972 ]
+	p( IN | THAT ...) 	= [3gram] 0.0476878 [ -1.32159 ]
+	p( THIS | IN ...) 	= [3gram] 0.0387771 [ -1.41142 ]
+	p( CASE | THIS ...) 	= [3gram] 0.107866 [ -0.967117 ]
+	p( YOU | CASE ...) 	= [3gram] 0.0173812 [ -1.75992 ]
+	p( CAN | YOU ...) 	= [2gram] 0.0459023 [ -1.33817 ]
+	p( SPECIFY | CAN ...) 	= [1gram] 1.49209e-07 [ -6.8262 ]
+	p( SEVERAL | SPECIFY ...) 	= [1gram] 0.000121484 [ -3.91548 ]
+	p( OPTIONS | SEVERAL ...) 	= [1gram] 2.60262e-05 [ -4.58459 ]
+	p( FROM | OPTIONS ...) 	= [1gram] 0.00200008 [ -2.69895 ]
+	p( HERE | FROM ...) 	= [2gram] 0.00691441 [ -2.16024 ]
+	p( AND | HERE ...) 	= [3gram] 0.0750853 [ -1.12444 ]
+	p( FROM | AND ...) 	= [2gram] 0.000881201 [ -3.05492 ]
+	p( HERE | FROM ...) 	= [2gram] 0.00335223 [ -2.47467 ]
+	p( </s> | HERE ...) 	= [3gram] 0.329863 [ -0.481666 ]
+1 sentences, 17 words, 0 OOVs
+0 zeroprobs, logprob= -39.0877 ppl= 148.437 ppl1= 199.195
+
+EH LET'S CHECK WHAT WE CAN SEE IN THE EXAMPLES DIRECTORY
+	p( EH | <s> ) 	= [2gram] 5.2986e-06 [ -5.27584 ]
+	p( LET'S | EH ...) 	= [1gram] 0.000166763 [ -3.7779 ]
+	p( CHECK | LET'S ...) 	= [2gram] 0.00124416 [ -2.90512 ]
+	p( WHAT | CHECK ...) 	= [2gram] 0.00255489 [ -2.59263 ]
+	p( WE | WHAT ...) 	= [2gram] 0.0526419 [ -1.27867 ]
+	p( CAN | WE ...) 	= [3gram] 0.0541069 [ -1.26675 ]
+	p( SEE | CAN ...) 	= [3gram] 0.0566484 [ -1.24681 ]
+	p( IN | SEE ...) 	= [3gram] 0.027467 [ -1.56119 ]
+	p( THE | IN ...) 	= [3gram] 0.402422 [ -0.395319 ]
+	p( EXAMPLES | THE ...) 	= [2gram] 2.45217e-05 [ -4.61045 ]
+	p( DIRECTORY | EXAMPLES ...) 	= [1gram] 5.89007e-07 [ -6.22988 ]
+	p( </s> | DIRECTORY ...) 	= [2gram] 0.0702737 [ -1.15321 ]
+1 sentences, 11 words, 0 OOVs
+0 zeroprobs, logprob= -32.2938 ppl= 491.074 ppl1= 862.574
+
+YOU WOULD NEED TO SPECIFY THE MODEL IN FST FORMAT
+	p( YOU | <s> ) 	= [2gram] 0.023958 [ -1.62055 ]
+	p( WOULD | YOU ...) 	= [3gram] 0.00929704 [ -2.03166 ]
+	p( NEED | WOULD ...) 	= [3gram] 0.0133332 [ -1.87507 ]
+	p( TO | NEED ...) 	= [3gram] 0.443125 [ -0.353474 ]
+	p( SPECIFY | TO ...) 	= [2gram] 1.67398e-06 [ -5.77625 ]
+	p( THE | SPECIFY ...) 	= [2gram] 0.305781 [ -0.51459 ]
+	p( MODEL | THE ...) 	= [2gram] 0.000648298 [ -3.18823 ]
+	p( IN | MODEL ...) 	= [2gram] 0.0108246 [ -1.96559 ]
+	p( <unk> | IN ...) 	= [OOV] 0 [ -inf ]
+	p( FORMAT | <unk> ...) 	= [1gram] 3.83913e-05 [ -4.41577 ]
+	p( </s> | FORMAT ...) 	= [2gram] 0.239176 [ -0.621282 ]
+1 sentences, 10 words, 1 OOVs
+0 zeroprobs, logprob= -22.3624 ppl= 172.284 ppl1= 305.293
+
+AS YOU CAN SEE THERE ARE SEVERAL DIRECTORIES AT THE TOP LEVEL OF KALDI
+	p( AS | <s> ) 	= [2gram] 0.00434782 [ -2.36173 ]
+	p( YOU | AS ...) 	= [3gram] 0.160997 [ -0.793182 ]
+	p( CAN | YOU ...) 	= [3gram] 0.327391 [ -0.484934 ]
+	p( SEE | CAN ...) 	= [3gram] 0.254884 [ -0.593657 ]
+	p( THERE | SEE ...) 	= [3gram] 0.0151933 [ -1.81835 ]
+	p( ARE | THERE ...) 	= [3gram] 0.211145 [ -0.675419 ]
+	p( SEVERAL | ARE ...) 	= [3gram] 0.00682061 [ -2.16618 ]
+	p( DIRECTORIES | SEVERAL ...) 	= [1gram] 1.01871e-06 [ -5.99195 ]
+	p( AT | DIRECTORIES ...) 	= [1gram] 0.00313499 [ -2.50376 ]
+	p( THE | AT ...) 	= [2gram] 0.191757 [ -0.717249 ]
+	p( TOP | THE ...) 	= [3gram] 0.0304114 [ -1.51696 ]
+	p( LEVEL | TOP ...) 	= [3gram] 0.00257111 [ -2.58988 ]
+	p( OF | LEVEL ...) 	= [2gram] 0.130127 [ -0.885634 ]
+	p( <unk> | OF ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 14 words, 1 OOVs
+0 zeroprobs, logprob= -24.6742 ppl= 57.8686 ppl1= 79.0708
+
+AND SEVERAL EHM ACTUALLY IT'S ONLY ONE R SPECIFIER
+	p( AND | <s> ) 	= [2gram] 0.175897 [ -0.75474 ]
+	p( SEVERAL | AND ...) 	= [2gram] 8.63064e-06 [ -5.06396 ]
+	p( <unk> | SEVERAL ...) 	= [OOV] 0 [ -inf ]
+	p( ACTUALLY | <unk> ...) 	= [1gram] 0.00117793 [ -2.92888 ]
+	p( IT'S | ACTUALLY ...) 	= [2gram] 0.00536021 [ -2.27082 ]
+	p( ONLY | IT'S ...) 	= [2gram] 0.00295837 [ -2.52895 ]
+	p( ONE | ONLY ...) 	= [3gram] 0.0297217 [ -1.52693 ]
+	p( R | ONE ...) 	= [1gram] 5.0233e-06 [ -5.29901 ]
+	p( <unk> | R ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 9 words, 2 OOVs
+0 zeroprobs, logprob= -21.9486 ppl= 554.083 ppl1= 1366.2
+
+R SPECIFIER STANDS FOR READING SPECIFIER IT MEANS THAT IT IS A STRING WHICH WOULD DESCRIBE HOW TO READ INFORMATION HOW TO READ THE INPUT INFORMATION FOR THIS PROGRAM
+	p( R | <s> ) 	= [2gram] 2.38558e-06 [ -5.62241 ]
+	p( <unk> | R ...) 	= [OOV] 0 [ -inf ]
+	p( STANDS | <unk> ...) 	= [1gram] 7.06423e-05 [ -4.15094 ]
+	p( FOR | STANDS ...) 	= [2gram] 0.231897 [ -0.634705 ]
+	p( READING | FOR ...) 	= [2gram] 0.000241966 [ -3.61625 ]
+	p( <unk> | READING ...) 	= [OOV] 0 [ -inf ]
+	p( IT | <unk> ...) 	= [1gram] 0.00552375 [ -2.25777 ]
+	p( MEANS | IT ...) 	= [2gram] 0.00402888 [ -2.39482 ]
+	p( THAT | MEANS ...) 	= [3gram] 0.279203 [ -0.55408 ]
+	p( IT | THAT ...) 	= [3gram] 0.0316697 [ -1.49936 ]
+	p( IS | IT ...) 	= [3gram] 0.127655 [ -0.893963 ]
+	p( A | IS ...) 	= [3gram] 0.0963995 [ -1.01593 ]
+	p( STRING | A ...) 	= [3gram] 0.000255531 [ -3.59256 ]
+	p( WHICH | STRING ...) 	= [2gram] 0.0178966 [ -1.74723 ]
+	p( WOULD | WHICH ...) 	= [2gram] 0.0073827 [ -2.13178 ]
+	p( DESCRIBE | WOULD ...) 	= [2gram] 5.1916e-05 [ -4.2847 ]
+	p( HOW | DESCRIBE ...) 	= [2gram] 0.015131 [ -1.82013 ]
+	p( TO | HOW ...) 	= [2gram] 0.0524708 [ -1.28008 ]
+	p( READ | TO ...) 	= [3gram] 0.0170219 [ -1.76899 ]
+	p( INFORMATION | READ ...) 	= [1gram] 6.74227e-05 [ -4.17119 ]
+	p( HOW | INFORMATION ...) 	= [2gram] 0.00215585 [ -2.66638 ]
+	p( TO | HOW ...) 	= [2gram] 0.0379198 [ -1.42113 ]
+	p( READ | TO ...) 	= [3gram] 0.0170219 [ -1.76899 ]
+	p( THE | READ ...) 	= [3gram] 0.129623 [ -0.887319 ]
+	p( INPUT | THE ...) 	= [2gram] 0.000126419 [ -3.89819 ]
+	p( INFORMATION | INPUT ...) 	= [2gram] 0.0090396 [ -2.04385 ]
+	p( FOR | INFORMATION ...) 	= [2gram] 0.0146038 [ -1.83553 ]
+	p( THIS | FOR ...) 	= [2gram] 0.015736 [ -1.80311 ]
+	p( PROGRAM | THIS ...) 	= [2gram] 0.000855541 [ -3.06776 ]
+	p( </s> | PROGRAM ...) 	= [3gram] 0.237483 [ -0.624367 ]
+1 sentences, 29 words, 2 OOVs
+0 zeroprobs, logprob= -63.4535 ppl= 184.585 ppl1= 223.939
+
+W SPECIFIER IS WRITING SPECIFIER IT MEANS THAT IS SOME STRING WHICH DESCRIBES WHERE AND HOW TO WRITE THE OUTPUT OF THIS PROGRAM
+	p( W | <s> ) 	= [1gram] 4.11765e-07 [ -6.38535 ]
+	p( <unk> | W ...) 	= [OOV] 0 [ -inf ]
+	p( IS | <unk> ...) 	= [1gram] 0.00753677 [ -2.12281 ]
+	p( WRITING | IS ...) 	= [2gram] 0.000183086 [ -3.73734 ]
+	p( <unk> | WRITING ...) 	= [OOV] 0 [ -inf ]
+	p( IT | <unk> ...) 	= [1gram] 0.00552375 [ -2.25777 ]
+	p( MEANS | IT ...) 	= [2gram] 0.00402888 [ -2.39482 ]
+	p( THAT | MEANS ...) 	= [3gram] 0.279203 [ -0.55408 ]
+	p( IS | THAT ...) 	= [2gram] 0.00763993 [ -2.11691 ]
+	p( SOME | IS ...) 	= [2gram] 0.000424237 [ -3.37239 ]
+	p( STRING | SOME ...) 	= [1gram] 1.81291e-05 [ -4.74162 ]
+	p( WHICH | STRING ...) 	= [2gram] 0.0529896 [ -1.27581 ]
+	p( DESCRIBES | WHICH ...) 	= [2gram] 0.000245753 [ -3.6095 ]
+	p( WHERE | DESCRIBES ...) 	= [1gram] 0.000762322 [ -3.11786 ]
+	p( AND | WHERE ...) 	= [2gram] 0.00508575 [ -2.29364 ]
+	p( HOW | AND ...) 	= [3gram] 0.127917 [ -0.893072 ]
+	p( TO | HOW ...) 	= [3gram] 0.0759 [ -1.11976 ]
+	p( WRITE | TO ...) 	= [3gram] 0.00491055 [ -2.30887 ]
+	p( THE | WRITE ...) 	= [3gram] 0.0783668 [ -1.10587 ]
+	p( OUTPUT | THE ...) 	= [2gram] 0.000148371 [ -3.82865 ]
+	p( OF | OUTPUT ...) 	= [3gram] 0.293265 [ -0.53274 ]
+	p( THIS | OF ...) 	= [2gram] 0.00946562 [ -2.02385 ]
+	p( PROGRAM | THIS ...) 	= [3gram] 0.00295518 [ -2.52942 ]
+	p( </s> | PROGRAM ...) 	= [3gram] 0.237483 [ -0.624367 ]
+1 sentences, 23 words, 2 OOVs
+0 zeroprobs, logprob= -52.9465 ppl= 255.07 ppl1= 332.095
+
+IN THIS CASE IT COULD BE WORDS WRITING SPECIFIER WHICH DESCRIBES WHERE TO WRITE THE DECODED WORDS FROM THE FEATURES
+	p( IN | <s> ) 	= [2gram] 0.0172143 [ -1.76411 ]
+	p( THIS | IN ...) 	= [3gram] 0.0614762 [ -1.21129 ]
+	p( CASE | THIS ...) 	= [3gram] 0.107866 [ -0.967117 ]
+	p( IT | CASE ...) 	= [3gram] 0.0356307 [ -1.44818 ]
+	p( COULD | IT ...) 	= [2gram] 0.00614464 [ -2.2115 ]
+	p( BE | COULD ...) 	= [3gram] 0.482192 [ -0.31678 ]
+	p( WORDS | BE ...) 	= [1gram] 4.79778e-05 [ -4.31896 ]
+	p( WRITING | WORDS ...) 	= [1gram] 6.90735e-05 [ -4.16069 ]
+	p( <unk> | WRITING ...) 	= [OOV] 0 [ -inf ]
+	p( WHICH | <unk> ...) 	= [1gram] 0.00424043 [ -2.37259 ]
+	p( DESCRIBES | WHICH ...) 	= [2gram] 0.000283879 [ -3.54687 ]
+	p( WHERE | DESCRIBES ...) 	= [1gram] 0.000762322 [ -3.11786 ]
+	p( TO | WHERE ...) 	= [2gram] 0.00948298 [ -2.02306 ]
+	p( WRITE | TO ...) 	= [2gram] 0.000805809 [ -3.09377 ]
+	p( THE | WRITE ...) 	= [3gram] 0.0783668 [ -1.10587 ]
+	p( DECODED | THE ...) 	= [1gram] 4.16912e-07 [ -6.37996 ]
+	p( WORDS | DECODED ...) 	= [1gram] 0.000156389 [ -3.80579 ]
+	p( FROM | WORDS ...) 	= [2gram] 0.00668784 [ -2.17471 ]
+	p( THE | FROM ...) 	= [2gram] 0.146977 [ -0.832752 ]
+	p( FEATURES | THE ...) 	= [2gram] 4.0545e-05 [ -4.39206 ]
+	p( </s> | FEATURES ...) 	= [2gram] 0.116238 [ -0.934653 ]
+1 sentences, 20 words, 1 OOVs
+0 zeroprobs, logprob= -50.1786 ppl= 322.796 ppl1= 437.499
+
+AND ALSO ALIGNMENTS EH SPECIFIER WHERE ALIGNMENTS WOULD BE WRITTEN OR LATTICE SPECIFIER WHERE LATTICE WOULD BE WRITTEN
+	p( AND | <s> ) 	= [2gram] 0.175897 [ -0.75474 ]
+	p( ALSO | AND ...) 	= [3gram] 0.00333737 [ -2.4766 ]
+	p( <unk> | ALSO ...) 	= [OOV] 0 [ -inf ]
+	p( EH | <unk> ...) 	= [1gram] 1.28593e-05 [ -4.89078 ]
+	p( <unk> | EH ...) 	= [OOV] 0 [ -inf ]
+	p( WHERE | <unk> ...) 	= [1gram] 0.00231746 [ -2.63499 ]
+	p( <unk> | WHERE ...) 	= [OOV] 0 [ -inf ]
+	p( WOULD | <unk> ...) 	= [1gram] 0.00154075 [ -2.81227 ]
+	p( BE | WOULD ...) 	= [2gram] 0.113735 [ -0.944107 ]
+	p( WRITTEN | BE ...) 	= [2gram] 0.000195738 [ -3.70832 ]
+	p( OR | WRITTEN ...) 	= [2gram] 0.00271673 [ -2.56595 ]
+	p( LATTICE | OR ...) 	= [1gram] 1.87604e-06 [ -5.72676 ]
+	p( <unk> | LATTICE ...) 	= [OOV] 0 [ -inf ]
+	p( WHERE | <unk> ...) 	= [1gram] 0.00231746 [ -2.63499 ]
+	p( LATTICE | WHERE ...) 	= [1gram] 9.01625e-07 [ -6.04497 ]
+	p( WOULD | LATTICE ...) 	= [1gram] 0.000743664 [ -3.12862 ]
+	p( BE | WOULD ...) 	= [2gram] 0.113735 [ -0.944107 ]
+	p( WRITTEN | BE ...) 	= [2gram] 0.000195738 [ -3.70832 ]
+	p( </s> | WRITTEN ...) 	= [3gram] 0.127271 [ -0.895271 ]
+1 sentences, 18 words, 4 OOVs
+0 zeroprobs, logprob= -43.8708 ppl= 840.853 ppl1= 1360.28
+
+THE SQUARE BRACKETS DENOTE NON ESSENTIAL NON REQUIRED PARAMETERS SO IF YOU DON'T SPECIFY ALIGNMENTS OR LATTICE THEN THEY WILL NOT BE WRITTEN
+	p( THE | <s> ) 	= [2gram] 0.0413519 [ -1.3835 ]
+	p( SQUARE | THE ...) 	= [2gram] 0.000106268 [ -3.9736 ]
+	p( BRACKETS | SQUARE ...) 	= [1gram] 2.00104e-06 [ -5.69874 ]
+	p( DENOTE | BRACKETS ...) 	= [1gram] 2.58292e-06 [ -5.58789 ]
+	p( NON | DENOTE ...) 	= [1gram] 0.000128821 [ -3.89001 ]
+	p( ESSENTIAL | NON ...) 	= [2gram] 0.00490322 [ -2.30952 ]
+	p( NON | ESSENTIAL ...) 	= [1gram] 9.95829e-05 [ -4.00182 ]
+	p( REQUIRED | NON ...) 	= [2gram] 0.000800938 [ -3.0964 ]
+	p( PARAMETERS | REQUIRED ...) 	= [1gram] 8.23486e-06 [ -5.08434 ]
+	p( SO | PARAMETERS ...) 	= [1gram] 0.0022736 [ -2.64329 ]
+	p( IF | SO ...) 	= [2gram] 0.0123704 [ -1.90762 ]
+	p( YOU | IF ...) 	= [3gram] 0.412591 [ -0.38448 ]
+	p( DON'T | YOU ...) 	= [3gram] 0.0445137 [ -1.35151 ]
+	p( SPECIFY | DON'T ...) 	= [1gram] 1.86586e-07 [ -6.72912 ]
+	p( <unk> | SPECIFY ...) 	= [OOV] 0 [ -inf ]
+	p( OR | <unk> ...) 	= [1gram] 0.0057186 [ -2.24271 ]
+	p( LATTICE | OR ...) 	= [1gram] 1.87604e-06 [ -5.72676 ]
+	p( THEN | LATTICE ...) 	= [1gram] 0.000619133 [ -3.20822 ]
+	p( THEY | THEN ...) 	= [2gram] 0.0243769 [ -1.61302 ]
+	p( WILL | THEY ...) 	= [3gram] 0.0439326 [ -1.35721 ]
+	p( NOT | WILL ...) 	= [3gram] 0.0439596 [ -1.35695 ]
+	p( BE | NOT ...) 	= [3gram] 0.218036 [ -0.661473 ]
+	p( WRITTEN | BE ...) 	= [2gram] 0.000309539 [ -3.50928 ]
+	p( </s> | WRITTEN ...) 	= [3gram] 0.127271 [ -0.895271 ]
+1 sentences, 23 words, 1 OOVs
+0 zeroprobs, logprob= -68.6127 ppl= 961.971 ppl1= 1314.5
+
+IF YOU DON'T SPECIFY THE WORDS SPECIFIER THE PROGRAM WILL FAIL BECAUSE THIS PARAMETER IS REQUIRED
+	p( IF | <s> ) 	= [2gram] 0.0129509 [ -1.8877 ]
+	p( YOU | IF ...) 	= [3gram] 0.440741 [ -0.355817 ]
+	p( DON'T | YOU ...) 	= [3gram] 0.0445137 [ -1.35151 ]
+	p( SPECIFY | DON'T ...) 	= [1gram] 1.86586e-07 [ -6.72912 ]
+	p( THE | SPECIFY ...) 	= [2gram] 0.305781 [ -0.51459 ]
+	p( WORDS | THE ...) 	= [2gram] 0.000756048 [ -3.12145 ]
+	p( <unk> | WORDS ...) 	= [OOV] 0 [ -inf ]
+	p( THE | <unk> ...) 	= [1gram] 0.0106248 [ -1.97368 ]
+	p( PROGRAM | THE ...) 	= [2gram] 0.000446146 [ -3.35052 ]
+	p( WILL | PROGRAM ...) 	= [2gram] 0.00198474 [ -2.7023 ]
+	p( FAIL | WILL ...) 	= [2gram] 0.00205405 [ -2.68739 ]
+	p( BECAUSE | FAIL ...) 	= [2gram] 0.0112679 [ -1.94816 ]
+	p( THIS | BECAUSE ...) 	= [2gram] 0.0205519 [ -1.68715 ]
+	p( PARAMETER | THIS ...) 	= [1gram] 5.79583e-07 [ -6.23688 ]
+	p( IS | PARAMETER ...) 	= [1gram] 0.00464868 [ -2.33267 ]
+	p( REQUIRED | IS ...) 	= [2gram] 0.000409834 [ -3.38739 ]
+	p( </s> | REQUIRED ...) 	= [3gram] 0.167207 [ -0.776745 ]
+1 sentences, 16 words, 1 OOVs
+0 zeroprobs, logprob= -41.0431 ppl= 367.444 ppl1= 544.759
+
+AND YOU CAN SEE SIMILAR STRUCTURE BIN PROGRAMS MANY OTHER BIN DIRECTORIES
+	p( AND | <s> ) 	= [2gram] 0.175897 [ -0.75474 ]
+	p( YOU | AND ...) 	= [3gram] 0.0301115 [ -1.52127 ]
+	p( CAN | YOU ...) 	= [3gram] 0.241442 [ -0.617187 ]
+	p( SEE | CAN ...) 	= [3gram] 0.254884 [ -0.593657 ]
+	p( SIMILAR | SEE ...) 	= [1gram] 9.2188e-06 [ -5.03533 ]
+	p( STRUCTURE | SIMILAR ...) 	= [2gram] 0.0010911 [ -2.96214 ]
+	p( BIN | STRUCTURE ...) 	= [1gram] 1.18579e-05 [ -4.92599 ]
+	p( PROGRAMS | BIN ...) 	= [1gram] 4.90516e-05 [ -4.30935 ]
+	p( MANY | PROGRAMS ...) 	= [1gram] 0.000211025 [ -3.67567 ]
+	p( OTHER | MANY ...) 	= [2gram] 0.0215935 [ -1.66568 ]
+	p( BIN | OTHER ...) 	= [1gram] 1.15556e-05 [ -4.93721 ]
+	p( DIRECTORIES | BIN ...) 	= [1gram] 8.44366e-07 [ -6.07347 ]
+	p( </s> | DIRECTORIES ...) 	= [1gram] 0.0198897 [ -1.70137 ]
+1 sentences, 12 words, 0 OOVs
+0 zeroprobs, logprob= -38.773 ppl= 960.599 ppl1= 1702.5
+
+THERE ARE A LOT OF OTHER DIRECTORIES
+	p( THERE | <s> ) 	= [2gram] 0.00926934 [ -2.03295 ]
+	p( ARE | THERE ...) 	= [3gram] 0.383095 [ -0.416693 ]
+	p( A | ARE ...) 	= [3gram] 0.070955 [ -1.14902 ]
+	p( LOT | A ...) 	= [3gram] 0.169942 [ -0.769699 ]
+	p( OF | LOT ...) 	= [3gram] 0.746506 [ -0.126967 ]
+	p( OTHER | OF ...) 	= [3gram] 0.0178587 [ -1.74815 ]
+	p( DIRECTORIES | OTHER ...) 	= [1gram] 6.83807e-07 [ -6.16507 ]
+	p( </s> | DIRECTORIES ...) 	= [1gram] 0.0198897 [ -1.70137 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -14.1099 ppl= 58.0416 ppl1= 103.682
+
+THIS BIN DIRECTORY DOES NOT CORRESPOND TO ANY PARTICULAR LIBRARY BUT IT CONTAINS MANY USEFUL PROGRAMS SUCH AS COMPUTE WORD ERROR RATE DEFINE THE DIMENSION OF MATRIX AND SO ON
+	p( THIS | <s> ) 	= [2gram] 0.030502 [ -1.51567 ]
+	p( BIN | THIS ...) 	= [1gram] 1.27811e-06 [ -5.89343 ]
+	p( DIRECTORY | BIN ...) 	= [1gram] 1.07199e-06 [ -5.96981 ]
+	p( DOES | DIRECTORY ...) 	= [1gram] 0.000471036 [ -3.32695 ]
+	p( NOT | DOES ...) 	= [2gram] 0.118929 [ -0.924714 ]
+	p( CORRESPOND | NOT ...) 	= [1gram] 1.89632e-06 [ -5.72209 ]
+	p( TO | CORRESPOND ...) 	= [2gram] 0.636263 [ -0.196363 ]
+	p( ANY | TO ...) 	= [2gram] 0.00122643 [ -2.91136 ]
+	p( PARTICULAR | ANY ...) 	= [2gram] 0.0030341 [ -2.51797 ]
+	p( LIBRARY | PARTICULAR ...) 	= [1gram] 3.09786e-05 [ -4.50894 ]
+	p( BUT | LIBRARY ...) 	= [1gram] 0.00243451 [ -2.61359 ]
+	p( IT | BUT ...) 	= [2gram] 0.0474398 [ -1.32386 ]
+	p( CONTAINS | IT ...) 	= [2gram] 7.28552e-05 [ -4.13754 ]
+	p( MANY | CONTAINS ...) 	= [1gram] 0.000319226 [ -3.4959 ]
+	p( USEFUL | MANY ...) 	= [2gram] 0.000523609 [ -3.28099 ]
+	p( PROGRAMS | USEFUL ...) 	= [1gram] 7.07343e-05 [ -4.15037 ]
+	p( SUCH | PROGRAMS ...) 	= [1gram] 0.000197583 [ -3.70425 ]
+	p( AS | SUCH ...) 	= [2gram] 0.288451 [ -0.539928 ]
+	p( COMPUTE | AS ...) 	= [1gram] 1.92597e-06 [ -5.71535 ]
+	p( WORD | COMPUTE ...) 	= [1gram] 0.000127704 [ -3.8938 ]
+	p( ERROR | WORD ...) 	= [1gram] 2.76775e-05 [ -4.55787 ]
+	p( RATE | ERROR ...) 	= [1gram] 8.79045e-05 [ -4.05599 ]
+	p( DEFINE | RATE ...) 	= [1gram] 2.09145e-05 [ -4.67955 ]
+	p( THE | DEFINE ...) 	= [2gram] 0.0994514 [ -1.00239 ]
+	p( DIMENSION | THE ...) 	= [2gram] 1.37828e-05 [ -4.86066 ]
+	p( OF | DIMENSION ...) 	= [2gram] 0.147244 [ -0.831962 ]
+	p( MATRIX | OF ...) 	= [2gram] 1.17798e-05 [ -4.92886 ]
+	p( AND | MATRIX ...) 	= [2gram] 0.088193 [ -1.05457 ]
+	p( SO | AND ...) 	= [2gram] 0.0144065 [ -1.84144 ]
+	p( ON | SO ...) 	= [3gram] 0.112562 [ -0.948606 ]
+	p( </s> | ON ...) 	= [3gram] 0.521722 [ -0.282561 ]
+1 sentences, 30 words, 0 OOVs
+0 zeroprobs, logprob= -95.3873 ppl= 1194.02 ppl1= 1512.09
+
+OKAY I THINK THAT'S IT
+	p( OKAY | <s> ) 	= [2gram] 0.00234059 [ -2.63068 ]
+	p( I | OKAY ...) 	= [3gram] 0.0406748 [ -1.39067 ]
+	p( THINK | I ...) 	= [3gram] 0.0573043 [ -1.24181 ]
+	p( THAT'S | THINK ...) 	= [3gram] 0.0437026 [ -1.35949 ]
+	p( IT | THAT'S ...) 	= [3gram] 0.0081636 [ -2.08812 ]
+	p( </s> | IT ...) 	= [3gram] 0.422268 [ -0.374412 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -9.08519 ppl= 32.6736 ppl1= 65.6201
+
+THE NEXT VIDEO WE WILL START TO WORK ON OUR FIRST SPEECH RECOGNITION SYSTEM
+	p( THE | <s> ) 	= [2gram] 0.0413519 [ -1.3835 ]
+	p( NEXT | THE ...) 	= [3gram] 0.0172748 [ -1.76259 ]
+	p( VIDEO | NEXT ...) 	= [3gram] 0.0055968 [ -2.25206 ]
+	p( WE | VIDEO ...) 	= [2gram] 0.00759445 [ -2.1195 ]
+	p( WILL | WE ...) 	= [2gram] 0.00932062 [ -2.03056 ]
+	p( START | WILL ...) 	= [3gram] 0.0040962 [ -2.38762 ]
+	p( TO | START ...) 	= [3gram] 0.355917 [ -0.448651 ]
+	p( WORK | TO ...) 	= [3gram] 0.010947 [ -1.96071 ]
+	p( ON | WORK ...) 	= [3gram] 0.130723 [ -0.883647 ]
+	p( OUR | ON ...) 	= [2gram] 0.00896082 [ -2.04765 ]
+	p( FIRST | OUR ...) 	= [3gram] 0.0105185 [ -1.97804 ]
+	p( SPEECH | FIRST ...) 	= [1gram] 4.4895e-05 [ -4.3478 ]
+	p( RECOGNITION | SPEECH ...) 	= [2gram] 0.0376114 [ -1.42468 ]
+	p( SYSTEM | RECOGNITION ...) 	= [2gram] 0.00333912 [ -2.47637 ]
+	p( </s> | SYSTEM ...) 	= [2gram] 0.154666 [ -0.810605 ]
+1 sentences, 14 words, 0 OOVs
+0 zeroprobs, logprob= -28.314 ppl= 77.1967 ppl1= 105.3
+
+SEE YOU IN THE NEXT VIDEO
+	p( SEE | <s> ) 	= [2gram] 0.000585093 [ -3.23277 ]
+	p( YOU | SEE ...) 	= [3gram] 0.0302409 [ -1.51941 ]
+	p( IN | YOU ...) 	= [2gram] 0.00431236 [ -2.36528 ]
+	p( THE | IN ...) 	= [3gram] 0.313443 [ -0.503841 ]
+	p( NEXT | THE ...) 	= [3gram] 0.0123547 [ -1.90817 ]
+	p( VIDEO | NEXT ...) 	= [3gram] 0.0055968 [ -2.25206 ]
+	p( </s> | VIDEO ...) 	= [2gram] 0.0750107 [ -1.12488 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -12.9064 ppl= 69.7867 ppl1= 141.602
+
+THIS DIRECTORIES ARE CALLED RECIPIES
+	p( THIS | <s> ) 	= [2gram] 0.030502 [ -1.51567 ]
+	p( DIRECTORIES | THIS ...) 	= [1gram] 9.05398e-08 [ -7.04316 ]
+	p( ARE | DIRECTORIES ...) 	= [1gram] 0.0027168 [ -2.56594 ]
+	p( CALLED | ARE ...) 	= [2gram] 0.00234848 [ -2.62921 ]
+	p( <unk> | CALLED ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 5 words, 1 OOVs
+0 zeroprobs, logprob= -15.3293 ppl= 1163.75 ppl1= 6797.15
+
+EACH OF THEM CONTAINS A DESCRIPTION OF THE PROCESS TO BUILD ASR SYSTEM USING ONE CORPUS OR SEVERAL CORPORA TOGETHER
+	p( EACH | <s> ) 	= [2gram] 0.000737777 [ -3.13208 ]
+	p( OF | EACH ...) 	= [3gram] 0.315749 [ -0.500658 ]
+	p( THEM | OF ...) 	= [3gram] 0.0976324 [ -1.01041 ]
+	p( CONTAINS | THEM ...) 	= [1gram] 3.49424e-06 [ -5.45665 ]
+	p( A | CONTAINS ...) 	= [2gram] 0.0693071 [ -1.15922 ]
+	p( DESCRIPTION | A ...) 	= [2gram] 3.92404e-05 [ -4.40627 ]
+	p( OF | DESCRIPTION ...) 	= [3gram] 0.579535 [ -0.23692 ]
+	p( THE | OF ...) 	= [3gram] 0.380778 [ -0.419328 ]
+	p( PROCESS | THE ...) 	= [3gram] 0.00130234 [ -2.88527 ]
+	p( TO | PROCESS ...) 	= [3gram] 0.0211493 [ -1.6747 ]
+	p( BUILD | TO ...) 	= [2gram] 0.00412674 [ -2.38439 ]
+	p( <unk> | BUILD ...) 	= [OOV] 0 [ -inf ]
+	p( SYSTEM | <unk> ...) 	= [1gram] 0.000671317 [ -3.17307 ]
+	p( USING | SYSTEM ...) 	= [2gram] 0.000337834 [ -3.4713 ]
+	p( ONE | USING ...) 	= [2gram] 0.00228795 [ -2.64055 ]
+	p( CORPUS | ONE ...) 	= [1gram] 6.58054e-07 [ -6.18174 ]
+	p( OR | CORPUS ...) 	= [1gram] 0.00427797 [ -2.36876 ]
+	p( SEVERAL | OR ...) 	= [1gram] 6.01764e-05 [ -4.22057 ]
+	p( <unk> | SEVERAL ...) 	= [OOV] 0 [ -inf ]
+	p( TOGETHER | <unk> ...) 	= [1gram] 0.000741196 [ -3.13007 ]
+	p( </s> | TOGETHER ...) 	= [2gram] 0.178996 [ -0.747156 ]
+1 sentences, 20 words, 2 OOVs
+0 zeroprobs, logprob= -49.1991 ppl= 388.532 ppl1= 541.108
+
+EH MOST IMPORTANT OF THEM ARE WSJ WHICH DESCRIBES THE WALL STREET JOURNAL ASR SYSTEM OR ASR BASED ON THE WALL STREET JOURNAL CORPUS WHICH IS VERY POPULAR BENCHMARK DATASET FOR SPEECH RECOGNITION
+	p( EH | <s> ) 	= [2gram] 5.2986e-06 [ -5.27584 ]
+	p( MOST | EH ...) 	= [1gram] 0.000307423 [ -3.51226 ]
+	p( IMPORTANT | MOST ...) 	= [2gram] 0.0125864 [ -1.9001 ]
+	p( OF | IMPORTANT ...) 	= [3gram] 0.0246679 [ -1.60787 ]
+	p( THEM | OF ...) 	= [2gram] 0.00142205 [ -2.84708 ]
+	p( ARE | THEM ...) 	= [3gram] 0.100123 [ -0.999468 ]
+	p( <unk> | ARE ...) 	= [OOV] 0 [ -inf ]
+	p( WHICH | <unk> ...) 	= [1gram] 0.00424043 [ -2.37259 ]
+	p( DESCRIBES | WHICH ...) 	= [2gram] 0.000283879 [ -3.54687 ]
+	p( THE | DESCRIBES ...) 	= [2gram] 0.145659 [ -0.836662 ]
+	p( WALL | THE ...) 	= [2gram] 0.000601137 [ -3.22103 ]
+	p( STREET | WALL ...) 	= [3gram] 0.0566795 [ -1.24657 ]
+	p( JOURNAL | STREET ...) 	= [3gram] 0.0909672 [ -1.04112 ]
+	p( <unk> | JOURNAL ...) 	= [OOV] 0 [ -inf ]
+	p( SYSTEM | <unk> ...) 	= [1gram] 0.000671317 [ -3.17307 ]
+	p( OR | SYSTEM ...) 	= [2gram] 0.011295 [ -1.94711 ]
+	p( <unk> | OR ...) 	= [OOV] 0 [ -inf ]
+	p( BASED | <unk> ...) 	= [1gram] 0.000437498 [ -3.35902 ]
+	p( ON | BASED ...) 	= [2gram] 0.466778 [ -0.33089 ]
+	p( THE | ON ...) 	= [3gram] 0.301728 [ -0.520384 ]
+	p( WALL | THE ...) 	= [3gram] 0.00593502 [ -2.22658 ]
+	p( STREET | WALL ...) 	= [3gram] 0.0566795 [ -1.24657 ]
+	p( JOURNAL | STREET ...) 	= [3gram] 0.0909672 [ -1.04112 ]
+	p( CORPUS | JOURNAL ...) 	= [1gram] 1.23456e-06 [ -5.90849 ]
+	p( WHICH | CORPUS ...) 	= [1gram] 0.00317218 [ -2.49864 ]
+	p( IS | WHICH ...) 	= [2gram] 0.252145 [ -0.598349 ]
+	p( VERY | IS ...) 	= [3gram] 0.0218107 [ -1.66133 ]
+	p( POPULAR | VERY ...) 	= [3gram] 0.00290295 [ -2.53716 ]
+	p( BENCHMARK | POPULAR ...) 	= [1gram] 4.50746e-06 [ -5.34607 ]
+	p( DATASET | BENCHMARK ...) 	= [1gram] 5.06279e-06 [ -5.29561 ]
+	p( FOR | DATASET ...) 	= [1gram] 0.00392539 [ -2.40612 ]
+	p( SPEECH | FOR ...) 	= [2gram] 7.87675e-05 [ -4.10365 ]
+	p( RECOGNITION | SPEECH ...) 	= [2gram] 0.0376114 [ -1.42468 ]
+	p( </s> | RECOGNITION ...) 	= [2gram] 0.151889 [ -0.818473 ]
+1 sentences, 33 words, 3 OOVs
+0 zeroprobs, logprob= -74.8508 ppl= 259.741 ppl1= 312.627
+
+MOST IMPORTANT OF THEM ARE PROBABLY EGS WITH EXAMPLE SCRIPTS FOR BUILDING OF ASR SYSTEMS USING VARIOUS CORPORA
+	p( MOST | <s> ) 	= [2gram] 0.00147239 [ -2.83198 ]
+	p( IMPORTANT | MOST ...) 	= [3gram] 0.0121302 [ -1.91613 ]
+	p( OF | IMPORTANT ...) 	= [3gram] 0.0246679 [ -1.60787 ]
+	p( THEM | OF ...) 	= [2gram] 0.00142205 [ -2.84708 ]
+	p( ARE | THEM ...) 	= [3gram] 0.100123 [ -0.999468 ]
+	p( PROBABLY | ARE ...) 	= [2gram] 0.00124977 [ -2.90317 ]
+	p( <unk> | PROBABLY ...) 	= [OOV] 0 [ -inf ]
+	p( WITH | <unk> ...) 	= [1gram] 0.00507224 [ -2.2948 ]
+	p( EXAMPLE | WITH ...) 	= [1gram] 3.95732e-05 [ -4.4026 ]
+	p( SCRIPTS | EXAMPLE ...) 	= [1gram] 6.90402e-06 [ -5.1609 ]
+	p( FOR | SCRIPTS ...) 	= [1gram] 0.00455688 [ -2.34133 ]
+	p( BUILDING | FOR ...) 	= [2gram] 0.000710865 [ -3.14821 ]
+	p( OF | BUILDING ...) 	= [2gram] 0.0073234 [ -2.13529 ]
+	p( <unk> | OF ...) 	= [OOV] 0 [ -inf ]
+	p( SYSTEMS | <unk> ...) 	= [1gram] 0.000347464 [ -3.45909 ]
+	p( USING | SYSTEMS ...) 	= [1gram] 0.000155106 [ -3.80937 ]
+	p( VARIOUS | USING ...) 	= [2gram] 0.000270688 [ -3.56753 ]
+	p( <unk> | VARIOUS ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.0265877 [ -1.57532 ]
+1 sentences, 18 words, 3 OOVs
+0 zeroprobs, logprob= -45.0001 ppl= 649.395 ppl1= 1000.02
+
+file ./local/lm/dev.gz: 119 sentences, 1614 words, 106 OOVs
+0 zeroprobs, logprob= -4088.24 ppl= 325.646 ppl1= 514.082

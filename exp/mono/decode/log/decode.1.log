@@ -1,0 +1,250 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/dev_teamlab/split1/1/utt2spk scp:data/dev_teamlab/split1/1/cmvn.scp scp:data/dev_teamlab/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono/decode/lat.1.gz" 
+# Started at Tue Jun 29 16:35:52 CEST 2021
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/dev_teamlab/split1/1/utt2spk scp:data/dev_teamlab/split1/1/cmvn.scp scp:data/dev_teamlab/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono/decode/lat.1.gz' 
+apply-cmvn --utt2spk=ark:data/dev_teamlab/split1/1/utt2spk scp:data/dev_teamlab/split1/1/cmvn.scp scp:data/dev_teamlab/split1/1/feats.scp ark:- 
+add-deltas ark:- ark:- 
+a_1_0_00_3_10 EVERYONE ARE MY MUSCLE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_0_00_3_10 is -7.82428 over 308 frames.
+a_1_100_57_108_91 A THE DIRECTORY YOU SHOULD SHE SHE ARE DIRECTORY TO CAN APART DIRECTORY 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_100_57_108_91 is -7.48417 over 832 frames.
+a_1_11_88_15_85 ALTHOUGH I SCIENTISTS CLICK RECOMMENDATION 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_11_88_15_85 is -7.98073 over 395 frames.
+a_1_120_08_126_30 DON'T I EXACTLY THE SAME WHAT I TIGHT IT MY MEDITATION TO STILL 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_120_08_126_30 is -8.01357 over 620 frames.
+a_1_130_61_132_11 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_130_61_132_11 is -6.23522 over 148 frames.
+a_1_132_12_134_00 NOW WE LITTLE LOCALLY 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_132_12_134_00 is -8.32703 over 186 frames.
+a_1_142_25_147_84 A IS OPEN SOURCE AND THIS ALL SUDDENLY UP 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_142_25_147_84 is -7.57373 over 557 frames.
+a_1_147_85_154_10 WE JUST RETURN IT CLONE TO IT A COPY OF THE WHOLE CONSENSUS CALLED 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_147_85_154_10 is -7.89779 over 623 frames.
+a_1_18_07_24_79 POLITICAL IT FOR SPEECH RECOGNITION TO SENTENCE FOR SPEECH CREATION RESEARCHERS AND PROFESSIONALS 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_18_07_24_79 is -8.10583 over 670 frames.
+a_1_224_41_227_54 ALL CAKE IT TO FINISHED 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_224_41_227_54 is -7.70508 over 311 frames.
+a_1_228_65_235_92 NOW WE HAVE TO TO DIRECTORY COLDER IT 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_228_65_235_92 is -7.20015 over 725 frames.
+a_1_237_94_245_41 YOU CASSINI THE FILES THERE TOTAL OF COUNTRY 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_237_94_245_41 is -7.39492 over 745 frames.
+a_1_246_63_250_17 COCONUT INSTALLATION STEP 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_246_63_250_17 is -7.68296 over 352 frames.
+a_1_24_80_32_22 PERSONALLY TO GET IN SLIGHTLY TERRESTRIAL AND FOR THE SUCH HOW WHERE A TO STILL REPOSITORY THEY INDUSTRY 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_24_80_32_22 is -8.31308 over 740 frames.
+a_1_251_67_255_43 AND A TOTAL ARE LUCKY 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_251_67_255_43 is -7.47955 over 374 frames.
+a_1_255_79_259_74 THE PROPER SURFACE ARE MARKET IT IN THE INSTALLED FILE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_255_79_259_74 is -8.15195 over 393 frames.
+a_1_259_82_261_02 THIS CHECKED 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_259_82_261_02 is -7.88561 over 118 frames.
+a_1_264_37_273_53 TELLS OF TO GO TO COAST PHONES ATTRACTION THERE'RE THE GO TO SEE SEE AND ALL RESULTS 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_264_37_273_53 is -7.81631 over 914 frames.
+a_1_274_88_279_23 THIS COMPONENTS 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_274_88_279_23 is -7.32128 over 433 frames.
+a_1_279_96_290_47 IT IS A DIRECTORY IT CONTAINED SCRIPTS CONSOLIDATION LETTER PARTICLES WITH OF CONTENT OR TO CONTESTS 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_279_96_290_47 is -7.90573 over 1049 frames.
+a_1_290_97_292_22 PORTABLE THAN LATER 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_290_97_292_22 is -8.55556 over 123 frames.
+a_1_306_34_313_46 SO FIRST INTERNET WE TO TO IS TO LEARN THE SCRIPT PROJECT INDEPENDENCE THIS 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_306_34_313_46 is -7.86491 over 710 frames.
+a_1_319_69_324_25 AND IS TO COUPLE FOR NEEDS WE CAN QUANTUM 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_319_69_324_25 is -7.79369 over 454 frames.
+a_1_32_28_39_15 REALLY WILL REALLY COUNTRY AND WOULD WORK UTTERANCE INNOVATION THEY ARE MOST LIKE ELITE USE CALL SEE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_32_28_39_15 is -8.2709 over 685 frames.
+a_1_346_07_355_21 NOT CAN ONE MAKE IT ONE STILLNESS ARE TOOLS IT ONE OF COMPRESSION 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_346_07_355_21 is -7.49718 over 912 frames.
+a_1_355_22_362_53 IT I'M AS WE HAVE AT COMPILER CASH BY TO FOCUS CALLED SEE CASH 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_355_22_362_53 is -7.53188 over 729 frames.
+a_1_364_38_380_40 AND IT ONE BE PATTERN TO DISABLED BECAUSE IN COUNTRY WE WILL COME BILAL TO FILES AND WILL QUICKLY ABOUT OF SPLIT SPACE FOR CASH 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_364_38_380_40 is -7.46904 over 1600 frames.
+a_1_392_69_400_08 WE DISABLED THEM COMPILER CRUSHED BY IT EXTORTING TABLE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_392_69_400_08 is -7.49749 over 737 frames.
+a_1_3_11_6_08 I LOCAL YOU FAMILIES COUPLE TO TO THE SMALL 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_3_11_6_08 is -8.50856 over 295 frames.
+a_1_400_97_403_16 SECRET ESSENTIALLY CALLS ONE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_400_97_403_16 is -8.10468 over 217 frames.
+a_1_403_81_408_78 WE CAN CONNECTED CAN FILE THE TOOLS 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_403_81_408_78 is -7.5747 over 495 frames.
+a_1_409_66_419_30 AND FOR WILL USE CREATE OPTION WHICH TELLS MAKE TO RUN SEVERAL COMPRESSION DON'T CENTRAL 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_409_66_419_30 is -7.55335 over 962 frames.
+a_1_40_83_46_72 IN THE NEXT WE USE I'LL ALL YOU FOR WILL CONFIDENCE TUTORIAL 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_40_83_46_72 is -7.75075 over 587 frames.
+a_1_420_28_426_62 IT IS NEEDED FOR FOSTER INSTALLATION AND FOSTER PROCESSING 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_420_28_426_62 is -7.58443 over 632 frames.
+a_1_426_89_440_27 HIS WE HAVE IT'S WE HAVE FORTY SPEAKERS THIS ARE WE CAN AN MAKE WITH FORESEEABLE JUMPS 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_426_89_440_27 is -7.29632 over 1336 frames.
+a_1_471_46_476_70 ALL KING AS WE IS EVEN AND WELL 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_471_46_476_70 is -7.56425 over 522 frames.
+a_1_477_89_480_55 TOOLS INSTALLATION SKIN 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_477_89_480_55 is -7.71314 over 264 frames.
+a_1_480_56_483_47 NOW ASK OPEN HE THING 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_480_56_483_47 is -7.80458 over 289 frames.
+a_1_483_48_485_74 THEORIES IS THIS FOR SOURCE CODE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_483_48_485_74 is -8.35303 over 224 frames.
+a_1_485_99_488_85 IS THE ACTUAL COATED CALL THE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_485_99_488_85 is -7.62437 over 284 frames.
+a_1_491_86_495_38 AND IT INSTALLATION THREE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_491_86_495_38 is -7.78281 over 350 frames.
+a_1_497_01_504_46 AND QUESTION FRACTION SUFFER AND FIGURE SCRIPT 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_497_01_504_46 is -7.27421 over 743 frames.
+a_1_50_04_61_06 OF TO DIFFERENT REDUCTION BUT RELEASED ENVIRONMENT RECORD NEXT FOR INSTALLATION YOU SUCH FACULTY 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_50_04_61_06 is -7.61886 over 1100 frames.
+a_1_515_64_525_58 AND EVAPORATES AROUND FRONT AROUND AT I'M AS WE HAVE PATTERN TO FABRIC ALL TO DOES WE CAN IS IT 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_515_64_525_58 is -7.59475 over 992 frames.
+a_1_540_66_545_01 NOW WE SEE PERMANENT COULD UTTERANCE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_540_66_545_01 is -7.38867 over 433 frames.
+a_1_545_02_553_17 WHICH SHOULD SILK ONE BECAUSE IT'S ON IN YOU PUTTING OF NETWORKS SO FOR SO IT 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_545_02_553_17 is -7.59394 over 813 frames.
+a_1_555_76_560_72 FOR TO TO IT WE WILL COCA FIGURE SCRIPT WITH HELP OPTION 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_555_76_560_72 is -7.88051 over 494 frames.
+a_1_564_61_568_28 BUILD WAS QUALITY FOCUS 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_564_61_568_28 is -7.56808 over 365 frames.
+a_1_568_46_572_69 WE CHANGED OPTION TO KNOW 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_568_46_572_69 is -7.47434 over 421 frames.
+a_1_587_19_597_74 CAN TO HAVE TO SUCCESSFULLY CAN REWARD WE CAN COMPILE CAN THEM IN THIS TO MAKE COMMANDS 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_587_19_597_74 is -7.54152 over 1053 frames.
+a_1_601_31_607_60 AND WE SPECIFY GET FOR PEOPLE JUMPS FOR THE CONDITION 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_601_31_607_60 is -7.79191 over 627 frames.
+a_1_62_14_72_77 ALL USE DINOSAUR TO INSTANT USE CAN THEREFORE WE SHUT OR ABOUT THE TRANSPORTATION BE REGULAR 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_62_14_72_77 is -7.88458 over 1061 frames.
+a_1_638_18_641_05 OKAY TO DOESN'T 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_638_18_641_05 is -7.44605 over 285 frames.
+a_1_641_06_643_95 IT MAINSTREAM AND WILL GAME 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_641_06_643_95 is -7.93148 over 287 frames.
+a_1_643_96_648_87 WE HAVE CAN SUCCESSFULLY BONO AND AND CANNOT OTHER 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_643_96_648_87 is -7.87547 over 489 frames.
+a_1_648_88_651_77 NOW TRIP FOR IT'S 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_648_88_651_77 is -7.70351 over 287 frames.
+a_1_651_86_659_83 AND WE CAN GO TO AND EXPORT OF CAN TO TUTORIAL CAN DIRECTORIES 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_651_86_659_83 is -7.59007 over 795 frames.
+a_1_659_84_662_30 SEE THE NEXT VIDEO 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_659_84_662_30 is -7.4612 over 244 frames.
+a_1_6_98_11_87 CRITICAL TO THAT FISH WHAT'S I TO COUNTRY COUNTRY BASH DESIRABLE TALK 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_6_98_11_87 is -8.32384 over 487 frames.
+a_1_72_78_77_55 TO CONNECT WAS FOR WE USE TO NOW PREPARATION AND TO STAGE COMMAND 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_72_78_77_55 is -8.18369 over 475 frames.
+a_1_80_11_86_02 DESPITE IS SAY ACTUALLY WERE TIME AS AGAIN 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_80_11_86_02 is -7.48681 over 589 frames.
+a_1_86_03_93_49 THEN THE NAME OF THIS EVERY IT'S PHOENIX I MASS YOU SHOULD CALLED 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance a_1_86_03_93_49 is -7.70903 over 744 frames.
+b_2_0_03_4_44 IS ZERO WILL TO PRETTY ABOUT CAN TO DIRECTORIES 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_0_03_4_44 is -8.10098 over 439 frames.
+b_2_105_03_114_90 AND ANOTHER ONE IS REALLY SPEECH WHICH SOURCE AS THE ARE MADE EXAMPLE AUDIO YEARS PHYSICAL 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_105_03_114_90 is -7.67921 over 985 frames.
+b_2_115_20_127_49 TO WILL TALK ABOUT IS WHICH RECIPE THE NEXT MODEL BECOME TAKE LOCAL IN ALL STRING JOURNAL AS BE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_115_20_127_49 is -7.4241 over 1227 frames.
+b_2_129_48_136_95 SO IS YOU TO SEE THE WRIST AS FIVE DIRECTORY WHICH OF THE RECIPE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_129_48_136_95 is -7.72425 over 745 frames.
+b_2_136_96_148_79 TINY DOESN'T IN ANYTHING MOST LIKELY IF YOU FOR ANY OTHER WAS PEOPLE IT LITTLE SCIENTISTS FIVE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_136_96_148_79 is -7.45788 over 1181 frames.
+b_2_151_10_159_65 SOMERSET IS OF EXAMPLE TO DREAM HAVE SEVERAL DIRECTORIES 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_151_10_159_65 is -7.09773 over 853 frames.
+b_2_159_66_169_80 TO CAN SEE THAT LIKE RESPOND TO DIFFERENT REGIONS OTHER CITY ALL DIFFERENT RUSSIANS OF RECIPE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_159_66_169_80 is -7.38148 over 1012 frames.
+b_2_171_54_176_67 I THINK THAT IS ENOUGH INFORMATION ABOUT EXAMPLES 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_171_54_176_67 is -7.54407 over 511 frames.
+b_2_178_55_185_67 CAN GO TO THE SOURCE CODE TAKE LOOK AND THIS CONTENTS 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_178_55_185_67 is -7.47978 over 710 frames.
+b_2_185_96_200_94 SO WE ZERO REALLY CONSIDER SCRIPT WHICH CARETAKERS THEM QUALITY TO BE ARE KNOWN UNCERTAIN SYSTEM OWN ARTIST FOR EXAMPLE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_185_96_200_94 is -7.2039 over 1496 frames.
+b_2_200_95_218_31 IT ALSO HIGHEST DOCUMENTATION DIRECTORY AM AND MAINLY MORE DIRECTORY IS WHICH CAN BE DECIDED TO TO WORLD'S 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_200_95_218_31 is -7.18001 over 1734 frames.
+b_2_218_32_234_63 ONE OF THE MATTER EVERY DIRECTORIES FOR EXAMPLE A EACH AGAIN IS THE I VERY WITH AND IS FOR HIDDEN OF MODEL I'M FUNCTIONS 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_218_32_234_63 is -7.29655 over 1629 frames.
+b_2_21_49_25_06 SEE SEE WITH ACTUALLY CAUSES CALLED 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_21_49_25_06 is -7.84771 over 355 frames.
+b_2_236_00_247_45 AND WE THERE IS OUT OF CONDITIONS THIS LINK OUT EACH AND AND IS ALL FILE WHICH IS BY VERY EVERY FILE INTENSE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_236_00_247_45 is -7.66891 over 1143 frames.
+b_2_247_46_264_98 TEST ALL SENSE FOR SHARED OBJECTS IT'S IT RESPECTS ALL THE DEFINITIONS AND ALL DIGITS FROM THIS CITIZENS AND HACKERS FILES AS A BY VERY ARE FILE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_247_46_264_98 is -7.47997 over 1750 frames.
+b_2_25_07_35_00 AND TOOLS WITH AND SHOW TOOLS AND COMMANDS IT ONE THERE'S THIS 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_25_07_35_00 is -7.3196 over 991 frames.
+b_2_266_21_273_05 IN WROTE USE THIS BY TO WIRELESS WE NEED PROBLEMS 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_266_21_273_05 is -7.36832 over 682 frames.
+b_2_273_06_285_50 NEURONS ARE ALSO CALL BY RAYS IN INNOCENT THE ARE STORED IN BEEN DIRECTORIES IT OTHER 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_273_06_285_50 is -7.49672 over 1242 frames.
+b_2_285_51_300_59 FOR EXAMPLE WE CAN WE WE USE DEMANDING ONCE WHICH EARTHWORMS ALL BINARY IS WORKING WITH CALL CENTURY MODEL 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_285_51_300_59 is -7.30057 over 1506 frames.
+b_2_306_90_317_17 SO WE THEORY CAN SEE SEE SEE FILES WHICH ARE CITIZENS CODE OR CITIZENS SOURCE CODE FILES 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_306_90_317_17 is -7.42933 over 1025 frames.
+b_2_317_18_324_52 SOME INERTIA BE SOME WHICH FILES TO TENDENCY THEN 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_317_18_324_52 is -7.06942 over 732 frames.
+b_2_325_28_334_10 OK THINK EACH FILE SO USE THE LINE REASONS AND WHEN DEMAND DIRECTORY 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_325_28_334_10 is -7.55743 over 880 frames.
+b_2_336_29_338_85 I THIS ONE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_336_29_338_85 is -6.83316 over 254 frames.
+b_2_339_20_353_95 AND IS YOU LEAVE MAKE FILE WHICH DESCRIBES A THE ADDIS WHICH CAN DID I IS BASED THE FILES THIS DIRECTORY AND HOW THEY SHOULD BE TO USED 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_339_20_353_95 is -7.41548 over 1473 frames.
+b_2_358_53_365_51 THE DOT TAKE FILES OTHER SOME DIDN'T KOREA NEED TO MOBILE THAN 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_358_53_365_51 is -7.47713 over 696 frames.
+b_2_365_52_370_79 BUT OR IS ALSO SOMETHING TO MORE IT'S OF PUT LEGITIMATE COMPILER 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_365_52_370_79 is -7.93202 over 525 frames.
+b_2_370_80_378_44 MOSTLY WANT WE REALLY WORKING WITH USE IT BY FILES 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_370_80_378_44 is -7.37722 over 762 frames.
+b_2_379_78_383_53 SOMETHING EXTREME AND DECODE SINGLE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_379_78_383_53 is -7.38346 over 373 frames.
+b_2_385_03_394_02 WE KNOW THAT TALKS WITH CASSINI SHE MODEL BECAUSE IS TO THEORY MY ONE LOADED ISN'T ALL TO 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_385_03_394_02 is -7.67638 over 897 frames.
+b_2_394_03_397_81 IT IS ALSO TO THE TO QUEEN PRESENCE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_394_03_397_81 is -7.5674 over 376 frames.
+b_2_397_82_423_89 AND OTHER US IS JUST OTHER ADDITIONAL INFORMATION ABOUT HOW EXACTLY OFFER IT IS IT WATER WHATSOEVER THEM IN AND INFORMATION BECOME IT UNITED WONDERING THIS I RESEARCH FOR BINARY 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_397_82_423_89 is -7.22563 over 2605 frames.
+b_2_40_13_47_96 THE YOU MORE THE RIGHT ALL SITE YOU ONE DIDN'T THIS COURSE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_40_13_47_96 is -7.44024 over 781 frames.
+b_2_423_90_446_33 WHY SET ACTUALLY WHITE IS ACTUALLY IMPORTANT TO KNOW RESPOND IS BECAUSE WHEN YOU DEVELOPED THEN YOU SCRIPT FOR COPY MOST I UNITED USE IS IS BY IS TWO INDIRECT WITH COUNTY FILES AND DIRECTORY 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_423_90_446_33 is -7.57032 over 2241 frames.
+b_2_446_34_458_29 CHECK FIFTH WHAT ARRESTED THIS YOU NEED TO GO TO THIS IN DIRECTORIES AND SEE THIS ANYTHING WOULD YOU IN USE 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_446_34_458_29 is -7.48512 over 1193 frames.
+b_2_459_55_472_46 IF YOU THINK THAT SOME ARM ARE WE DOES WOULD IT IN CAN RUN THIS ARE WITHOUT ANY I'M TRANSPARENCY THE HELD 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_459_55_472_46 is -7.60621 over 1289 frames.
+b_2_473_82_488_02 TOTALLY WOULD ACTUALLY DOES DECODE FEATURES IS GYMNASIUM MODEL AND AND IT TOTALLY HOW TO WEREN'T 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_473_82_488_02 is -7.23001 over 1418 frames.
+b_2_488_35_499_75 SO USE SEE THAT HE THIS CASE YOU CAN SPECIFY SOLUTIONS FIGURE AND FAMILIAR 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_488_35_499_75 is -7.16609 over 1138 frames.
+b_2_48_81_57_00 AND THIS CHECK WOULD BECAUSE IN THE EXAMPLES DIRECTORY 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_48_81_57_00 is -7.33354 over 817 frames.
+b_2_499_76_505_12 YOU GET SPECIFY THE MODEL UNIVERSITY FROM AND 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_499_76_505_12 is -7.8453 over 534 frames.
+b_2_4_47_8_89 AS CONSIDER CELL DIRECTORIES THE TO POLITICALLY 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_4_47_8_89 is -7.89597 over 440 frames.
+b_2_506_42_516_32 THEM AND SEVERAL I'M JUST ONLY ONE A SPECIFY ARE A SPECIFY 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_506_42_516_32 is -7.07251 over 988 frames.
+b_2_516_33_534_34 UTTERANCE FORMER IN SPECIFY IS THE TO TO SOME STRING WHICH WOULD DESCRIBED HOW TREE INFORMATION COUNTRY THEY INPUT INFORMATION FOR THIS ARM 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_516_33_534_34 is -7.37282 over 1799 frames.
+b_2_534_35_546_40 SUDDENLY SPECIFY IS MY TO SPECIFY ARE LIST THIS AN STRING IS STRIKES WHERE AND HOW TO RIGHT OTHER ARNOLD OVER SPOKEN 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_534_35_546_40 is -7.60698 over 1203 frames.
+b_2_546_41_555_60 THIS CASE IT CAN BE WORST WHY IS IS FIRE WHICH DISCUSS WHERE TO RIGHT MEDICAL NETWORKS FROM THE FEATURES 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_546_41_555_60 is -7.70521 over 917 frames.
+b_2_555_61_567_88 AND DOSE TO A LINES THE SPECIFY ARE WHERE LINES TO BE WRITTEN WERE TO TO SPECIFY WERE THAT TO BRITAIN 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_555_61_567_88 is -7.17215 over 1225 frames.
+b_2_567_90_583_31 THIS QUICKEST IN OUT AND ON ESSENTIAL MOM REQUIREMENT SO IT YOU BOXES FILE ALLIANCE A MATTERS THE THAT ONE BE WRITTEN 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_567_90_583_31 is -7.59064 over 1539 frames.
+b_2_583_32_592_59 DIDN'T SPECIFY WORDS SPECIFY ARE THAT OR WILL FILE BECAUSE THIS COUNTRIES REQUIRED 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_583_32_592_59 is -7.48954 over 925 frames.
+b_2_595_06_605_03 AND YOU TO SEE SIMILAR STRUCTURE NAME DOLLARS WHEN WE OTHER IN AN DIRECTORIES 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_595_06_605_03 is -7.42842 over 995 frames.
+b_2_59_50_64_29 FOR NOT OF A THE DIRECTORIES 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_59_50_64_29 is -7.15056 over 477 frames.
+b_2_614_15_632_14 AN THIS BEEN DIRECTORY DOESN'T CHRIS CONTENT RECOVERY BUT IT CONTAINS IDEAS PHONE FORMS SUCH IS CAN TUTORIAL RATE DEFINE THE DIMENSIONAL A TEXT AND SO 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_614_15_632_14 is -7.45542 over 1797 frames.
+b_2_637_81_642_27 CREATE THINK THAT'S IT 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_637_81_642_27 is -7.22577 over 444 frames.
+b_2_643_37_649_65 THE NEXT EASY WILL START TO WORK ALL NOW WERE FOR SPEECH RECOGNITION SYSTEM 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_643_37_649_65 is -7.65837 over 626 frames.
+b_2_649_80_652_86 SEEING THE NEXT WILL 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_649_80_652_86 is -7.13492 over 304 frames.
+b_2_65_58_69_11 THIS DIRECTORY SOCK LAST IS 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_65_58_69_11 is -7.40291 over 351 frames.
+LOG (apply-cmvn[5.5.925~1-ded7b]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 119 utterances, errors on 0
+b_2_69_20_83_11 EACH OF THEM CONTAINS THE DESCRIPTION OF THE VERSUS TO BUILD IS ARE SYSTEM IS IN ONE CORPUS OR SEVERAL CORPORAL TOGETHER 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_69_20_83_11 is -7.46983 over 1389 frames.
+b_2_83_12_105_02 THE MOST IMPORTANT OF THE WORLD AND OF WE AS J WHICH DESCRIBES THAT ALL STRANGER ALWAYS ARE SYSTEM OR REITERATES OF THE MOST JOURNAL COUPLES WHICH IS AWAY COPY OTHER WHICH WORK BECAUSE THAT FOR SPEECH RECOGNITION 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_83_12_105_02 is -7.57192 over 2188 frames.
+b_2_8_90_21_48 MOST IMPORTANT OF THEM ARE COMPLEX WITH EXAMPLE SCRIPTS FOREBODING OF I IS ASSISTANCE IS UNDERSCORE POWER 
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance b_2_8_90_21_48 is -7.59518 over 1256 frames.
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:main():gmm-latgen-faster.cc:176) Time taken 200.225s: real-time factor assuming 100 frames/sec is 0.211326
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:main():gmm-latgen-faster.cc:179) Done 119 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.925~1-ded7b]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.53095 over 94747 frames.
+# Accounting: time=201 threads=1
+# Ended (code 0) at Tue Jun 29 16:39:13 CEST 2021, elapsed time 201 seconds

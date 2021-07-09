@@ -1,0 +1,250 @@
+# lattice-scale --inv-acoustic-scale=10 "ark:gunzip -c exp/mono/decode/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp/mono/graph/words.txt ark:- ark,t:exp/mono/decode/scoring/10.0.0.tra 
+# Started at Tue Jun 29 16:39:15 CEST 2021
+#
+lattice-scale --inv-acoustic-scale=10 'ark:gunzip -c exp/mono/decode/lat.*.gz|' ark:- 
+lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
+lattice-best-path --word-symbol-table=exp/mono/graph/words.txt ark:- ark,t:exp/mono/decode/scoring/10.0.0.tra 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_0_00_3_10, best cost 48.8445 + 2833.25 = 2882.1 over 308 frames.
+a_1_0_00_3_10 EVERYONE ARE MY MUSCLE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_100_57_108_91, best cost 127.173 + 7320.02 = 7447.19 over 832 frames.
+a_1_100_57_108_91 A THE LIKE FOR YOU SHOULD SHE SHE ARE DIRECTORY TO CAN APART DIRECTORY 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_11_88_15_85, best cost 85.0253 + 3681.02 = 3766.05 over 395 frames.
+a_1_11_88_15_85 ALTHOUGH I SCIENTISTS CLICK RECOMMENDATION LINK 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_120_08_126_30, best cost 126.945 + 5809.97 = 5936.91 over 620 frames.
+a_1_120_08_126_30 DON'T I EXACTLY THE SAME WHAT I TYPED IT MY DIRECTORY INITIATIVE STILL 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_130_61_132_11, best cost 4.2722 + 1102.25 = 1106.52 over 148 frames.
+a_1_130_61_132_11 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_132_12_134_00, best cost 47.577 + 1801.52 = 1849.1 over 186 frames.
+a_1_132_12_134_00 NOW WE LITTLE LUCKILY 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_142_25_147_84, best cost 92.2644 + 4951.71 = 5043.97 over 557 frames.
+a_1_142_25_147_84 COPY IS OPEN SOURCE AND THIS ALL SUDDENLY UP 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_147_85_154_10, best cost 132.718 + 5745.34 = 5878.06 over 623 frames.
+a_1_147_85_154_10 WE JUST IT AROUND IT CLONE TO IT A COPY OF THE WHOLE CONSENSUS CALLED 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_18_07_24_79, best cost 145.533 + 6343.04 = 6488.58 over 670 frames.
+a_1_18_07_24_79 POLITICAL IT FOR SPEECH RECOGNITION TO SENTENCE FOR SPEECH CREATION THIS AT PERSON PROFESSIONALS 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_224_41_227_54, best cost 52.65 + 2812.72 = 2865.37 over 311 frames.
+a_1_224_41_227_54 ALL CAKE IT CAN FINISHED 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_228_65_235_92, best cost 81.3096 + 6167.17 = 6248.48 over 725 frames.
+a_1_228_65_235_92 NOW WE HAVE TO TO DIRECTORY COLDER IT IT 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_237_94_245_41, best cost 93.7728 + 6498.56 = 6592.33 over 745 frames.
+a_1_237_94_245_41 YOU CASSINI THE FILES THERE TOTAL OF COUNTRY 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_246_63_250_17, best cost 49.233 + 3186.22 = 3235.45 over 352 frames.
+a_1_246_63_250_17 COCONUT INSTALLATION STEP 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_24_80_32_22, best cost 174.49 + 7172.65 = 7347.14 over 740 frames.
+a_1_24_80_32_22 PERSONALLY TO GET IN SLIGHTLY TERRESTRIAL AND FOR THE SUCH HOW WHERE A TO STILL REPOSITORY THEY INDUSTRY 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_251_67_255_43, best cost 60.8727 + 3284.22 = 3345.09 over 374 frames.
+a_1_251_67_255_43 AND A TOTAL ARE ARE LUCKY 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_255_79_259_74, best cost 97.7338 + 3727.2 = 3824.93 over 393 frames.
+a_1_255_79_259_74 THE PROPER SURFACE ARE MARKET IT IN THE INSTALLED FILE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_259_82_261_02, best cost 26.8045 + 1084.44 = 1111.25 over 118 frames.
+a_1_259_82_261_02 THIS CHECKED 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_264_37_273_53, best cost 183.223 + 8354.23 = 8537.46 over 914 frames.
+a_1_264_37_273_53 TELLS OF TO GO TO COAST PHONES OF TRACTION THERE'RE THE GO TO SEE SEE AND ALL RESULTS UTTERANCE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_274_88_279_23, best cost 44.2533 + 3752.24 = 3796.49 over 433 frames.
+a_1_274_88_279_23 THIS CODE TO TO LET'S 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_279_96_290_47, best cost 193.955 + 9720.49 = 9914.45 over 1049 frames.
+a_1_279_96_290_47 IT IS A DIRECTORY IT CONTAINED SCRIPTS CONSOLIDATION LETTER PARTICLES WE DIFFICULT THEN OR TALK A TESTIS 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_290_97_292_22, best cost 41.1674 + 1213.41 = 1254.57 over 123 frames.
+a_1_290_97_292_22 PORTABLE THAN LATER 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_306_34_313_46, best cost 129.986 + 6545.02 = 6675.01 over 710 frames.
+a_1_306_34_313_46 SO FIRST INTERNET WE TO TO IS TO LEARN THE SCRIPT TO CHECK INDEPENDENCE THIS 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_319_69_324_25, best cost 80.3226 + 4149.72 = 4230.04 over 454 frames.
+a_1_319_69_324_25 AND IS TO COUPLE FOR NEEDS WE CONNECTED THEM 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_32_28_39_15, best cost 171.683 + 6593.01 = 6764.69 over 685 frames.
+a_1_32_28_39_15 IT WE WILL REALLY COUNTRY AND WOULD WORK UTTERANCE INTUITION THEY ARE MOST LIKE ELITE USE CALL SEE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_346_07_355_21, best cost 147.668 + 8029.12 = 8176.79 over 912 frames.
+a_1_346_07_355_21 NOT CAN RUN MAKE IT ONE STILLNESS ARE TOOLS IT ONE OF COMPANY SHE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_355_22_362_53, best cost 140.725 + 6420.2 = 6560.92 over 729 frames.
+a_1_355_22_362_53 IT I'M AS WE HAVE I TO COMPILER CASH BY TO FOCUS CALLED SEE CASH 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_364_38_380_40, best cost 249.042 + 14043.2 = 14292.3 over 1600 frames.
+a_1_364_38_380_40 AND IT ONE BE PATTERN TO JUST ABLE THAT BECAUSE IN COUNTRY WE WILL COME BILAL TO FILES AND WILL QUICKLY ABOUT OF SPLIT SPACE FOR CASH 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_392_69_400_08, best cost 123.661 + 6482.57 = 6606.23 over 737 frames.
+a_1_392_69_400_08 WE DISABLED THEM COMPILER CRUSHED BY IT EXTORTING THE ABLE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_3_11_6_08, best cost 78.5812 + 2917.78 = 2996.36 over 295 frames.
+a_1_3_11_6_08 I LOCAL YOU FAMILY COUPLE TO TO THE SMALL 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_400_97_403_16, best cost 53.281 + 2046.53 = 2099.81 over 217 frames.
+a_1_400_97_403_16 SECRET ESSENTIALLY CALLS ONE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_403_81_408_78, best cost 91.7844 + 4390.31 = 4482.1 over 495 frames.
+a_1_403_81_408_78 NOW WE CAN AROUND MAKE TOP CAN FILE THE TOOLS 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_409_66_419_30, best cost 162.995 + 8524.38 = 8687.38 over 962 frames.
+a_1_409_66_419_30 AND WERE WILL USE CREATE OPTION WHICH TELLS MAKE TO RUN SEVERAL COMPRESSION WROTE CENTRAL 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_40_83_46_72, best cost 113.43 + 5323.71 = 5437.14 over 587 frames.
+a_1_40_83_46_72 IN THE IN EXTREME USE I'LL ALL KEITH WILL CONFIDENCE TUTORIAL 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_420_28_426_62, best cost 106.597 + 5624.19 = 5730.79 over 632 frames.
+a_1_420_28_426_62 IT IS NEEDED FOR FORRESTER INSTALLATION AND FOSTER PROCESSING 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_426_89_440_27, best cost 178.785 + 11483.3 = 11662.1 over 1336 frames.
+a_1_426_89_440_27 HIS WE HAVE SINCE WE HAVE FORTY SPEAKERS THIS ARE WE CAN AN MAKE WITH FORESEEABLE JUMPS 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_471_46_476_70, best cost 76.046 + 4647.01 = 4723.06 over 522 frames.
+a_1_471_46_476_70 ALL KING AS WE IS EVEN AND WELL 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_477_89_480_55, best cost 51.5935 + 2382.92 = 2434.51 over 264 frames.
+a_1_477_89_480_55 TOOLS INSTALLATIONS COULD IT 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_480_56_483_47, best cost 57.3691 + 2637.8 = 2695.17 over 289 frames.
+a_1_480_56_483_47 NOW ASK OPEN HE THING 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_483_48_485_74, best cost 66.8735 + 2165.05 = 2231.93 over 224 frames.
+a_1_483_48_485_74 THEORIES IS THIS FOR SOURCE CODE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_485_99_488_85, best cost 61.2809 + 2524.86 = 2586.14 over 284 frames.
+a_1_485_99_488_85 IS THE ACTUAL COATED CALL THE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_491_86_495_38, best cost 45.0155 + 3214.78 = 3259.79 over 350 frames.
+a_1_491_86_495_38 AND IT INSTALLATION THREE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_497_01_504_46, best cost 81.6791 + 6387.7 = 6469.38 over 743 frames.
+a_1_497_01_504_46 AND QUESTION FRACTION SUFFER AND FIGURE SCRIPT 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_50_04_61_06, best cost 168.935 + 9854.63 = 10023.6 over 1100 frames.
+a_1_50_04_61_06 OF TO GRID INTRODUCTION BUT RELEASED ENVIRONMENT RECORD NEXT FOR INSTALLATION YOU SUCH FACULTY 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_515_64_525_58, best cost 188.542 + 8815.39 = 9003.93 over 992 frames.
+a_1_515_64_525_58 AND EVAPORATES AROUND FRONT POWERED AT I'M AS WE HAVE RETURN TO FABRIC ALL TO DOES WE CAN USE IT 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_540_66_545_01, best cost 75.8758 + 3748.87 = 3824.75 over 433 frames.
+a_1_540_66_545_01 NOW WE SEE POLLEN WITH COULD A EMBRACE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_545_02_553_17, best cost 143.937 + 7236.12 = 7380.06 over 813 frames.
+a_1_545_02_553_17 WHICH SHOULD SILK ONE BECAUSE IT'S ON IN YOU TO TENURE NETWORKS SO FOR SO IT 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_555_76_560_72, best cost 117.775 + 4530.34 = 4648.12 over 494 frames.
+a_1_555_76_560_72 HER TO TO IT WE WILL COCA FIGURE SCRIPT WITH HELP OPTION 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_564_61_568_28, best cost 54.5908 + 3249.32 = 3303.91 over 365 frames.
+a_1_564_61_568_28 BUILD WAS QUALITY FOCUS 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_568_46_572_69, best cost 54.899 + 3710.21 = 3765.11 over 421 frames.
+a_1_568_46_572_69 WHAT CHANGED OPTION TO KNOW 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_587_19_597_74, best cost 166.194 + 9330.28 = 9496.48 over 1053 frames.
+a_1_587_19_597_74 CAN TO HAVE TO SUCCESSFULLY CAN REWARD WE CAN COMPILE CAN THEM IN WITH IS TO MAKE COMMANDS 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_601_31_607_60, best cost 104.209 + 5738.21 = 5842.41 over 627 frames.
+a_1_601_31_607_60 AND WE SPECIFY GAIN FOR PEOPLE JUMPS FOR THE CONDITION 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_62_14_72_77, best cost 203.773 + 9797.73 = 10001.5 over 1061 frames.
+a_1_62_14_72_77 ALL USE I MYSORE TO INSTANT USE CAN TO THEREFORE WE SHUT OR ABOUT THE REQUIRE TRANSPORTATION BRAIN EITHER 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_638_18_641_05, best cost 42.9084 + 2495.58 = 2538.49 over 285 frames.
+a_1_638_18_641_05 ALL OKAY TO DOESN'T 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_641_06_643_95, best cost 55.4896 + 2665.28 = 2720.77 over 287 frames.
+a_1_641_06_643_95 IT MAINSTREAM AND WELL GAME 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_643_96_648_87, best cost 88.827 + 4514.75 = 4603.58 over 489 frames.
+a_1_643_96_648_87 WE HAVE CAN SUCCESSFULLY BONO AND AND CANNOT OTHER 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_648_88_651_77, best cost 47.7657 + 2595.78 = 2643.54 over 287 frames.
+a_1_648_88_651_77 NOW TRIP FOR IT'S 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_651_86_659_83, best cost 126.176 + 7089.96 = 7216.13 over 795 frames.
+a_1_651_86_659_83 AND WE CAN GO TO AND EXPORT OF CAN TO TUTORIAL CAN DIRECTORY STEP 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_659_84_662_30, best cost 45.0451 + 2130.99 = 2176.03 over 244 frames.
+a_1_659_84_662_30 SEEN THE NEXT VIDEO 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_6_98_11_87, best cost 145.462 + 4690.66 = 4836.12 over 487 frames.
+a_1_6_98_11_87 TO RISK LOT A THAT FISH WHAT'S I TO FACULTY COUNTRY BASH DESIRABLE TALK 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_72_78_77_55, best cost 115.604 + 4526.68 = 4642.29 over 475 frames.
+a_1_72_78_77_55 TO CONNECT OFFICER WE USE TO NOW APPLICATION AND TO STAGE COMMAND 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_80_11_86_02, best cost 77.8 + 5198.34 = 5276.14 over 589 frames.
+a_1_80_11_86_02 DESPITE IS SAY ACTUALLY WERE TIME AS AGAIN 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance a_1_86_03_93_49, best cost 118.981 + 6740.56 = 6859.55 over 744 frames.
+a_1_86_03_93_49 THEN THE NAME OF THIS EVERY IT'S PHOENIX I MASS YEAR SHOULD CALLED 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_0_03_4_44, best cost 82.3007 + 4169.17 = 4251.47 over 439 frames.
+b_2_0_03_4_44 IS ZERO WILL TO ARE VERY ABOUT CAN TO DIRECTORIES 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_105_03_114_90, best cost 177.803 + 8866.21 = 9044.01 over 985 frames.
+b_2_105_03_114_90 AND ANOTHER ONE IS MINI BE SPEECH WHICH SOURCE AS THE ARE MADE EXAMPLE AUDIO YEARS IT PHYSICAL BETTER 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_115_20_127_49, best cost 190.766 + 10702.8 = 10893.6 over 1227 frames.
+b_2_115_20_127_49 TO WILL TALK ABOUT IS PITCH RECIPE THE NEXT MODEL BECOME TAKE LOCAL IN ALL STRING JOURNAL AS BE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_129_48_136_95, best cost 123.252 + 6758.19 = 6881.44 over 745 frames.
+b_2_129_48_136_95 SO IS YOU CAN SEE THE WRIST AS FIVE DIRECTORY IN WHICH OF THE RECIPE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_136_96_148_79, best cost 180.784 + 10353 = 10533.8 over 1181 frames.
+b_2_136_96_148_79 TINY DOESN'T IN ANYTHING MOST LIKELY IF YOU FOR ANY OTHER WAS PEOPLE AND ALL BE ALL SCIENTISTS FIVE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_151_10_159_65, best cost 107.452 + 7136.33 = 7243.78 over 853 frames.
+b_2_151_10_159_65 SOMERSET IS OF EXAMPLE TO DREAM HAVE SEVERAL DIRECTORIES 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_159_66_169_80, best cost 168.1 + 8762.38 = 8930.48 over 1012 frames.
+b_2_159_66_169_80 TO CAN SEE THAT LIKE RESPOND TO DIFFERENT REGIONS OTHER CITY ALL DIFFERENT RUSSIANS OF RECIPE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_171_54_176_67, best cost 75.8968 + 4534.96 = 4610.86 over 511 frames.
+b_2_171_54_176_67 I THINK THAT IS ENOUGH INFORMATION ABOUT EXAMPLES 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_178_55_185_67, best cost 112.299 + 6238.79 = 6351.09 over 710 frames.
+b_2_178_55_185_67 IT CAN GO TO THE SOURCE CODE AND TAKE LOOK AND THIS CONTENTS 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_185_96_200_94, best cost 231.322 + 12657.4 = 12888.7 over 1496 frames.
+b_2_185_96_200_94 SO WE ZERO REALLY THEY CONSIDER SCRIPT WHICH CARETAKERS THE ARE QUALITY TO BE ARE KNOWN UNCERTAIN SYSTEM OWN ARE SYSTEM FOR EXAMPLE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_200_95_218_31, best cost 198.268 + 14702.7 = 14901 over 1734 frames.
+b_2_200_95_218_31 IT ALSO HIGHEST DOCUMENTATION DIRECTORY ANIME AND MAINLY MORE DIRECTORY IS WHICH CAN BE DECIDED TO TO WORLD'S 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_218_32_234_63, best cost 230.824 + 13988.4 = 14219.2 over 1629 frames.
+b_2_218_32_234_63 ONE OF THEM WERE WHY VERY DIRECTORIES FOR EXAMPLE A EACH MAN IS THE I VERY WITH AND IS FOR HIDDEN OF MODEL I'M FUNCTIONS 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_21_49_25_06, best cost 65.138 + 3264.97 = 3330.11 over 355 frames.
+b_2_21_49_25_06 SEE SEE WITH ACTUALLY CAUSES CALLED 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_236_00_247_45, best cost 211.039 + 10266.1 = 10477.2 over 1143 frames.
+b_2_236_00_247_45 AND WE THERE IS OUT OF CONDITIONS THIS LINK OUT EACH AND AND IS ALL FILE WHICH IS BY REAL I VERY FILE INTENSE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_247_46_264_98, best cost 288.864 + 15362.2 = 15651 over 1750 frames.
+b_2_247_46_264_98 TEST ALL SENSE FOR SHARED OBJECTS IT'S IT A SPIKES ALL THE DEFINITION SO AND ALL DIGITS FROM THIS CITIZENS AND HANGERS FILES AS A BY VERY ARE FILE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_25_07_35_00, best cost 125.107 + 8555.18 = 8680.29 over 991 frames.
+b_2_25_07_35_00 AND TOOLS WITH AND SHOW TOOLS AND COMMANDS NEED TO ONE THERE'S THIS 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_266_21_273_05, best cost 94.8037 + 5916.49 = 6011.3 over 682 frames.
+b_2_266_21_273_05 IN WROTE USE THIS BY TO WIRELESS WE NEED PROBLEMS 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_273_06_285_50, best cost 188.411 + 10947.4 = 11135.9 over 1242 frames.
+b_2_273_06_285_50 IN TURNS ARE ALSO CALL BY RAYS IN BE MOST AND THE ARE STORED IN BEEN DIRECTORIES IT OTHER 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_285_51_300_59, best cost 217.601 + 12932.5 = 13150.1 over 1506 frames.
+b_2_285_51_300_59 FOR EXAMPLE WE CAN WE WE USE DEMANDING ONCE WHICH EARTHWORMS ALL BINARY IS WORKING WITH CALL CENTURY MODEL 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_306_90_317_17, best cost 171.581 + 8932.22 = 9103.8 over 1025 frames.
+b_2_306_90_317_17 SO WE THEORY CAN SEE SEE SEE FILES WHICH ARE CITIZENS CODE OR CITIZENS SOURCE CODE FILES 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_317_18_324_52, best cost 98.0748 + 6092.11 = 6190.19 over 732 frames.
+b_2_317_18_324_52 SOME INERTIA BE SOME WHICH FILES TO TENDENCY THEN 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_325_28_334_10, best cost 142.121 + 7811.61 = 7953.73 over 880 frames.
+b_2_325_28_334_10 OK I THINK EACH FILE SO USE TO THE LINE REASONS AND WHEN DEMAND DIRECTORY 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_336_29_338_85, best cost 25.3479 + 2052.34 = 2077.69 over 254 frames.
+b_2_336_29_338_85 I THIS ONE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_339_20_353_95, best cost 242.685 + 12816.4 = 13059.1 over 1473 frames.
+b_2_339_20_353_95 AND THIS YOU LEAVE MAKE FILE WHICH DESCRIBES A THE ADDIS WHICH CAN DID I IS BASED THE FILES THIS DIRECTORY AND HOW THEY SHOULD BE TO USED 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_358_53_365_51, best cost 125.795 + 6094.06 = 6219.86 over 696 frames.
+b_2_358_53_365_51 THE DOT TAKE FILES ARE SOME DIDN'T KOREA NEED TO MOBILE THAN 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_365_52_370_79, best cost 115.055 + 4859.13 = 4974.18 over 525 frames.
+b_2_365_52_370_79 BUT OR IS ALSO SOMETHING TO MORE IT'S OF PUT LEGITIMATE COMPILER 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_370_80_378_44, best cost 106.578 + 6618.74 = 6725.32 over 762 frames.
+b_2_370_80_378_44 MOSTLY WANT WHERE EARLY WORKING WITH USE IT BY FILES 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_379_78_383_53, best cost 63.5647 + 3228.57 = 3292.14 over 373 frames.
+b_2_379_78_383_53 SOMETHING EXTREME AND DECODE SINGLE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_385_03_394_02, best cost 178.47 + 8048.73 = 8227.2 over 897 frames.
+b_2_385_03_394_02 WE KNOW THAT TALKS WITH CASSINI SHE MODEL BECAUSE IS TO THEORY MY ONE LOADED ISN'T ALL TO 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_394_03_397_81, best cost 68.5256 + 3332.19 = 3400.72 over 376 frames.
+b_2_394_03_397_81 IT IS ALSO TO THE TO QUEEN PRESENCE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_397_82_423_89, best cost 342.108 + 22177.9 = 22520 over 2605 frames.
+b_2_397_82_423_89 AND OTHER US IS JUST OTHER ADDITIONAL INFORMATION ABOUT HOW EXACTLY OFFER IT IS IT RAWER WHATSOEVER THEM IN AND INFORMATION BECOME IT UNITED WONDERING THIS I RESEARCH FOR BINARY 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_40_13_47_96, best cost 111.837 + 6839.28 = 6951.12 over 781 frames.
+b_2_40_13_47_96 THE YOU MORE THE RIGHT ALL SITE YOU ONE ON DIDN'T THIS COURSE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_423_90_446_33, best cost 372.834 + 19912.7 = 20285.6 over 2241 frames.
+b_2_423_90_446_33 WHY SET ACTUALLY WHITE IS ACTUALLY IMPORTANT TO NOW WE RESPOND IS BECAUSE WHEN YOU DEVELOPED THE NEED YOU SCRIPT FOR COPY MOST I UNITED USE EXISTING BY IS TWO INDIRECT WITH COUNTY FILES AND ERA TO DO 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_446_34_458_29, best cost 199.049 + 10477.4 = 10676.5 over 1193 frames.
+b_2_446_34_458_29 CHECK FIFTH WANDER US ANALYSIS YOU NEED TO GO TO THIS IN DIRECTORIES AND SEE THIS ANYTHING WOULD YOU IN USE 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_459_55_472_46, best cost 229.422 + 11491 = 11720.4 over 1289 frames.
+b_2_459_55_472_46 IF YOU THINK THAT SOME ARM ARE WE DOES WOULD IT IN CAN RUN THIS ARE WITHOUT ANY ANIMAL MEANS IN SEE THE HELD 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_473_82_488_02, best cost 189.01 + 12076.3 = 12265.3 over 1418 frames.
+b_2_473_82_488_02 TOTALLY WANTED ACTUALLY DOES DECODE FEATURES IS GYMNASIUM MODEL AND AND IT TOTALLY HOW TO WEREN'T 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_488_35_499_75, best cost 150.748 + 9605.68 = 9756.43 over 1138 frames.
+b_2_488_35_499_75 SO USED SEE THAT HE THIS CASE YOU CAN SPECIFY SOLUTIONS FAMILIAR AND FAMILIAR 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_48_81_57_00, best cost 96.1792 + 7074.95 = 7171.13 over 817 frames.
+b_2_48_81_57_00 AND THIS CHECK WOULD TO CAN SEE THE EXAMPLES DIRECTORY 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_499_76_505_12, best cost 90.8762 + 4919.24 = 5010.12 over 534 frames.
+b_2_499_76_505_12 YOU GET SPECIFY THE MODEL IN FIRST SEE FROM AND 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_4_47_8_89, best cost 78.6135 + 4074.79 = 4153.4 over 440 frames.
+b_2_4_47_8_89 AS CONSIDER SELECT REASON THE TO POLITICALLY 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_506_42_516_32, best cost 141.792 + 8216.24 = 8358.03 over 988 frames.
+b_2_506_42_516_32 I'M AND SEVERAL I'M CHISEL WE ONE A SPECIFY ARE A SPECIFY 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_516_33_534_34, best cost 254.915 + 15612.1 = 15867 over 1799 frames.
+b_2_516_33_534_34 UTTERANCE FOR ARE RAIN SPECIFY IS THE TO TO SOME STRING WHICH WOULD DESCRIBED HOW TREE INFORMATION COUNTRY THEY INPUT INFORMATION FOR THIS ARM 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_534_35_546_40, best cost 231.947 + 10703.1 = 10935.1 over 1203 frames.
+b_2_534_35_546_40 SUDDENLY SPECIFY IS MY TO SPECIFY ARE LIST THIS AN STRING IS STRIKES WHERE AND HOW TO RIGHT OTHER ARNOLD OVER SPOKEN 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_546_41_555_60, best cost 195.63 + 8245.01 = 8440.64 over 917 frames.
+b_2_546_41_555_60 THIS CASE IT CAN BE WORST WHY IS IS FIRE WHICH DISCUSS WHERE TO RIGHT I DECODED WORDS FROM THE FEATURES 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_555_61_567_88, best cost 191.629 + 10313.1 = 10504.8 over 1225 frames.
+b_2_555_61_567_88 AND DOSE TO A LINES THE SPECIFY ARE WHERE LINES TO BE WRITTEN WERE TO TO SPECIFY WERE THAT TO BRITAIN 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_567_90_583_31, best cost 247.56 + 13722.6 = 13970.1 over 1539 frames.
+b_2_567_90_583_31 THIS QUICKEST DENOTE IN ON ESSENTIAL MOM REQUIREMENT SO IT YOU BONDS IS FILE ALLIANCE A MATTERS THE THAT ONE ON BE WRITTEN 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_583_32_592_59, best cost 143.937 + 8140.71 = 8284.64 over 925 frames.
+b_2_583_32_592_59 DIDN'T SPECIFY WORDS SPECIFY ARE THAT OR WILL FILE BECAUSE THIS COUNTRIES REQUIRED 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_595_06_605_03, best cost 138.413 + 8703.47 = 8841.88 over 995 frames.
+b_2_595_06_605_03 AND YOU TO SEE SIMILAR STRUCTURE NAME DOLLARS WHEN WE OTHER IN AN DIRECTORIES 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_59_50_64_29, best cost 54.5917 + 4027.49 = 4082.08 over 477 frames.
+b_2_59_50_64_29 FOR NOT OF A THE DIRECTORIES 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_614_15_632_14, best cost 284.674 + 15735.7 = 16020.4 over 1797 frames.
+b_2_614_15_632_14 AN THIS BEEN DIRECTORY DOESN'T CHRIS CONTENT RECOVERY BUT IT CONTAINS ANY IS PHONE FORMS SUCH IS CAN TUTORIAL RATE DEFINE THE DIMENSIONAL A TEXT AND SO AN 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_637_81_642_27, best cost 44.6507 + 3796.32 = 3840.97 over 444 frames.
+b_2_637_81_642_27 CREATE THINK THAT'S IT 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_643_37_649_65, best cost 133.365 + 5592.95 = 5726.32 over 626 frames.
+b_2_643_37_649_65 THE NEXT EASY WILL START TO WORK ALL NOW WERE FOR SPEECH RECOGNITION SYSTEM 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_649_80_652_86, best cost 45.6344 + 2548.81 = 2594.44 over 304 frames.
+b_2_649_80_652_86 SEEING THE NEXT ISRAEL 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_65_58_69_11, best cost 63.0806 + 3043.49 = 3106.57 over 351 frames.
+b_2_65_58_69_11 THIS DIRECTORY IS ARE CALLED AS IT IS 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_69_20_83_11, best cost 230.848 + 12174.1 = 12404.9 over 1389 frames.
+b_2_69_20_83_11 EACH OF THEM CONTAINS THE DESCRIPTION OF THE VERSUS TO BUILD IS ARE SYSTEM IS IN ONE CALL ALSO OR SEVERAL CORPORAL TOGETHER 
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_83_12_105_02, best cost 388.223 + 19417.3 = 19805.5 over 2188 frames.
+b_2_83_12_105_02 ANIMAL SO IMPORTANT OF THE WORD AND OF WE AS J WHICH DESCRIBES THAT ALL STRING JOURNAL CASE ARE SYSTEM OR LASER WASTE OF THE MOST REGIONAL COUPLES WHICH IS AWAY COPY OTHER WHICH WORK BECAUSE THAT FOR SPEECH RECOGNITION 
+LOG (lattice-scale[5.5.925~1-ded7b]:main():lattice-scale.cc:107) Done 119 lattices.
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:99) For utterance b_2_8_90_21_48, best cost 185.273 + 11225.2 = 11410.4 over 1256 frames.
+b_2_8_90_21_48 MOST IMPORTANT OF THEM ARE COMPLEX WITH EXAMPLE SCRIPTS FOREBODING OF I IS ASSISTANCE IS UNDERSCORE POWER 
+LOG (lattice-add-penalty[5.5.925~1-ded7b]:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 119 lattices.
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:124) Overall cost per frame is 9.00492 = 0.164287 [graph] + 8.84063 [acoustic] over 94747 frames.
+LOG (lattice-best-path[5.5.925~1-ded7b]:main():lattice-best-path.cc:128) Done 119 lattices, failed for 0
+# Accounting: time=2 threads=1
+# Ended (code 0) at Tue Jun 29 16:39:17 CEST 2021, elapsed time 2 seconds

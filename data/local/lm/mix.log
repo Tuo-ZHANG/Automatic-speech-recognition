@@ -1,0 +1,21 @@
+iteration 1, lambda = (0.5 0.25 0.25), ppl = 197.131
+iteration 2, lambda = (0.470674 0.370073 0.159253), ppl = 184.092
+iteration 3, lambda = (0.455928 0.432171 0.111901), ppl = 180.386
+iteration 4, lambda = (0.453884 0.461522 0.084594), ppl = 179.022
+iteration 5, lambda = (0.458279 0.474743 0.0669785), ppl = 178.345
+iteration 6, lambda = (0.465088 0.480322 0.0545897), ppl = 177.928
+iteration 7, lambda = (0.472273 0.482374 0.0453528), ppl = 177.639
+iteration 8, lambda = (0.478941 0.482859 0.0382003), ppl = 177.429
+iteration 9, lambda = (0.484783 0.482695 0.0325223), ppl = 177.272
+iteration 10, lambda = (0.489762 0.482301 0.027937), ppl = 177.151
+iteration 11, lambda = (0.493952 0.481861 0.0241872), ppl = 177.058
+iteration 12, lambda = (0.49746 0.481449 0.0210906), ppl = 176.986
+iteration 13, lambda = (0.500398 0.481089 0.0185126), ppl = 176.928
+iteration 14, lambda = (0.502864 0.480785 0.0163517), ppl = 176.883
+iteration 15, lambda = (0.50494 0.48053 0.0145293), ppl = 176.846
+iteration 16, lambda = (0.506697 0.480319 0.0129839), ppl = 176.817
+iteration 17, lambda = (0.50819 0.480143 0.0116667), ppl = 176.793
+iteration 18, lambda = (0.509465 0.479996 0.0105389), ppl = 176.774
+iteration 19, lambda = (0.510557 0.479874 0.00956894), ppl = 176.758
+1687 non-oov words, best lambda (0.511499 0.47977 0.00873116)
+pairwise cumulative lambda (1 0.483996 0.00873116)
