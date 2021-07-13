@@ -1,5 +1,5 @@
 # compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/tri1/tree exp/tri1/1.mdl data/lang/L.fst "ark:utils/sym2int.pl --map-oov 3 -f 2- data/lang/words.txt < data/train_teamlab/split1/1/text |" "ark:|gzip -c >exp/tri1/fsts.1.gz" 
-# Started at Sun Jul  4 03:10:31 CEST 2021
+# Started at Tue Jul 13 13:19:15 CEST 2021
 #
 compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/tri1/tree exp/tri1/1.mdl data/lang/L.fst 'ark:utils/sym2int.pl --map-oov 3 -f 2- data/lang/words.txt < data/train_teamlab/split1/1/text |' 'ark:|gzip -c >exp/tri1/fsts.1.gz' 
 sym2int.pl: replacing KALDI with 3
@@ -24,6 +24,6 @@ sym2int.pl: replacing UPDATE with 3
 sym2int.pl: replacing CTRL with 3
 sym2int.pl: not warning for OOVs any more times
 ** Replaced 108 instances of OOVs with 3
-LOG (compile-train-graphs[5.5.931~1-0c51c]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 198 graphs, failed for 0
-# Accounting: time=2 threads=1
-# Ended (code 0) at Sun Jul  4 03:10:33 CEST 2021, elapsed time 2 seconds
+LOG (compile-train-graphs[5.5.925~1-ded7b]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 198 graphs, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue Jul 13 13:19:16 CEST 2021, elapsed time 1 seconds

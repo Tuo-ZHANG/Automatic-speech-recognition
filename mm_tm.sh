@@ -1,12 +1,12 @@
-export TEAMLABDIR=/home/users1/zhangto/Tuo_ZHANG 
+export TEAMLABDIR=/mount/studenten/arbeitsdaten-studenten1/team-lab-phonetics/2021/student_directories/Vanessa_Dengel
 cd $TEAMLABDIR
  
-cd kaldi/egs/teamlab/s5
+cd kaldi/egs/Automatic-speech-recognition/s5
  
 . ./path.sh
 . ./cmd.sh
 
-
+local=data/local
 lang=data/lang
 arpa2fst --disambig-symbol=#0 --read-symbol-table=$lang/words.txt $local/tmp/lm.arpa $lang/G.fst
  

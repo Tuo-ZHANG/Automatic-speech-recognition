@@ -1,5 +1,5 @@
 # gunzip -c exp/mono_ali/phone_stats.*.gz | steps/diagnostic/analyze_phone_length_stats.py data/lang 
-# Started at Sun Jul  4 03:10:28 CEST 2021
+# Started at Tue Jul 13 13:19:11 CEST 2021
 #
 analyze_phone_length_stats.py: WARNING: optional-silence SIL is seen only 75.0% of the time at utterance end.  This may not be optimal.
 At utterance begin, SIL accounts for 95.9% of phone occurrences, with duration (median, mean, 95-percentile) is (83,78.6,110) frames.
@@ -91,5 +91,5 @@ The optional-silence phone SIL occupies 34.7% of frames overall
 Limiting the stats to the 85.8% of frames not covered by an utterance-[begin/end] phone, optional-silence SIL occupies 24.5% of frames.
 Assuming 100 frames per second, the alignments represent 0.5 hours of data, or 0.3 hours if SIL frames are excluded.
 Utterance-internal optional-silences SIL comprise 4.3% of utterance-internal phones, with duration (median, mean, 95-percentile) = (62,82.6,224)
-# Accounting: time=0 threads=1
-# Ended (code 0) at Sun Jul  4 03:10:28 CEST 2021, elapsed time 0 seconds
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue Jul 13 13:19:12 CEST 2021, elapsed time 1 seconds
