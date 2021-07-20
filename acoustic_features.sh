@@ -20,5 +20,5 @@ steps/make_mfcc.sh --nj $nj --cmd "$train_cmd" data/train_teamlab exp/make_mfcc/
 
 steps/make_mfcc.sh --nj $nj --cmd "$train_cmd" data/dev_teamlab exp/make_mfcc/dev_teamlab $mfccdir
  
-steps/compute_cmvn_stats.sh data/train exp/make_mfcc/train_teamlab $mfccdir
-steps/compute_cmvn_stats.sh data/dev exp/make_mfcc/dev_teamlab $mfccdir
+steps/compute_cmvn_stats.sh data/train_teamlab exp/make_mfcc/train_teamlab $mfccdir
+steps/compute_cmvn_stats.sh data/dev_teamlab exp/make_mfcc/dev_teamlab $mfccdir
